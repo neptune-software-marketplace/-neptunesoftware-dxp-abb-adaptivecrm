@@ -1,0 +1,49 @@
+{
+	"id": "817f15a0-c646-4154-926e-f3b611716890",
+	"createdAt": "2021-01-27T09:59:05.376Z",
+	"createdBy": "oah",
+	"fields": [
+		{
+			"id": "d361b11c-b9dc-48ad-f326-1c8b0c34668a",
+			"fieldName": "accountid",
+			"fieldType": "text",
+			"description": "Account"
+		},
+		{
+			"id": "3c93c31a-a919-4332-c674-e6afd7aed420",
+			"fieldName": "name",
+			"fieldType": "text",
+			"description": "Name"
+		},
+		{
+			"id": "4b997206-b3d4-4bc7-9847-3547a9ba0af1",
+			"fieldName": "phone",
+			"fieldType": "text",
+			"description": "Phone",
+			"isNullable": true
+		},
+		{
+			"id": "858ae6b0-577d-48df-9460-0e10731aeb52",
+			"fieldName": "email",
+			"fieldType": "text",
+			"description": "eMail",
+			"isNullable": true
+		},
+		{
+			"id": "8d0f9532-38d2-4dee-faf4-10e3fda0df65",
+			"fieldName": "text",
+			"fieldType": "text",
+			"description": "Text",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "crmcontacts",
+	"description": "Contacts",
+	"ver": "22.11.14.1751",
+	"enableAudit": false,
+	"package": "07d276d9-3599-4fb0-8b3b-65a908201234",
+	"rolesRead": [],
+	"rolesWrite": []
+}

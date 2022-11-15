@@ -1,0 +1,189 @@
+{
+	"id": "b546505a-1bba-4721-9a18-e9eebbf6e185",
+	"createdAt": "2021-01-27T10:00:24.150Z",
+	"createdBy": "oah",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"iconButtonCreate": "",
+				"textButtonCreate": "Create",
+				"typeButtonCreate": "Emphasized",
+				"iconButtonExport": "sap-icon://excel-attachment",
+				"textButtonExport": "",
+				"typeButtonExport": "Transparent",
+				"iconButtonMultiSelect": "",
+				"textButtonMultiSelect": "MultiSelect",
+				"typeButtonMultiSelect": "Emphasized",
+				"iconButtonRun": "",
+				"textButtonRun": "Update",
+				"typeButtonRun": "Emphasized",
+				"enableCreate": true,
+				"enableDelete": true,
+				"enableExport": false,
+				"enableMultiSelect": false,
+				"autoRun": true,
+				"autoRunFocus": true,
+				"title": "Currency",
+				"subTitle": "List",
+				"avatarIcon": "sap-icon://fa-solid/money-bill-wave",
+				"_navigationCreate": {
+					"destinationType": "F",
+					"openAs": "D",
+					"butType": "Accept",
+					"destinationTargetF": "43C13FB2-B5E9-4E1E-92C9-BA8580C15F61",
+					"keyField": []
+				},
+				"_navigationItemPress": {
+					"destinationType": "F",
+					"openAs": "D",
+					"butType": "Accept",
+					"destinationTargetF": "43C13FB2-B5E9-4E1E-92C9-BA8580C15F61",
+					"keyField": []
+				},
+				"enableRun": true,
+				"hideHeader": false,
+				"iconButtonImport": "sap-icon://fa-solid/file-import",
+				"textButtonImport": "",
+				"typeButtonImport": "Transparent",
+				"enableClose": false,
+				"enableImport": false,
+				"enableVariant": false,
+				"searchLabel": "Search",
+				"searchPlaceholder": ""
+			},
+			"form": {
+				"enableCompact": false,
+				"headerExpanded": true
+			},
+			"table": {
+				"enablePagination": false,
+				"paginationRows": 25,
+				"alternateRowColors": false,
+				"enableCompact": false,
+				"fixedLayout": true,
+				"inset": false,
+				"paginationShowSelection": false,
+				"action1Text": "",
+				"action1Type": "Transparent",
+				"action2Text": "",
+				"action2Type": "Transparent",
+				"action3Text": "",
+				"action3Type": "Transparent",
+				"enableAction1": false,
+				"enableAction2": false,
+				"enableAction3": false
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "currency",
+				"label": "Currency",
+				"type": "text"
+			},
+			{
+				"name": "text",
+				"label": "Text",
+				"type": "text"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text"
+			}
+		],
+		"fieldsSel": [],
+		"fieldsRun": [
+			{
+				"text": "Currency",
+				"wrapping": false,
+				"enableGroup": false,
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "currency",
+				"fieldPos": 1
+			},
+			{
+				"text": "Text",
+				"wrapping": false,
+				"enableGroup": false,
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "text",
+				"fieldPos": 2
+			},
+			{
+				"text": "Updated At",
+				"formatter": "date01",
+				"wrapping": false,
+				"enableGroup": false,
+				"enableFilter": false,
+				"enableSort": true,
+				"visible": true,
+				"name": "updatedAt",
+				"fieldPos": 3
+			},
+			{
+				"text": "Updated By",
+				"wrapping": false,
+				"enableGroup": false,
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "updatedBy",
+				"fieldPos": 4
+			}
+		],
+		"defaultVariant": {
+			"id": "607d4ca9-aa7b-4098-9549-da198ed1424f",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "crm_currency_list",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "a638e331-3a64-ed11-819c-0022489e262f",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": "632cafbf-7700-4490-871d-3af809779252",
+	"ver": "22.11.14.1634",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_list",
+	"package": "07d276d9-3599-4fb0-8b3b-65a908201234",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": {
+		"id": "632CAFBF-7700-4490-871D-3AF809779252",
+		"name": "crmcurrency",
+		"ver": "22.11.14.1752"
+	}
+}

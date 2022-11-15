@@ -1,0 +1,19 @@
+{
+	"id": "7284c84f-3a64-ed11-819c-0022489e262f",
+	"createdAt": "2022-11-14T16:35:19.376Z",
+	"createdBy": "lloyd",
+	"settings": {
+		"tableid": "712EFAAB-6ADC-40E9-9B7C-F4036A68F1D8",
+		"scriptSel": "",
+		"scriptRun": "",
+		"hasDocumentation": false
+	},
+	"documentation": [],
+	"name": "crm_opportunity_status_edit",
+	"description": "",
+	"group": null,
+	"type": "T",
+	"ver": "22.11.14.1641",
+	"disabled": false,
+	"package": "07d276d9-3599-4fb0-8b3b-65a908201234"
+}

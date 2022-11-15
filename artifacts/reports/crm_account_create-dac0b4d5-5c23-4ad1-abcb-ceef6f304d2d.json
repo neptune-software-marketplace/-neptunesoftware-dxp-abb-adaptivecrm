@@ -1,0 +1,260 @@
+{
+	"id": "dac0b4d5-5c23-4ad1-abcb-ceef6f304d2d",
+	"createdAt": "2021-01-27T10:00:24.693Z",
+	"createdBy": "oah",
+	"settings": {
+		"properties": {
+			"report": {
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"iconButtonSave": "",
+				"textButtonSave": "Save",
+				"typeButtonSave": "Emphasized",
+				"title": "Account",
+				"subTitle": "Manage",
+				"avatarIcon": "sap-icon://account",
+				"_navigationTab1": {
+					"destinationType": "F",
+					"openAs": "P",
+					"butType": "Accept",
+					"destinationTargetF": "02ca4029-93f2-44d7-9d18-7426670677af",
+					"keyField": [
+						{
+							"fieldName": "industry",
+							"key": "industry",
+							"value": ""
+						}
+					]
+				},
+				"tab1Text": "Opportunities",
+				"tab1Icon": "sap-icon://fa-solid/money-bill",
+				"tab0Text": "General",
+				"tab0Icon": "sap-icon://fa-solid/info",
+				"tab2Text": "Analytic",
+				"enableTabs": true,
+				"tab2Icon": "sap-icon://fa-solid/chart-bar",
+				"enableTab1": false,
+				"enableTab2": false,
+				"enableTab3": false,
+				"enableTab4": false,
+				"enableTab5": false,
+				"tab3Text": "Tab 2",
+				"tab4Text": "Tab 2",
+				"tab5Text": "Tab 2",
+				"showIcon": true,
+				"textToastSave": "Saved",
+				"enableClose": true
+			},
+			"form": {
+				"enableCompact": false,
+				"enableCentered": true
+			},
+			"table": {}
+		},
+		"fieldCatalog": [
+			{
+				"name": "accountid",
+				"label": "Account ID",
+				"type": "text"
+			},
+			{
+				"name": "name",
+				"label": "Name",
+				"type": "text"
+			},
+			{
+				"name": "street",
+				"label": "Street",
+				"type": "text"
+			},
+			{
+				"name": "zip",
+				"label": "ZIP",
+				"type": "text"
+			},
+			{
+				"name": "city",
+				"label": "City",
+				"type": "text"
+			},
+			{
+				"name": "country",
+				"label": "Country",
+				"type": "text"
+			},
+			{
+				"name": "type",
+				"label": "Type",
+				"type": "smallint"
+			},
+			{
+				"name": "industry",
+				"label": "Industry ",
+				"type": "smallint"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text"
+			}
+		],
+		"fieldsSel": [
+			{
+				"text": "Account ID",
+				"columnLabel": "Details",
+				"editable": true,
+				"required": true,
+				"visible": true,
+				"name": "accountid",
+				"fieldPos": 1
+			},
+			{
+				"text": "Name",
+				"columnLabel": "",
+				"editable": true,
+				"required": true,
+				"visible": true,
+				"name": "name",
+				"fieldPos": 2
+			},
+			{
+				"text": "Country",
+				"type": "SingleSelectLookup",
+				"lookupTable": "crmcountry",
+				"lookupFieldKey": "country",
+				"lookupFieldText": "name",
+				"editable": true,
+				"required": true,
+				"visible": true,
+				"name": "country",
+				"fieldPos": 3,
+				"lookupShowOnlyText": true
+			},
+			{
+				"text": "Street",
+				"type": "TextArea",
+				"textAreaRows": "5",
+				"editable": true,
+				"required": false,
+				"visible": true,
+				"name": "street",
+				"fieldPos": 4
+			},
+			{
+				"text": "ZIP",
+				"editable": true,
+				"required": false,
+				"visible": true,
+				"name": "zip",
+				"fieldPos": 5
+			},
+			{
+				"text": "City",
+				"editable": true,
+				"required": false,
+				"visible": true,
+				"name": "city",
+				"fieldPos": 6
+			},
+			{
+				"text": "Type",
+				"columnLabel": "Classification",
+				"editable": true,
+				"required": true,
+				"visible": true,
+				"name": "type",
+				"fieldPos": 7,
+				"type": "SingleSelectLookup",
+				"lookupTable": "crmaccounttype",
+				"lookupFieldKey": "type",
+				"lookupFieldText": "name",
+				"lookupShowOnlyText": true
+			},
+			{
+				"text": "Industry ",
+				"type": "SingleSelectLookup",
+				"lookupTable": "crmindustry",
+				"lookupFieldKey": "industry",
+				"lookupFieldText": "name",
+				"lookupShowOnlyText": true,
+				"editable": true,
+				"required": true,
+				"visible": true,
+				"name": "industry",
+				"fieldPos": 8
+			},
+			{
+				"text": "Updated At",
+				"type": "DateTimePicker",
+				"columnLabel": "Dates",
+				"editable": false,
+				"required": false,
+				"visible": true,
+				"name": "updatedAt",
+				"fieldPos": 9
+			},
+			{
+				"text": "Updated By",
+				"editable": false,
+				"required": false,
+				"visible": true,
+				"name": "updatedBy",
+				"fieldPos": 10
+			}
+		],
+		"fieldsRun": [
+			{
+				"name": "accountid",
+				"text": "Account ID",
+				"fieldPos": 11
+			}
+		],
+		"defaultVariant": {
+			"id": "56697906-319f-4f98-eb59-b59b74e16037",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "crm_account_create",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "e4193e99-3964-ed11-819c-0022489e262f",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": "1e37c246-1240-420f-bb42-60f8a477c905",
+	"ver": "22.11.14.1630",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_edit",
+	"package": "07d276d9-3599-4fb0-8b3b-65a908201234",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": {
+		"id": "1E37C246-1240-420F-BB42-60F8A477C905",
+		"name": "crmaccount",
+		"ver": "22.11.14.1751"
+	}
+}

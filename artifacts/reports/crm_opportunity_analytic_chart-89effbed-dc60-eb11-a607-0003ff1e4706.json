@@ -1,0 +1,128 @@
+{
+	"id": "89effbed-dc60-eb11-a607-0003ff1e4706",
+	"createdAt": "2021-01-27T20:19:17.693Z",
+	"createdBy": "oah",
+	"settings": {
+		"properties": {
+			"report": {
+				"paginationRows": 10,
+				"updateTime": 0
+			},
+			"form": {
+				"enableCompact": false,
+				"showFilter": true
+			},
+			"table": {
+				"chartHeight": 250,
+				"chartType": "areaspline",
+				"legendEnable": true,
+				"legendAlign": "center",
+				"legendVerticalAlign": "bottom",
+				"legendLayout": "horizontal",
+				"xAxisTitleEnable": false,
+				"yAxisTitleEnable": false
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "accountid",
+				"label": "Account",
+				"type": "text"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text"
+			},
+			{
+				"name": "currency",
+				"label": "Currency",
+				"type": "text"
+			},
+			{
+				"name": "description",
+				"label": "Description",
+				"type": "text"
+			},
+			{
+				"name": "name",
+				"label": "Name",
+				"type": "text"
+			},
+			{
+				"name": "status",
+				"label": "Status",
+				"type": "text"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text"
+			},
+			{
+				"name": "value",
+				"label": "Value",
+				"type": "decimal"
+			}
+		],
+		"fieldsSel": [],
+		"fieldsRun": [
+			{
+				"text": "Name",
+				"type": "category",
+				"visible": true,
+				"name": "name",
+				"fieldPos": 1
+			},
+			{
+				"text": "Value",
+				"type": "value",
+				"visible": true,
+				"name": "value",
+				"enableFilter": false,
+				"fieldPos": 2
+			}
+		],
+		"defaultVariant": {
+			"id": "3e7fd840-50f4-4f32-9e07-5a9c8c9db213",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "crm_opportunity_analytic_chart",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "372b0e3a-3a64-ed11-819c-0022489e262f",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": "b68943ff-0f43-4438-b2e0-2e9bb9f58d14",
+	"ver": "22.11.14.1634",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_tile_chart",
+	"package": "07d276d9-3599-4fb0-8b3b-65a908201234",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": {
+		"id": "B68943FF-0F43-4438-B2E0-2E9BB9F58D14",
+		"name": "crmopportunity",
+		"ver": "22.11.14.1752"
+	}
+}

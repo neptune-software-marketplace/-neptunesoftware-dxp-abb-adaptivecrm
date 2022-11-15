@@ -1,0 +1,406 @@
+{
+	"id": "07D276D9-3599-4FB0-8B3B-65A908201234",
+	"createdAt": "2021-01-27T09:59:08.470Z",
+	"createdBy": "oah",
+	"git": {
+		"remote": "https://github.com/neptune-software-marketplace/-neptunesoftware-dxp-abb-adaptivecrm",
+		"targetServers": [],
+		"testServers": [],
+		"packageJSON": [
+			"==OBJECT STRING==",
+			"{",
+			"  \"name\": \"CRM\",",
+			"  \"version\": \"1.0.0\",",
+			"  \"description\": \"Planet 9 CRM \",",
+			"  \"author\": \"Neptune Software\",",
+			"  \"license\": \"LicenseRef-LICENSE\",",
+			"  \"private\": true,",
+			"  \"scripts\": {",
+			"    \"deploy\": \"ts-node src/deploy.ts\",",
+			"    \"test\": \"jest --passWithNoTests\"",
+			"  },",
+			"  \"engines\": {",
+			"    \"node\": \"14.16.0\"",
+			"  },",
+			"  \"devDependencies\": {",
+			"    \"@types/jest\": \"^26.0.23\",",
+			"    \"typescript\": \"^4.2.3\",",
+			"    \"ts-node\": \"^10.0.0\",",
+			"    \"axios\": \"^0.21.1\",",
+			"    \"jest\": \"^27.0.4\",",
+			"    \"ts-jest\": \"^27.0.3\"",
+			"  }",
+			"}",
+			""
+		]
+	},
+	"name": "CRM",
+	"description": "Planet 9 CRM ",
+	"ver": "22.11.15.1212",
+	"enableCICD": true,
+	"apps": [],
+	"api": [],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [
+		{
+			"id": "94C614C4-8760-EB11-A607-0003FF1E4706",
+			"name": "crmcountry",
+			"description": "Country"
+		},
+		{
+			"id": "B68943FF-0F43-4438-B2E0-2E9BB9F58D14",
+			"name": "crmopportunity",
+			"description": "Opportunity"
+		},
+		{
+			"id": "D9CB042F-65FB-4DF4-AAA7-37C17E687375",
+			"name": "crmaccounttype",
+			"description": "Account Type"
+		},
+		{
+			"id": "632CAFBF-7700-4490-871D-3AF809779252",
+			"name": "crmcurrency",
+			"description": "Currency"
+		},
+		{
+			"id": "1E37C246-1240-420F-BB42-60F8A477C905",
+			"name": "crmaccount",
+			"description": "Account"
+		},
+		{
+			"id": "AA65C1E2-5C3F-4DDD-801F-95267DA804A4",
+			"name": "crmindustry",
+			"description": "Industry"
+		},
+		{
+			"id": "817F15A0-C646-4154-926E-F3B611716890",
+			"name": "crmcontacts",
+			"description": "Contacts"
+		},
+		{
+			"id": "712EFAAB-6ADC-40E9-9B7C-F4036A68F1D8",
+			"name": "crmopportunitystatus",
+			"description": "Opportunity Status"
+		}
+	],
+	"jsclass": [],
+	"jsscript_group": [],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [
+		{
+			"id": "4FFDE61E-CC60-EB11-A607-0003FF1E4706",
+			"name": "crm_contact_edit_child",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "B1457F95-CC60-EB11-A607-0003FF1E4706",
+			"name": "crm_opportunity_edit_child",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "89EFFBED-DC60-EB11-A607-0003FF1E4706",
+			"name": "crm_opportunity_analytic_chart",
+			"description": "",
+			"application": "planet9_adaptive_tile_chart"
+		},
+		{
+			"id": "1D62477A-DD60-EB11-A607-0003FF1E4706",
+			"name": "crm_opportunity_tile_chart",
+			"description": "",
+			"application": "planet9_adaptive_tile_chart"
+		},
+		{
+			"id": "60253577-178F-4819-BCFB-0F31C13EF28B",
+			"name": "crm_industry_edit",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "CD66AC29-C01C-4DC5-AFF4-10E6AED99ED7",
+			"name": "crm_country_edit",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "6ED49CBD-27EC-4E6E-ABA0-1893B66B8134",
+			"name": "crm_contact_list_child",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "16810BD1-15FF-4B4B-ADF3-28AEADC048AD",
+			"name": "crm_opportunity_edit",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "2C27A2A4-EA47-41EA-8BE6-3060A7E6E127",
+			"name": "crm_account_type_list",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "D5D0192C-02E9-4EDC-97B6-3231BAFACA3A",
+			"name": "crm_opportunity_status_list",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "2DA7CB08-008D-4803-B986-3B3F551E308E",
+			"name": "crm_contact_tile_table",
+			"description": "",
+			"application": "planet9_adaptive_tile_table"
+		},
+		{
+			"id": "B53D6CAF-D126-48BA-A56D-615AA47EC85F",
+			"name": "crm_account_list",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "47FEF3F6-B838-4959-B021-6D1FF1F3264D",
+			"name": "crm_account_details",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "2518DA10-D612-41B3-B53C-7B86F1FD1827",
+			"name": "crm_country_list",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "1CCC5E00-E33E-4DA7-8A0C-9C0EA65DEDD3",
+			"name": "crm_opportunity_chart",
+			"description": "",
+			"application": "planet9_adaptive_tile_chart"
+		},
+		{
+			"id": "BAC2EA85-DB5E-4F20-B191-9E06D4F29EE3",
+			"name": "crm_account_tile_chart",
+			"description": "",
+			"application": "planet9_adaptive_tile_chart"
+		},
+		{
+			"id": "9D1BB1BF-0566-4EA9-9E5E-B254C23C964F",
+			"name": "crm_contact_list",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "43C13FB2-B5E9-4E1E-92C9-BA8580C15F61",
+			"name": "crm_currency_edit",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "997EE454-0D68-4DFF-9DC5-BEC94F9ECD6F",
+			"name": "crm_opportunity_status_edit",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "4B655958-4B3A-4D94-B578-CAB7E0FBFCF5",
+			"name": "crm_account_type_edit",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "DAC0B4D5-5C23-4AD1-ABCB-CEEF6F304D2D",
+			"name": "crm_account_create",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "04BF6E0B-E600-419A-8F8A-D0755C02CD24",
+			"name": "crm_contact_create",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "4DABB240-0D24-43B9-BC0B-D0EDB0039C9A",
+			"name": "crm_opportunity_analytic",
+			"description": "",
+			"application": "planet9_adaptive_bi"
+		},
+		{
+			"id": "C73D91FD-69C8-478B-8A38-D1F0FEC30B52",
+			"name": "crm_opportunity_list_child",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "6AA8BEE5-E3B3-4136-A1F9-E54216AFE085",
+			"name": "crm_opportunity_list",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "B546505A-1BBA-4721-9A18-E9EEBBF6E185",
+			"name": "crm_currency_list",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "193590CD-FB4C-43D9-A6E1-EDEC506447ED",
+			"name": "crm_contact_edit",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		}
+	],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [],
+	"category": [],
+	"launchpad": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [
+		{
+			"id": "E4193E99-3964-ED11-819C-0022489E262F",
+			"name": "crm_account_create",
+			"description": ""
+		},
+		{
+			"id": "46BAAABD-3964-ED11-819C-0022489E262F",
+			"name": "crm_account_details",
+			"description": ""
+		},
+		{
+			"id": "34C260F8-3964-ED11-819C-0022489E262F",
+			"name": "crm_account_list",
+			"description": ""
+		},
+		{
+			"id": "37C260F8-3964-ED11-819C-0022489E262F",
+			"name": "crm_account_tile_chart",
+			"description": ""
+		},
+		{
+			"id": "A4CD5DFE-3964-ED11-819C-0022489E262F",
+			"name": "crm_account_type_edit",
+			"description": ""
+		},
+		{
+			"id": "F544790A-3A64-ED11-819C-0022489E262F",
+			"name": "crm_account_type_list",
+			"description": ""
+		},
+		{
+			"id": "F744790A-3A64-ED11-819C-0022489E262F",
+			"name": "crm_contact_create",
+			"description": ""
+		},
+		{
+			"id": "AC2F9911-3A64-ED11-819C-0022489E262F",
+			"name": "crm_contact_edit",
+			"description": ""
+		},
+		{
+			"id": "AE2F9911-3A64-ED11-819C-0022489E262F",
+			"name": "crm_contact_edit_child",
+			"description": ""
+		},
+		{
+			"id": "FBEE0E19-3A64-ED11-819C-0022489E262F",
+			"name": "crm_contact_list",
+			"description": ""
+		},
+		{
+			"id": "FDEE0E19-3A64-ED11-819C-0022489E262F",
+			"name": "crm_contact_list_child",
+			"description": ""
+		},
+		{
+			"id": "72666523-3A64-ED11-819C-0022489E262F",
+			"name": "crm_contact_tile_table",
+			"description": ""
+		},
+		{
+			"id": "74666523-3A64-ED11-819C-0022489E262F",
+			"name": "crm_country_edit",
+			"description": ""
+		},
+		{
+			"id": "F88E422A-3A64-ED11-819C-0022489E262F",
+			"name": "crm_country_list",
+			"description": ""
+		},
+		{
+			"id": "FA8E422A-3A64-ED11-819C-0022489E262F",
+			"name": "crm_currency_edit",
+			"description": ""
+		},
+		{
+			"id": "A638E331-3A64-ED11-819C-0022489E262F",
+			"name": "crm_currency_list",
+			"description": ""
+		},
+		{
+			"id": "A838E331-3A64-ED11-819C-0022489E262F",
+			"name": "crm_industry_edit",
+			"description": ""
+		},
+		{
+			"id": "352B0E3A-3A64-ED11-819C-0022489E262F",
+			"name": "crm_opportunity_analytic",
+			"description": ""
+		},
+		{
+			"id": "372B0E3A-3A64-ED11-819C-0022489E262F",
+			"name": "crm_opportunity_analytic_chart",
+			"description": ""
+		},
+		{
+			"id": "99FAD441-3A64-ED11-819C-0022489E262F",
+			"name": "crm_opportunity_chart",
+			"description": ""
+		},
+		{
+			"id": "9BFAD441-3A64-ED11-819C-0022489E262F",
+			"name": "crm_opportunity_edit",
+			"description": ""
+		},
+		{
+			"id": "D5A9F948-3A64-ED11-819C-0022489E262F",
+			"name": "crm_opportunity_edit_child",
+			"description": ""
+		},
+		{
+			"id": "D7A9F948-3A64-ED11-819C-0022489E262F",
+			"name": "crm_opportunity_list",
+			"description": ""
+		},
+		{
+			"id": "7084C84F-3A64-ED11-819C-0022489E262F",
+			"name": "crm_opportunity_list_child",
+			"description": ""
+		},
+		{
+			"id": "7284C84F-3A64-ED11-819C-0022489E262F",
+			"name": "crm_opportunity_status_edit",
+			"description": ""
+		},
+		{
+			"id": "7484C84F-3A64-ED11-819C-0022489E262F",
+			"name": "crm_opportunity_status_list",
+			"description": ""
+		},
+		{
+			"id": "4B7BD155-3A64-ED11-819C-0022489E262F",
+			"name": "crm_opportunity_tile_chart",
+			"description": ""
+		}
+	]
+}

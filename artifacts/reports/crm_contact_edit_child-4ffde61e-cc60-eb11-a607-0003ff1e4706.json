@@ -1,0 +1,187 @@
+{
+	"id": "4ffde61e-cc60-eb11-a607-0003ff1e4706",
+	"createdAt": "2021-01-27T18:18:58.323Z",
+	"createdBy": "oah",
+	"settings": {
+		"properties": {
+			"report": {
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"iconButtonSave": "",
+				"textButtonSave": "Save",
+				"typeButtonSave": "Emphasized",
+				"tab0Text": "General",
+				"tab1Text": "Tab 1",
+				"tab2Text": "Tab 2",
+				"tab3Text": "Tab 2",
+				"tab4Text": "Tab 2",
+				"tab5Text": "Tab 2",
+				"enableTab1": false,
+				"enableTab2": false,
+				"enableTab3": false,
+				"enableTab4": false,
+				"enableTab5": false,
+				"title": "Contact",
+				"subTitle": "Maintain",
+				"avatarIcon": "sap-icon://contacts",
+				"showIcon": true,
+				"textToastSave": "Saved",
+				"enableClose": true
+			},
+			"form": {
+				"enableCompact": false,
+				"enableCentered": true
+			},
+			"table": {}
+		},
+		"fieldCatalog": [
+			{
+				"name": "accountid",
+				"label": "Account",
+				"type": "text"
+			},
+			{
+				"name": "name",
+				"label": "Name",
+				"type": "text"
+			},
+			{
+				"name": "phone",
+				"label": "Phone",
+				"type": "text"
+			},
+			{
+				"name": "email",
+				"label": "eMail",
+				"type": "text"
+			},
+			{
+				"name": "text",
+				"label": "Text",
+				"type": "text"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text"
+			}
+		],
+		"fieldsSel": [
+			{
+				"text": "Account",
+				"type": "SingleSelectLookup",
+				"lookupTable": "crmaccount",
+				"lookupFieldKey": "accountid",
+				"lookupFieldText": "name",
+				"lookupShowOnlyText": true,
+				"columnLabel": "Details",
+				"editable": false,
+				"required": true,
+				"visible": false,
+				"name": "accountid",
+				"fieldPos": 1
+			},
+			{
+				"text": "Name",
+				"editable": true,
+				"required": true,
+				"visible": true,
+				"name": "name",
+				"fieldPos": 2
+			},
+			{
+				"text": "Phone",
+				"editable": true,
+				"required": false,
+				"visible": true,
+				"name": "phone",
+				"fieldPos": 3
+			},
+			{
+				"text": "eMail",
+				"editable": true,
+				"required": false,
+				"visible": true,
+				"name": "email",
+				"fieldPos": 4
+			},
+			{
+				"text": "Text",
+				"editable": true,
+				"required": false,
+				"visible": true,
+				"name": "text",
+				"fieldPos": 5,
+				"type": "TextArea",
+				"textAreaRows": "8",
+				"columnLabel": "Information"
+			},
+			{
+				"text": "Updated At",
+				"type": "DateTimePicker",
+				"columnLabel": "Dates",
+				"editable": false,
+				"required": false,
+				"visible": true,
+				"name": "updatedAt",
+				"fieldPos": 6
+			},
+			{
+				"text": "Updated By",
+				"editable": false,
+				"required": false,
+				"visible": true,
+				"name": "updatedBy",
+				"fieldPos": 7
+			}
+		],
+		"fieldsRun": [],
+		"defaultVariant": {
+			"id": "3a60d915-0a0c-46e0-f762-d28a88da1b3c",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "crm_contact_edit_child",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "ae2f9911-3a64-ed11-819c-0022489e262f",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": "817f15a0-c646-4154-926e-f3b611716890",
+	"ver": "22.11.14.1633",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_edit",
+	"package": "07d276d9-3599-4fb0-8b3b-65a908201234",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": {
+		"id": "817F15A0-C646-4154-926E-F3B611716890",
+		"name": "crmcontacts",
+		"ver": "22.11.14.1751"
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"id": "fbee0e19-3a64-ed11-819c-0022489e262f",
+	"createdAt": "2022-11-14T16:33:41.953Z",
+	"createdBy": "lloyd",
+	"settings": {
+		"tableid": "817F15A0-C646-4154-926E-F3B611716890",
+		"scriptSel": "",
+		"scriptRun": "",
+		"hasDocumentation": false
+	},
+	"documentation": [],
+	"name": "crm_contact_list",
+	"description": "",
+	"group": null,
+	"type": "T",
+	"ver": "22.11.14.1637",
+	"disabled": false,
+	"package": "07d276d9-3599-4fb0-8b3b-65a908201234"
+}

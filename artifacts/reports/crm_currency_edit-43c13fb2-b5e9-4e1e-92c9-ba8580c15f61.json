@@ -1,0 +1,140 @@
+{
+	"id": "43c13fb2-b5e9-4e1e-92c9-ba8580c15f61",
+	"createdAt": "2021-01-27T10:00:24.026Z",
+	"createdBy": "oah",
+	"settings": {
+		"properties": {
+			"report": {
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"iconButtonSave": "",
+				"textButtonSave": "Save",
+				"typeButtonSave": "Emphasized",
+				"tab0Text": "General",
+				"tab1Text": "Tab 1",
+				"tab2Text": "Tab 2",
+				"title": "Currency",
+				"subTitle": "Manage",
+				"avatarIcon": "sap-icon://fa-solid/money-bill-wave",
+				"showIcon": true,
+				"textToastSave": "Saved",
+				"tab3Text": "Tab 3",
+				"tab4Text": "Tab 4",
+				"tab5Text": "Tab 5",
+				"enableClose": true,
+				"enableTab1": false,
+				"enableTab2": false,
+				"enableTab3": false,
+				"enableTab4": false,
+				"enableTab5": false
+			},
+			"form": {
+				"enableCompact": false,
+				"enableCentered": true
+			},
+			"table": {}
+		},
+		"fieldCatalog": [
+			{
+				"name": "currency",
+				"label": "Currency",
+				"type": "text"
+			},
+			{
+				"name": "text",
+				"label": "Text",
+				"type": "text"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text"
+			}
+		],
+		"fieldsSel": [
+			{
+				"text": "Currency",
+				"columnLabel": "Details",
+				"editable": true,
+				"required": true,
+				"visible": true,
+				"name": "currency",
+				"fieldPos": 1
+			},
+			{
+				"text": "Text",
+				"editable": true,
+				"required": true,
+				"visible": true,
+				"name": "text",
+				"fieldPos": 2
+			},
+			{
+				"text": "Updated At",
+				"type": "DateTimePicker",
+				"columnLabel": "Dates",
+				"editable": false,
+				"required": false,
+				"visible": true,
+				"name": "updatedAt",
+				"fieldPos": 3
+			},
+			{
+				"text": "Updated By",
+				"editable": false,
+				"required": false,
+				"visible": true,
+				"name": "updatedBy",
+				"fieldPos": 4
+			}
+		],
+		"fieldsRun": [],
+		"defaultVariant": {
+			"id": "722310c2-f8fa-4604-cc4e-3942f00d6dfc",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "crm_currency_edit",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "fa8e422a-3a64-ed11-819c-0022489e262f",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": "632cafbf-7700-4490-871d-3af809779252",
+	"ver": "22.11.14.1634",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_edit",
+	"package": "07d276d9-3599-4fb0-8b3b-65a908201234",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": {
+		"id": "632CAFBF-7700-4490-871D-3AF809779252",
+		"name": "crmcurrency",
+		"ver": "22.11.14.1752"
+	}
+}

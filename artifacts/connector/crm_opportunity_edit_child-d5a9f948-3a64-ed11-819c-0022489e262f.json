@@ -1,0 +1,19 @@
+{
+	"id": "d5a9f948-3a64-ed11-819c-0022489e262f",
+	"createdAt": "2022-11-14T16:35:02.366Z",
+	"createdBy": "lloyd",
+	"settings": {
+		"tableid": "B68943FF-0F43-4438-B2E0-2E9BB9F58D14",
+		"scriptSel": "",
+		"scriptRun": "",
+		"hasDocumentation": false
+	},
+	"documentation": [],
+	"name": "crm_opportunity_edit_child",
+	"description": "",
+	"group": null,
+	"type": "T",
+	"ver": "22.11.14.1638",
+	"disabled": false,
+	"package": "07d276d9-3599-4fb0-8b3b-65a908201234"
+}
