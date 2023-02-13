@@ -1,0 +1,140 @@
+{
+	"id": "997ee454-0d68-4dff-9dc5-bec94f9ecd6f",
+	"createdAt": "2021-01-27T10:00:24.640Z",
+	"createdBy": "oah",
+	"settings": {
+		"properties": {
+			"report": {
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"iconButtonSave": "",
+				"textButtonSave": "Save",
+				"typeButtonSave": "Emphasized",
+				"tab0Text": "General",
+				"tab1Text": "Tab 1",
+				"tab2Text": "Tab 2",
+				"title": "Opportunity Status",
+				"subTitle": "Manage",
+				"avatarIcon": "sap-icon://order-status",
+				"showIcon": true,
+				"textToastSave": "Saved",
+				"tab3Text": "Tab 3",
+				"tab4Text": "Tab 4",
+				"tab5Text": "Tab 5",
+				"enableClose": true,
+				"enableTab1": false,
+				"enableTab2": false,
+				"enableTab3": false,
+				"enableTab4": false,
+				"enableTab5": false
+			},
+			"form": {
+				"enableCompact": false,
+				"enableCentered": true
+			},
+			"table": {}
+		},
+		"fieldCatalog": [
+			{
+				"name": "status",
+				"label": "Status",
+				"type": "smallint"
+			},
+			{
+				"name": "text",
+				"label": "Text",
+				"type": "text"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text"
+			}
+		],
+		"fieldsSel": [
+			{
+				"text": "Status",
+				"columnLabel": "Detail",
+				"editable": true,
+				"required": true,
+				"visible": true,
+				"name": "status",
+				"fieldPos": 1
+			},
+			{
+				"text": "Text",
+				"editable": true,
+				"required": true,
+				"visible": true,
+				"name": "text",
+				"fieldPos": 2
+			},
+			{
+				"text": "Updated At",
+				"type": "DateTimePicker",
+				"columnLabel": "Dates",
+				"editable": false,
+				"required": false,
+				"visible": true,
+				"name": "updatedAt",
+				"fieldPos": 3
+			},
+			{
+				"text": "Updated By",
+				"editable": false,
+				"required": false,
+				"visible": true,
+				"name": "updatedBy",
+				"fieldPos": 4
+			}
+		],
+		"fieldsRun": [],
+		"defaultVariant": {
+			"id": "d3363030-8b4d-4409-c761-87b907913dcb",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "crm_opportunity_status_edit",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "7284c84f-3a64-ed11-819c-0022489e262f",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": "712efaab-6adc-40e9-9b7c-f4036a68f1d8",
+	"ver": "22.11.14.1635",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_edit",
+	"package": "07d276d9-3599-4fb0-8b3b-65a908201234",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": {
+		"id": "712efaab-6adc-40e9-9b7c-f4036a68f1d8",
+		"name": "crmopportunitystatus",
+		"ver": "22.11.14.1752"
+	}
+}

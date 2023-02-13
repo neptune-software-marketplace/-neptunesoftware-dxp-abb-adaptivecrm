@@ -1,0 +1,140 @@
+{
+	"id": "60253577-178f-4819-bcfb-0f31c13ef28b",
+	"createdAt": "2021-01-27T10:00:24.633Z",
+	"createdBy": "oah",
+	"settings": {
+		"properties": {
+			"report": {
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"iconButtonSave": "",
+				"textButtonSave": "Save",
+				"typeButtonSave": "Emphasized",
+				"title": "Industry",
+				"subTitle": "Manage",
+				"avatarIcon": "sap-icon://tnt/business-service",
+				"showIcon": true,
+				"textToastSave": "Saved",
+				"tab0Text": "General",
+				"tab1Text": "Tab 1",
+				"tab2Text": "Tab 2",
+				"tab3Text": "Tab 3",
+				"tab4Text": "Tab 4",
+				"tab5Text": "Tab 5",
+				"enableClose": true,
+				"enableTab1": false,
+				"enableTab2": false,
+				"enableTab3": false,
+				"enableTab4": false,
+				"enableTab5": false
+			},
+			"form": {
+				"enableCompact": false,
+				"enableCentered": true
+			},
+			"table": {}
+		},
+		"fieldCatalog": [
+			{
+				"name": "industry",
+				"label": "Industry",
+				"type": "text"
+			},
+			{
+				"name": "name",
+				"label": "Name",
+				"type": "text"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text"
+			}
+		],
+		"fieldsSel": [
+			{
+				"text": "Industry",
+				"columnLabel": "Details",
+				"editable": true,
+				"required": true,
+				"visible": true,
+				"name": "industry",
+				"fieldPos": 1
+			},
+			{
+				"text": "Name",
+				"editable": true,
+				"required": true,
+				"visible": true,
+				"name": "name",
+				"fieldPos": 2
+			},
+			{
+				"text": "Updated At",
+				"type": "DateTimePicker",
+				"columnLabel": "Dates",
+				"editable": false,
+				"required": false,
+				"visible": true,
+				"name": "updatedAt",
+				"fieldPos": 3
+			},
+			{
+				"text": "Updated By",
+				"editable": false,
+				"required": false,
+				"visible": true,
+				"name": "updatedBy",
+				"fieldPos": 4
+			}
+		],
+		"fieldsRun": [],
+		"defaultVariant": {
+			"id": "1776c49a-b4f5-4b84-d285-3aedd4ffbbcf",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "crm_industry_edit",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "a838e331-3a64-ed11-819c-0022489e262f",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": "aa65c1e2-5c3f-4ddd-801f-95267da804a4",
+	"ver": "22.11.14.1634",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_edit",
+	"package": "07d276d9-3599-4fb0-8b3b-65a908201234",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": {
+		"id": "aa65c1e2-5c3f-4ddd-801f-95267da804a4",
+		"name": "crmindustry",
+		"ver": "21.1.21.935"
+	}
+}

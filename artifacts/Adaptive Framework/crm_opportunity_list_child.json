@@ -1,0 +1,329 @@
+{
+	"id": "c73d91fd-69c8-478b-8a38-d1f0fec30b52",
+	"createdAt": "2021-01-27T10:00:24.706Z",
+	"createdBy": "oah",
+	"settings": {
+		"properties": {
+			"report": {
+				"paginationRows": "100",
+				"updateTime": 0,
+				"_navigationItemPress": {
+					"destinationType": "F",
+					"openAs": "D",
+					"butType": "Accept",
+					"destinationTargetF": "B1457F95-CC60-EB11-A607-0003FF1E4706",
+					"keyField": [],
+					"dialogHeight": "900px"
+				},
+				"iconButtonCreate": "",
+				"textButtonCreate": "Add",
+				"typeButtonCreate": "Emphasized",
+				"enableCreate": true,
+				"enableDelete": true,
+				"_navigationCreate": {
+					"destinationType": "F",
+					"openAs": "D",
+					"butType": "Accept",
+					"destinationTargetF": "B1457F95-CC60-EB11-A607-0003FF1E4706",
+					"keyField": [
+						{
+							"fieldName": "accountid",
+							"key": "accountid",
+							"value": ""
+						},
+						{
+							"fieldName": "currency",
+							"key": "",
+							"value": "EUR"
+						},
+						{
+							"fieldName": "status",
+							"key": "",
+							"value": "1"
+						}
+					],
+					"dialogHeight": "900px"
+				},
+				"showIcon": true,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"iconButtonExport": "sap-icon://excel-attachment",
+				"textButtonExport": "",
+				"typeButtonExport": "Transparent",
+				"iconButtonMultiSelect": "",
+				"textButtonMultiSelect": "MultiSelect",
+				"typeButtonMultiSelect": "Emphasized",
+				"iconButtonRun": "sap-icon://synchronize",
+				"textButtonRun": "",
+				"typeButtonRun": "Transparent",
+				"enableExport": true,
+				"enableMultiSelect": false,
+				"hideHeader": true,
+				"autoRun": true,
+				"autoRunFocus": false,
+				"enableRun": false,
+				"title": "Opportunities",
+				"iconButtonImport": "sap-icon://fa-solid/file-import",
+				"textButtonImport": "",
+				"typeButtonImport": "Transparent",
+				"enableClose": false,
+				"enableImport": false,
+				"enableVariant": false,
+				"searchLabel": "Search",
+				"searchPlaceholder": ""
+			},
+			"form": {
+				"enableCompact": true,
+				"showFilter": false,
+				"headerExpanded": false
+			},
+			"table": {
+				"chartHeight": 250,
+				"chartType": "column",
+				"legendEnable": true,
+				"legendAlign": "center",
+				"legendVerticalAlign": "bottom",
+				"legendLayout": "horizontal",
+				"xAxisTitleEnable": true,
+				"yAxisTitleEnable": true,
+				"alternateRowColors": false,
+				"enableCompact": false,
+				"fixedLayout": false,
+				"inset": false,
+				"headerText": "",
+				"footerText": "",
+				"enablePagination": false,
+				"paginationRows": "2",
+				"initialGroupField": "",
+				"paginationShowSelection": false,
+				"action1Text": "",
+				"action1Type": "Transparent",
+				"action2Text": "",
+				"action2Type": "Transparent",
+				"action3Text": "",
+				"action3Type": "Transparent",
+				"enableAction1": false,
+				"enableAction2": false,
+				"enableAction3": false
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "accountid",
+				"label": "Account",
+				"type": "text"
+			},
+			{
+				"name": "name",
+				"label": "Name",
+				"type": "text"
+			},
+			{
+				"name": "description",
+				"label": "Description",
+				"type": "text"
+			},
+			{
+				"name": "value",
+				"label": "Value",
+				"type": "decimal"
+			},
+			{
+				"name": "currency",
+				"label": "Currency",
+				"type": "text"
+			},
+			{
+				"name": "status",
+				"label": "Status",
+				"type": "smallint"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text"
+			}
+		],
+		"fieldsSel": [
+			{
+				"text": "Status",
+				"type": "MultiSelectLookup",
+				"lookupTable": "crmopportunitystatus",
+				"lookupFieldKey": "status",
+				"lookupFieldText": "text",
+				"lookupShowOnlyText": true,
+				"required": false,
+				"visible": true,
+				"name": "status",
+				"fieldPos": 1
+			},
+			{
+				"text": "Account",
+				"required": false,
+				"visible": false,
+				"name": "accountid",
+				"fieldPos": 2
+			},
+			{
+				"text": "Currency",
+				"type": "MultiSelectLookup",
+				"lookupTable": "crmcurrency",
+				"lookupFieldKey": "currency",
+				"lookupFieldText": "text",
+				"required": false,
+				"visible": true,
+				"name": "currency",
+				"fieldPos": 3
+			}
+		],
+		"fieldsRun": [
+			{
+				"text": "Account",
+				"wrapping": false,
+				"enableGroup": false,
+				"enableFilter": false,
+				"enableSort": false,
+				"visible": false,
+				"name": "accountid",
+				"fieldPos": 4,
+				"_lookup": {
+					"table": "",
+					"textField": "",
+					"keyField": [],
+					"hideKey": false,
+					"butType": "Default"
+				}
+			},
+			{
+				"text": "Name",
+				"wrapping": false,
+				"enableGroup": false,
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "name",
+				"fieldPos": 5
+			},
+			{
+				"text": "Status",
+				"wrapping": false,
+				"enableGroup": true,
+				"enableFilter": false,
+				"enableSort": true,
+				"visible": true,
+				"name": "status",
+				"fieldPos": 6,
+				"_lookup": {
+					"table": "crmopportunitystatus",
+					"textField": "text",
+					"keyField": [
+						{
+							"fieldName": "status",
+							"key": "status",
+							"value": ""
+						}
+					],
+					"hideKey": true,
+					"butType": "Accept"
+				},
+				"type": "ObjectStatus",
+				"objectStatusIcon": "sap-icon://fa-solid/info-circle",
+				"objectStatusState": "45A322FD-510F-4843-9C07-5F7D6F200901"
+			},
+			{
+				"text": "Currency",
+				"wrapping": false,
+				"enableGroup": false,
+				"enableFilter": false,
+				"enableSort": false,
+				"visible": false,
+				"name": "currency",
+				"fieldPos": 7
+			},
+			{
+				"text": "Updated At",
+				"formatter": "date01",
+				"wrapping": false,
+				"enableGroup": false,
+				"enableFilter": false,
+				"enableSort": true,
+				"visible": true,
+				"name": "updatedAt",
+				"fieldPos": 8,
+				"hAlign": "Center"
+			},
+			{
+				"text": "Updated By",
+				"wrapping": false,
+				"enableGroup": false,
+				"enableFilter": false,
+				"enableSort": false,
+				"visible": true,
+				"name": "updatedBy",
+				"fieldPos": 9
+			},
+			{
+				"text": "Value",
+				"wrapping": false,
+				"enableGroup": false,
+				"enableFilter": false,
+				"enableSort": true,
+				"visible": true,
+				"name": "value",
+				"fieldPos": 10,
+				"type": "ObjectNumber",
+				"objectNumberUnit": "{currency}",
+				"hAlign": "End",
+				"formatter": "number03",
+				"enableSum": true
+			}
+		],
+		"defaultVariant": {
+			"id": "70a8997d-814a-4eb3-b037-dfb4a65d68e4",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "crm_opportunity_list_child",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "7084c84f-3a64-ed11-819c-0022489e262f",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": "b68943ff-0f43-4438-b2e0-2e9bb9f58d14",
+	"ver": "22.11.14.1635",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_list",
+	"package": "07d276d9-3599-4fb0-8b3b-65a908201234",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": {
+		"id": "b68943ff-0f43-4438-b2e0-2e9bb9f58d14",
+		"name": "crmopportunity",
+		"ver": "22.11.14.1752"
+	}
+}

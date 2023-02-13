@@ -1,0 +1,17 @@
+{
+	"id": "7484c84f-3a64-ed11-819c-0022489e262f",
+	"createdAt": "2022-11-14T16:35:23.770Z",
+	"createdBy": "lloyd",
+	"settings": {
+		"tableid": "712efaab-6adc-40e9-9b7c-f4036a68f1d8",
+		"hasDocumentation": false
+	},
+	"documentation": [],
+	"name": "crm_opportunity_status_list",
+	"description": "",
+	"group": null,
+	"type": "T",
+	"ver": "22.11.14.1641",
+	"disabled": false,
+	"package": "07d276d9-3599-4fb0-8b3b-65a908201234"
+}

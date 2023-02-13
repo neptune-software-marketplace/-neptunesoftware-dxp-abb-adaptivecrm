@@ -1,0 +1,29 @@
+{
+	"id": "632cafbf-7700-4490-871d-3af809779252",
+	"createdAt": "2021-01-27T09:59:03.146Z",
+	"createdBy": "oah",
+	"fields": [
+		{
+			"id": "938c0367-19d5-482f-f763-c51c2db1f02b",
+			"fieldName": "currency",
+			"fieldType": "text",
+			"description": "Currency"
+		},
+		{
+			"id": "1b17e3f9-b9a3-4823-99da-6d2848b33079",
+			"fieldName": "text",
+			"fieldType": "text",
+			"description": "Text"
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "crmcurrency",
+	"description": "Currency",
+	"ver": "22.11.14.1752",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "07d276d9-3599-4fb0-8b3b-65a908201234",
+	"rolesRead": [],
+	"rolesWrite": []
+}

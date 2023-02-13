@@ -1,0 +1,17 @@
+{
+	"id": "a838e331-3a64-ed11-819c-0022489e262f",
+	"createdAt": "2022-11-14T16:34:32.246Z",
+	"createdBy": "lloyd",
+	"settings": {
+		"tableid": "aa65c1e2-5c3f-4ddd-801f-95267da804a4",
+		"hasDocumentation": false
+	},
+	"documentation": [],
+	"name": "crm_industry_edit",
+	"description": "",
+	"group": null,
+	"type": "T",
+	"ver": "22.11.14.1637",
+	"disabled": false,
+	"package": "07d276d9-3599-4fb0-8b3b-65a908201234"
+}

@@ -1,0 +1,17 @@
+{
+	"id": "f544790a-3a64-ed11-819c-0022489e262f",
+	"createdAt": "2022-11-14T16:33:17.490Z",
+	"createdBy": "lloyd",
+	"settings": {
+		"tableid": "d9cb042f-65fb-4df4-aaa7-37c17e687375",
+		"hasDocumentation": false
+	},
+	"documentation": [],
+	"name": "crm_account_type_list",
+	"description": "",
+	"group": null,
+	"type": "T",
+	"ver": "22.11.14.1636",
+	"disabled": false,
+	"package": "07d276d9-3599-4fb0-8b3b-65a908201234"
+}

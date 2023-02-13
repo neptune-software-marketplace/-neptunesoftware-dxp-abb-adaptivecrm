@@ -1,0 +1,189 @@
+{
+	"id": "2c27a2a4-ea47-41ea-8be6-3060a7e6e127",
+	"createdAt": "2021-01-27T10:00:24.110Z",
+	"createdBy": "oah",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"iconButtonCreate": "",
+				"textButtonCreate": "Create",
+				"typeButtonCreate": "Emphasized",
+				"iconButtonExport": "sap-icon://excel-attachment",
+				"textButtonExport": "",
+				"typeButtonExport": "Transparent",
+				"iconButtonMultiSelect": "",
+				"textButtonMultiSelect": "MultiSelect",
+				"typeButtonMultiSelect": "Emphasized",
+				"iconButtonRun": "",
+				"textButtonRun": "Update",
+				"typeButtonRun": "Emphasized",
+				"enableCreate": true,
+				"enableDelete": true,
+				"enableExport": false,
+				"enableMultiSelect": false,
+				"autoRun": true,
+				"autoRunFocus": true,
+				"title": "Account Type",
+				"subTitle": "List",
+				"avatarIcon": "sap-icon://switch-classes",
+				"_navigationItemPress": {
+					"destinationType": "F",
+					"openAs": "D",
+					"butType": "Accept",
+					"destinationTargetF": "4B655958-4B3A-4D94-B578-CAB7E0FBFCF5",
+					"keyField": []
+				},
+				"_navigationCreate": {
+					"destinationType": "F",
+					"openAs": "D",
+					"butType": "Accept",
+					"destinationTargetF": "4B655958-4B3A-4D94-B578-CAB7E0FBFCF5",
+					"keyField": []
+				},
+				"enableRun": true,
+				"hideHeader": false,
+				"iconButtonImport": "sap-icon://fa-solid/file-import",
+				"textButtonImport": "",
+				"typeButtonImport": "Transparent",
+				"enableClose": false,
+				"enableImport": false,
+				"enableVariant": false,
+				"searchLabel": "Search",
+				"searchPlaceholder": ""
+			},
+			"form": {
+				"enableCompact": false,
+				"headerExpanded": true
+			},
+			"table": {
+				"enablePagination": false,
+				"paginationRows": 25,
+				"alternateRowColors": false,
+				"enableCompact": false,
+				"fixedLayout": true,
+				"inset": false,
+				"paginationShowSelection": false,
+				"action1Text": "",
+				"action1Type": "Transparent",
+				"action2Text": "",
+				"action2Type": "Transparent",
+				"action3Text": "",
+				"action3Type": "Transparent",
+				"enableAction1": false,
+				"enableAction2": false,
+				"enableAction3": false
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "type",
+				"label": "Type",
+				"type": "text"
+			},
+			{
+				"name": "name",
+				"label": "Name",
+				"type": "text"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text"
+			}
+		],
+		"fieldsSel": [],
+		"fieldsRun": [
+			{
+				"text": "Type",
+				"wrapping": false,
+				"enableGroup": false,
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "type",
+				"fieldPos": 1
+			},
+			{
+				"text": "Name",
+				"wrapping": false,
+				"enableGroup": false,
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "name",
+				"fieldPos": 2
+			},
+			{
+				"text": "Updated At",
+				"formatter": "date01",
+				"wrapping": false,
+				"enableGroup": false,
+				"enableFilter": false,
+				"enableSort": true,
+				"visible": true,
+				"name": "updatedAt",
+				"fieldPos": 3
+			},
+			{
+				"text": "Updated By",
+				"wrapping": false,
+				"enableGroup": false,
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "updatedBy",
+				"fieldPos": 4
+			}
+		],
+		"defaultVariant": {
+			"id": "f0c8d9ba-d032-4177-f3ee-6a250054e4a0",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "crm_account_type_list",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "f544790a-3a64-ed11-819c-0022489e262f",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": "d9cb042f-65fb-4df4-aaa7-37c17e687375",
+	"ver": "22.11.14.1633",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_list",
+	"package": "07d276d9-3599-4fb0-8b3b-65a908201234",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": {
+		"id": "d9cb042f-65fb-4df4-aaa7-37c17e687375",
+		"name": "crmaccounttype",
+		"ver": "22.11.14.1751"
+	}
+}

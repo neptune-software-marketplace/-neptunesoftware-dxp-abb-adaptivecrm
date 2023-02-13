@@ -1,38 +1,11 @@
 {
-	"id": "07D276D9-3599-4FB0-8B3B-65A908201234",
+	"id": "07d276d9-3599-4fb0-8b3b-65a908201234",
 	"createdAt": "2021-01-27T09:59:08.470Z",
 	"createdBy": "oah",
 	"git": {
 		"remote": "https://github.com/neptune-software-marketplace/-neptunesoftware-dxp-abb-adaptivecrm",
 		"targetServers": [],
-		"testServers": [],
-		"packageJSON": [
-			"==OBJECT STRING==",
-			"{",
-			"  \"name\": \"CRM\",",
-			"  \"version\": \"1.0.0\",",
-			"  \"description\": \"Planet 9 CRM \",",
-			"  \"author\": \"Neptune Software\",",
-			"  \"license\": \"LicenseRef-LICENSE\",",
-			"  \"private\": true,",
-			"  \"scripts\": {",
-			"    \"deploy\": \"ts-node src/deploy.ts\",",
-			"    \"test\": \"jest --passWithNoTests\"",
-			"  },",
-			"  \"engines\": {",
-			"    \"node\": \"14.16.0\"",
-			"  },",
-			"  \"devDependencies\": {",
-			"    \"@types/jest\": \"^26.0.23\",",
-			"    \"typescript\": \"^4.2.3\",",
-			"    \"ts-node\": \"^10.0.0\",",
-			"    \"axios\": \"^0.21.1\",",
-			"    \"jest\": \"^27.0.4\",",
-			"    \"ts-jest\": \"^27.0.3\"",
-			"  }",
-			"}",
-			""
-		]
+		"testServers": []
 	},
 	"name": "CRM",
 	"description": "Planet 9 CRM ",
@@ -44,44 +17,34 @@
 	"odataMock": [],
 	"dictionary": [
 		{
-			"id": "94C614C4-8760-EB11-A607-0003FF1E4706",
-			"name": "crmcountry",
-			"description": "Country"
-		},
-		{
-			"id": "B68943FF-0F43-4438-B2E0-2E9BB9F58D14",
-			"name": "crmopportunity",
-			"description": "Opportunity"
-		},
-		{
-			"id": "D9CB042F-65FB-4DF4-AAA7-37C17E687375",
+			"id": "d9cb042f-65fb-4df4-aaa7-37c17e687375",
 			"name": "crmaccounttype",
 			"description": "Account Type"
 		},
 		{
-			"id": "632CAFBF-7700-4490-871D-3AF809779252",
-			"name": "crmcurrency",
-			"description": "Currency"
+			"id": "b68943ff-0f43-4438-b2e0-2e9bb9f58d14",
+			"name": "crmopportunity",
+			"description": "Opportunity"
 		},
 		{
-			"id": "1E37C246-1240-420F-BB42-60F8A477C905",
-			"name": "crmaccount",
-			"description": "Account"
+			"id": "94c614c4-8760-eb11-a607-0003ff1e4706",
+			"name": "crmcountry",
+			"description": "Country"
 		},
 		{
-			"id": "AA65C1E2-5C3F-4DDD-801F-95267DA804A4",
-			"name": "crmindustry",
-			"description": "Industry"
-		},
-		{
-			"id": "817F15A0-C646-4154-926E-F3B611716890",
+			"id": "817f15a0-c646-4154-926e-f3b611716890",
 			"name": "crmcontacts",
 			"description": "Contacts"
 		},
 		{
-			"id": "712EFAAB-6ADC-40E9-9B7C-F4036A68F1D8",
+			"id": "712efaab-6adc-40e9-9b7c-f4036a68f1d8",
 			"name": "crmopportunitystatus",
 			"description": "Opportunity Status"
+		},
+		{
+			"id": "632cafbf-7700-4490-871d-3af809779252",
+			"name": "crmcurrency",
+			"description": "Currency"
 		}
 	],
 	"jsclass": [],
@@ -91,164 +54,158 @@
 	"rulesengine": [],
 	"reports": [
 		{
-			"id": "4FFDE61E-CC60-EB11-A607-0003FF1E4706",
-			"name": "crm_contact_edit_child",
-			"description": "",
-			"application": "planet9_adaptive_edit"
-		},
-		{
-			"id": "B1457F95-CC60-EB11-A607-0003FF1E4706",
-			"name": "crm_opportunity_edit_child",
-			"description": "",
-			"application": "planet9_adaptive_edit"
-		},
-		{
-			"id": "89EFFBED-DC60-EB11-A607-0003FF1E4706",
-			"name": "crm_opportunity_analytic_chart",
-			"description": "",
-			"application": "planet9_adaptive_tile_chart"
-		},
-		{
-			"id": "1D62477A-DD60-EB11-A607-0003FF1E4706",
-			"name": "crm_opportunity_tile_chart",
-			"description": "",
-			"application": "planet9_adaptive_tile_chart"
-		},
-		{
-			"id": "60253577-178F-4819-BCFB-0F31C13EF28B",
-			"name": "crm_industry_edit",
-			"description": "",
-			"application": "planet9_adaptive_edit"
-		},
-		{
-			"id": "CD66AC29-C01C-4DC5-AFF4-10E6AED99ED7",
-			"name": "crm_country_edit",
-			"description": "",
-			"application": "planet9_adaptive_edit"
-		},
-		{
-			"id": "6ED49CBD-27EC-4E6E-ABA0-1893B66B8134",
-			"name": "crm_contact_list_child",
-			"description": "",
-			"application": "planet9_adaptive_list"
-		},
-		{
-			"id": "16810BD1-15FF-4B4B-ADF3-28AEADC048AD",
-			"name": "crm_opportunity_edit",
-			"description": "",
-			"application": "planet9_adaptive_edit"
-		},
-		{
-			"id": "2C27A2A4-EA47-41EA-8BE6-3060A7E6E127",
-			"name": "crm_account_type_list",
-			"description": "",
-			"application": "planet9_adaptive_list"
-		},
-		{
-			"id": "D5D0192C-02E9-4EDC-97B6-3231BAFACA3A",
-			"name": "crm_opportunity_status_list",
-			"description": "",
-			"application": "planet9_adaptive_list"
-		},
-		{
-			"id": "2DA7CB08-008D-4803-B986-3B3F551E308E",
-			"name": "crm_contact_tile_table",
-			"description": "",
-			"application": "planet9_adaptive_tile_table"
-		},
-		{
-			"id": "B53D6CAF-D126-48BA-A56D-615AA47EC85F",
-			"name": "crm_account_list",
-			"description": "",
-			"application": "planet9_adaptive_list"
-		},
-		{
-			"id": "47FEF3F6-B838-4959-B021-6D1FF1F3264D",
-			"name": "crm_account_details",
-			"description": "",
-			"application": "planet9_adaptive_edit"
-		},
-		{
-			"id": "2518DA10-D612-41B3-B53C-7B86F1FD1827",
-			"name": "crm_country_list",
-			"description": "",
-			"application": "planet9_adaptive_list"
-		},
-		{
-			"id": "1CCC5E00-E33E-4DA7-8A0C-9C0EA65DEDD3",
-			"name": "crm_opportunity_chart",
-			"description": "",
-			"application": "planet9_adaptive_tile_chart"
-		},
-		{
-			"id": "BAC2EA85-DB5E-4F20-B191-9E06D4F29EE3",
-			"name": "crm_account_tile_chart",
-			"description": "",
-			"application": "planet9_adaptive_tile_chart"
-		},
-		{
-			"id": "9D1BB1BF-0566-4EA9-9E5E-B254C23C964F",
-			"name": "crm_contact_list",
-			"description": "",
-			"application": "planet9_adaptive_list"
-		},
-		{
-			"id": "43C13FB2-B5E9-4E1E-92C9-BA8580C15F61",
-			"name": "crm_currency_edit",
-			"description": "",
-			"application": "planet9_adaptive_edit"
-		},
-		{
-			"id": "997EE454-0D68-4DFF-9DC5-BEC94F9ECD6F",
-			"name": "crm_opportunity_status_edit",
-			"description": "",
-			"application": "planet9_adaptive_edit"
-		},
-		{
-			"id": "4B655958-4B3A-4D94-B578-CAB7E0FBFCF5",
-			"name": "crm_account_type_edit",
-			"description": "",
-			"application": "planet9_adaptive_edit"
-		},
-		{
-			"id": "DAC0B4D5-5C23-4AD1-ABCB-CEEF6F304D2D",
+			"id": "dac0b4d5-5c23-4ad1-abcb-ceef6f304d2d",
 			"name": "crm_account_create",
 			"description": "",
 			"application": "planet9_adaptive_edit"
 		},
 		{
-			"id": "04BF6E0B-E600-419A-8F8A-D0755C02CD24",
-			"name": "crm_contact_create",
+			"id": "d5d0192c-02e9-4edc-97b6-3231bafaca3a",
+			"name": "crm_opportunity_status_list",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "cd66ac29-c01c-4dc5-aff4-10e6aed99ed7",
+			"name": "crm_country_edit",
 			"description": "",
 			"application": "planet9_adaptive_edit"
 		},
 		{
-			"id": "4DABB240-0D24-43B9-BC0B-D0EDB0039C9A",
-			"name": "crm_opportunity_analytic",
-			"description": "",
-			"application": "planet9_adaptive_bi"
-		},
-		{
-			"id": "C73D91FD-69C8-478B-8A38-D1F0FEC30B52",
+			"id": "c73d91fd-69c8-478b-8a38-d1f0fec30b52",
 			"name": "crm_opportunity_list_child",
 			"description": "",
 			"application": "planet9_adaptive_list"
 		},
 		{
-			"id": "6AA8BEE5-E3B3-4136-A1F9-E54216AFE085",
-			"name": "crm_opportunity_list",
-			"description": "",
-			"application": "planet9_adaptive_list"
-		},
-		{
-			"id": "B546505A-1BBA-4721-9A18-E9EEBBF6E185",
+			"id": "b546505a-1bba-4721-9a18-e9eebbf6e185",
 			"name": "crm_currency_list",
 			"description": "",
 			"application": "planet9_adaptive_list"
 		},
 		{
-			"id": "193590CD-FB4C-43D9-A6E1-EDEC506447ED",
+			"id": "b53d6caf-d126-48ba-a56d-615aa47ec85f",
+			"name": "crm_account_list",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "b1457f95-cc60-eb11-a607-0003ff1e4706",
+			"name": "crm_opportunity_edit_child",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "9d1bb1bf-0566-4ea9-9e5e-b254c23c964f",
+			"name": "crm_contact_list",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "997ee454-0d68-4dff-9dc5-bec94f9ecd6f",
+			"name": "crm_opportunity_status_edit",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "89effbed-dc60-eb11-a607-0003ff1e4706",
+			"name": "crm_opportunity_analytic_chart",
+			"description": "",
+			"application": "planet9_adaptive_tile_chart"
+		},
+		{
+			"id": "6ed49cbd-27ec-4e6e-aba0-1893b66b8134",
+			"name": "crm_contact_list_child",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "6aa8bee5-e3b3-4136-a1f9-e54216afe085",
+			"name": "crm_opportunity_list",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "60253577-178f-4819-bcfb-0f31c13ef28b",
+			"name": "crm_industry_edit",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "4ffde61e-cc60-eb11-a607-0003ff1e4706",
+			"name": "crm_contact_edit_child",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "4dabb240-0d24-43b9-bc0b-d0edb0039c9a",
+			"name": "crm_opportunity_analytic",
+			"description": "",
+			"application": "planet9_adaptive_bi"
+		},
+		{
+			"id": "4b655958-4b3a-4d94-b578-cab7e0fbfcf5",
+			"name": "crm_account_type_edit",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "47fef3f6-b838-4959-b021-6d1ff1f3264d",
+			"name": "crm_account_details",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "43c13fb2-b5e9-4e1e-92c9-ba8580c15f61",
+			"name": "crm_currency_edit",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "2da7cb08-008d-4803-b986-3b3f551e308e",
+			"name": "crm_contact_tile_table",
+			"description": "",
+			"application": "planet9_adaptive_tile_table"
+		},
+		{
+			"id": "2c27a2a4-ea47-41ea-8be6-3060a7e6e127",
+			"name": "crm_account_type_list",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "2518da10-d612-41b3-b53c-7b86f1fd1827",
+			"name": "crm_country_list",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "1d62477a-dd60-eb11-a607-0003ff1e4706",
+			"name": "crm_opportunity_tile_chart",
+			"description": "",
+			"application": "planet9_adaptive_tile_chart"
+		},
+		{
+			"id": "1ccc5e00-e33e-4da7-8a0c-9c0ea65dedd3",
+			"name": "crm_opportunity_chart",
+			"description": "",
+			"application": "planet9_adaptive_tile_chart"
+		},
+		{
+			"id": "193590cd-fb4c-43d9-a6e1-edec506447ed",
 			"name": "crm_contact_edit",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "16810bd1-15ff-4b4b-adf3-28aeadc048ad",
+			"name": "crm_opportunity_edit",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "04bf6e0b-e600-419a-8f8a-d0755c02cd24",
+			"name": "crm_contact_create",
 			"description": "",
 			"application": "planet9_adaptive_edit"
 		}
@@ -268,139 +225,141 @@
 	"wf_definition": [],
 	"connector": [
 		{
-			"id": "E4193E99-3964-ED11-819C-0022489E262F",
-			"name": "crm_account_create",
-			"description": ""
-		},
-		{
-			"id": "46BAAABD-3964-ED11-819C-0022489E262F",
-			"name": "crm_account_details",
-			"description": ""
-		},
-		{
-			"id": "34C260F8-3964-ED11-819C-0022489E262F",
-			"name": "crm_account_list",
-			"description": ""
-		},
-		{
-			"id": "37C260F8-3964-ED11-819C-0022489E262F",
-			"name": "crm_account_tile_chart",
-			"description": ""
-		},
-		{
-			"id": "A4CD5DFE-3964-ED11-819C-0022489E262F",
-			"name": "crm_account_type_edit",
-			"description": ""
-		},
-		{
-			"id": "F544790A-3A64-ED11-819C-0022489E262F",
-			"name": "crm_account_type_list",
-			"description": ""
-		},
-		{
-			"id": "F744790A-3A64-ED11-819C-0022489E262F",
-			"name": "crm_contact_create",
-			"description": ""
-		},
-		{
-			"id": "AC2F9911-3A64-ED11-819C-0022489E262F",
-			"name": "crm_contact_edit",
-			"description": ""
-		},
-		{
-			"id": "AE2F9911-3A64-ED11-819C-0022489E262F",
-			"name": "crm_contact_edit_child",
-			"description": ""
-		},
-		{
-			"id": "FBEE0E19-3A64-ED11-819C-0022489E262F",
-			"name": "crm_contact_list",
-			"description": ""
-		},
-		{
-			"id": "FDEE0E19-3A64-ED11-819C-0022489E262F",
+			"id": "fdee0e19-3a64-ed11-819c-0022489e262f",
 			"name": "crm_contact_list_child",
 			"description": ""
 		},
 		{
-			"id": "72666523-3A64-ED11-819C-0022489E262F",
-			"name": "crm_contact_tile_table",
+			"id": "fbee0e19-3a64-ed11-819c-0022489e262f",
+			"name": "crm_contact_list",
 			"description": ""
 		},
 		{
-			"id": "74666523-3A64-ED11-819C-0022489E262F",
-			"name": "crm_country_edit",
-			"description": ""
-		},
-		{
-			"id": "F88E422A-3A64-ED11-819C-0022489E262F",
-			"name": "crm_country_list",
-			"description": ""
-		},
-		{
-			"id": "FA8E422A-3A64-ED11-819C-0022489E262F",
+			"id": "fa8e422a-3a64-ed11-819c-0022489e262f",
 			"name": "crm_currency_edit",
 			"description": ""
 		},
 		{
-			"id": "A638E331-3A64-ED11-819C-0022489E262F",
-			"name": "crm_currency_list",
+			"id": "f88e422a-3a64-ed11-819c-0022489e262f",
+			"name": "crm_country_list",
 			"description": ""
 		},
 		{
-			"id": "A838E331-3A64-ED11-819C-0022489E262F",
-			"name": "crm_industry_edit",
+			"id": "f744790a-3a64-ed11-819c-0022489e262f",
+			"name": "crm_contact_create",
 			"description": ""
 		},
 		{
-			"id": "352B0E3A-3A64-ED11-819C-0022489E262F",
-			"name": "crm_opportunity_analytic",
+			"id": "f544790a-3a64-ed11-819c-0022489e262f",
+			"name": "crm_account_type_list",
 			"description": ""
 		},
 		{
-			"id": "372B0E3A-3A64-ED11-819C-0022489E262F",
-			"name": "crm_opportunity_analytic_chart",
+			"id": "e4193e99-3964-ed11-819c-0022489e262f",
+			"name": "crm_account_create",
 			"description": ""
 		},
 		{
-			"id": "99FAD441-3A64-ED11-819C-0022489E262F",
-			"name": "crm_opportunity_chart",
-			"description": ""
-		},
-		{
-			"id": "9BFAD441-3A64-ED11-819C-0022489E262F",
-			"name": "crm_opportunity_edit",
-			"description": ""
-		},
-		{
-			"id": "D5A9F948-3A64-ED11-819C-0022489E262F",
-			"name": "crm_opportunity_edit_child",
-			"description": ""
-		},
-		{
-			"id": "D7A9F948-3A64-ED11-819C-0022489E262F",
+			"id": "d7a9f948-3a64-ed11-819c-0022489e262f",
 			"name": "crm_opportunity_list",
 			"description": ""
 		},
 		{
-			"id": "7084C84F-3A64-ED11-819C-0022489E262F",
-			"name": "crm_opportunity_list_child",
+			"id": "d5a9f948-3a64-ed11-819c-0022489e262f",
+			"name": "crm_opportunity_edit_child",
 			"description": ""
 		},
 		{
-			"id": "7284C84F-3A64-ED11-819C-0022489E262F",
-			"name": "crm_opportunity_status_edit",
+			"id": "ae2f9911-3a64-ed11-819c-0022489e262f",
+			"name": "crm_contact_edit_child",
 			"description": ""
 		},
 		{
-			"id": "7484C84F-3A64-ED11-819C-0022489E262F",
+			"id": "ac2f9911-3a64-ed11-819c-0022489e262f",
+			"name": "crm_contact_edit",
+			"description": ""
+		},
+		{
+			"id": "a838e331-3a64-ed11-819c-0022489e262f",
+			"name": "crm_industry_edit",
+			"description": ""
+		},
+		{
+			"id": "a638e331-3a64-ed11-819c-0022489e262f",
+			"name": "crm_currency_list",
+			"description": ""
+		},
+		{
+			"id": "a4cd5dfe-3964-ed11-819c-0022489e262f",
+			"name": "crm_account_type_edit",
+			"description": ""
+		},
+		{
+			"id": "9bfad441-3a64-ed11-819c-0022489e262f",
+			"name": "crm_opportunity_edit",
+			"description": ""
+		},
+		{
+			"id": "99fad441-3a64-ed11-819c-0022489e262f",
+			"name": "crm_opportunity_chart",
+			"description": ""
+		},
+		{
+			"id": "7484c84f-3a64-ed11-819c-0022489e262f",
 			"name": "crm_opportunity_status_list",
 			"description": ""
 		},
 		{
-			"id": "4B7BD155-3A64-ED11-819C-0022489E262F",
+			"id": "74666523-3a64-ed11-819c-0022489e262f",
+			"name": "crm_country_edit",
+			"description": ""
+		},
+		{
+			"id": "7284c84f-3a64-ed11-819c-0022489e262f",
+			"name": "crm_opportunity_status_edit",
+			"description": ""
+		},
+		{
+			"id": "72666523-3a64-ed11-819c-0022489e262f",
+			"name": "crm_contact_tile_table",
+			"description": ""
+		},
+		{
+			"id": "7084c84f-3a64-ed11-819c-0022489e262f",
+			"name": "crm_opportunity_list_child",
+			"description": ""
+		},
+		{
+			"id": "4b7bd155-3a64-ed11-819c-0022489e262f",
 			"name": "crm_opportunity_tile_chart",
 			"description": ""
+		},
+		{
+			"id": "46baaabd-3964-ed11-819c-0022489e262f",
+			"name": "crm_account_details",
+			"description": ""
+		},
+		{
+			"id": "37c260f8-3964-ed11-819c-0022489e262f",
+			"name": "crm_account_tile_chart",
+			"description": ""
+		},
+		{
+			"id": "372b0e3a-3a64-ed11-819c-0022489e262f",
+			"name": "crm_opportunity_analytic_chart",
+			"description": ""
+		},
+		{
+			"id": "352b0e3a-3a64-ed11-819c-0022489e262f",
+			"name": "crm_opportunity_analytic",
+			"description": ""
+		},
+		{
+			"id": "34c260f8-3964-ed11-819c-0022489e262f",
+			"name": "crm_account_list",
+			"description": ""
 		}
-	]
+	],
+	"events": [],
+	"media_library": []
 }
