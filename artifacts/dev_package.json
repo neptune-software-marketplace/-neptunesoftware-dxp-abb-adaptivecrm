@@ -213,8 +213,20 @@
 	"api_authentication": [],
 	"api_group": [],
 	"tile": [],
-	"category": [],
-	"launchpad": [],
+	"category": [
+		{
+			"id": "35065344-7aac-ed11-ba77-14cb650ba16e",
+			"description": null,
+			"name": "CRM_TileGroup"
+		}
+	],
+	"launchpad": [
+		{
+			"id": "795d6e08-7aac-ed11-ba77-14cb650ba16e",
+			"name": "CRM_launchpad",
+			"description": null
+		}
+	],
 	"certificates": [],
 	"role": [],
 	"systems": [],

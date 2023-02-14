@@ -1,0 +1,82 @@
+[
+	{
+		"id": "c5dcd923-e1d0-4693-ba7c-63259d89ef21",
+		"createdAt": "1637598638393",
+		"updatedAt": "1676306607236",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"country": "DK",
+		"name": "Denmark",
+		"flagurl": "https://dxpdemo.neptune-software.cloud/media/root/CRM/denmark_icon.jpg"
+	},
+	{
+		"id": "c0c331f9-efc9-47ce-b2d2-5ed784de038b",
+		"createdAt": "1637598638393",
+		"updatedAt": "1676306607236",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"country": "DE",
+		"name": "Germany",
+		"flagurl": "https://dxpdemo.neptune-software.cloud/media/root/CRM/germany_icon.jpg"
+	},
+	{
+		"id": "857abddb-9ad9-4a17-a937-d00fcb321492",
+		"createdAt": "1637598638393",
+		"updatedAt": "1676306607236",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"country": "UK",
+		"name": "England",
+		"flagurl": "https://dxpdemo.neptune-software.cloud/media/root/CRM/england_icon.jpg"
+	},
+	{
+		"id": "66cb3545-6bc7-4547-96f6-3e0843fcdbfc",
+		"createdAt": "1637598638393",
+		"updatedAt": "1676306607236",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"country": "US",
+		"name": "USA",
+		"flagurl": "https://dxpdemo.neptune-software.cloud/media/root/CRM/USA_icon.jpg"
+	},
+	{
+		"id": "63d51025-5369-45d3-a192-1527d474b68a",
+		"createdAt": "1637598638393",
+		"updatedAt": "1676306607236",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"country": "NO",
+		"name": "Norway",
+		"flagurl": "https://dxpdemo.neptune-software.cloud/media/root/CRM/no.svg"
+	},
+	{
+		"id": "5815586f-e857-45f4-a3e1-d99c08b8328f",
+		"createdAt": "1637598638393",
+		"updatedAt": "1676306607236",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"country": "ES",
+		"name": "Spain",
+		"flagurl": "https://dxpdemo.neptune-software.cloud/media/root/CRM/spain_icon.jpg"
+	},
+	{
+		"id": "3bc1df76-9525-4210-b686-1a9b6084d62e",
+		"createdAt": "1637598638393",
+		"updatedAt": "1676306607236",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"country": "SE",
+		"name": "Sweden",
+		"flagurl": "https://dxpdemo.neptune-software.cloud/media/root/CRM/sweden_icon.jpg"
+	},
+	{
+		"id": "08066cbd-f62f-4892-a3d5-51691816debb",
+		"createdAt": "1637598638393",
+		"updatedAt": "1676306607236",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"country": "FR",
+		"name": "France",
+		"flagurl": "https://dxpdemo.neptune-software.cloud/media/root/CRM/france_icon.jpg"
+	}
+]

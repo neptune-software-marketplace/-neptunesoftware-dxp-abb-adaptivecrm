@@ -1,0 +1,76 @@
+{
+	"id": "795d6e08-7aac-ed11-ba77-14cb650ba16e",
+	"createdAt": "2023-02-14T15:12:45.610Z",
+	"createdBy": "cezar.strugariu@neptune-software.com",
+	"extUserRoles": [],
+	"extUserDepartments": [],
+	"catOrder": [
+		"35065344-7aac-ed11-ba77-14cb650ba16e"
+	],
+	"layout": [
+		{
+			"id": "a4e97edb-f610-4041-cdba-c1a9da6c33af",
+			"css": "",
+			"name": "CRM",
+			"active": true,
+			"style": "<style></style>",
+			"shellContentWidth": "XXLarge"
+		}
+	],
+	"config": {
+		"enhancement": ""
+	},
+	"enhancement": [],
+	"name": "CRM_launchpad",
+	"title": "CRM",
+	"description": null,
+	"startApp": null,
+	"startWebApp": null,
+	"customLogo": null,
+	"launchpadApp": "planet9_launchpad_standard",
+	"hideSidemenu": false,
+	"ui5Version": null,
+	"ui5Url": null,
+	"ui5Theme": null,
+	"header": null,
+	"customTheme": null,
+	"isExternal": false,
+	"emailPattern": null,
+	"loginApp": null,
+	"enableNotifications": false,
+	"firebaseProjectId": null,
+	"firebaseAppId": null,
+	"defaultLoginIDP": null,
+	"publicAccess": false,
+	"css": null,
+	"clientRequestTimeout": 120,
+	"limitWidth": false,
+	"searchBackgroundType": null,
+	"searchBackgroundColor": null,
+	"searchBackgroundShade": null,
+	"usedBackgroundType": null,
+	"usedBackgroundColor": null,
+	"usedBackgroundShade": null,
+	"searchEnableShadeCalc": null,
+	"usedEnableShadeCalc": null,
+	"enableTrace": false,
+	"ver": "23.2.14.1519",
+	"pwa_enable": false,
+	"pwa_customImageIos": null,
+	"pwa_customImageAndroidOld": null,
+	"pwa_customImageAndroidNew": null,
+	"pwa_displayMode": null,
+	"pwa_themeColor": null,
+	"pwa_backgroundColor": null,
+	"passwordResetEmail": null,
+	"activationCodeEmail": null,
+	"package": "07d276d9-3599-4fb0-8b3b-65a908201234",
+	"cat": [
+		{
+			"id": "35065344-7aac-ed11-ba77-14cb650ba16e",
+			"name": "CRM_TileGroup",
+			"title": "CRM",
+			"ver": "23.2.14.1516"
+		}
+	]
+}
