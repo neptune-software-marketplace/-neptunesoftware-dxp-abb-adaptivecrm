@@ -1,0 +1,76 @@
+{
+	"id": "1e37c246-1240-420f-bb42-60f8a477c905",
+	"createdAt": "2021-01-27T09:59:04.680Z",
+	"createdBy": "oah",
+	"fields": [
+		{
+			"id": "aefdea35-0571-45b3-8128-03d77d4a5004",
+			"fieldName": "accountid",
+			"fieldType": "text",
+			"description": "Account ID",
+			"isNullable": false
+		},
+		{
+			"id": "d3428643-b303-4020-e8e5-63ebf9db86e9",
+			"fieldName": "name",
+			"fieldType": "text",
+			"description": "Name"
+		},
+		{
+			"id": "69c5c26b-541b-4d76-c46c-91ee1db8cf35",
+			"fieldName": "street",
+			"fieldType": "text",
+			"description": "Street",
+			"isNullable": true
+		},
+		{
+			"id": "1bc2a560-b846-4736-c149-4af70534dabe",
+			"fieldName": "zip",
+			"fieldType": "text",
+			"description": "ZIP",
+			"isNullable": true
+		},
+		{
+			"id": "5863cd21-266c-4981-b832-029c6794b197",
+			"fieldName": "city",
+			"fieldType": "text",
+			"description": "City",
+			"isNullable": true
+		},
+		{
+			"id": "ad6e8b63-4acd-4a1e-a4e1-7b95ad32a05b",
+			"fieldName": "country",
+			"fieldType": "text",
+			"description": "Country"
+		},
+		{
+			"id": "c657664b-37bd-4a24-e2ee-3ebcaefc9a97",
+			"fieldName": "type",
+			"fieldType": "smallint",
+			"description": "Type"
+		},
+		{
+			"id": "8ebd14f8-9d03-44e7-beb6-a56f75cb1007",
+			"fieldName": "industry",
+			"fieldType": "smallint",
+			"description": "Industry "
+		},
+		{
+			"id": "92f06a0c-b290-4796-e446-65d72592d216",
+			"fieldName": "ispartner",
+			"fieldType": "boolean",
+			"description": "Is Partner",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "crmaccount",
+	"description": "Account",
+	"ver": "23.2.15.938",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "07d276d9-3599-4fb0-8b3b-65a908201234",
+	"rolesRead": [],
+	"rolesWrite": []
+}

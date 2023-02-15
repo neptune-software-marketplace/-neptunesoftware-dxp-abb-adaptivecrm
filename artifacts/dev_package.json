@@ -27,6 +27,11 @@
 			"description": "Opportunity"
 		},
 		{
+			"id": "aa65c1e2-5c3f-4ddd-801f-95267da804a4",
+			"name": "crmindustry",
+			"description": "Industry"
+		},
+		{
 			"id": "94c614c4-8760-eb11-a607-0003ff1e4706",
 			"name": "crmcountry",
 			"description": "Country"
@@ -45,6 +50,11 @@
 			"id": "632cafbf-7700-4490-871d-3af809779252",
 			"name": "crmcurrency",
 			"description": "Currency"
+		},
+		{
+			"id": "1e37c246-1240-420f-bb42-60f8a477c905",
+			"name": "crmaccount",
+			"description": "Account"
 		}
 	],
 	"jsclass": [],

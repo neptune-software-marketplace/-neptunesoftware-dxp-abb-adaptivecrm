@@ -1,0 +1,30 @@
+{
+	"id": "aa65c1e2-5c3f-4ddd-801f-95267da804a4",
+	"createdAt": "2021-01-27T09:59:06.160Z",
+	"createdBy": "oah",
+	"fields": [
+		{
+			"id": "ec6025ce-ec5a-41c8-d213-183aa71324f9",
+			"fieldName": "industry",
+			"fieldType": "smallint",
+			"description": "Industry",
+			"isUnique": true
+		},
+		{
+			"id": "345023cd-0c37-4fbf-f42b-f5257965b308",
+			"fieldName": "name",
+			"fieldType": "text",
+			"description": "Name"
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "crmindustry",
+	"description": "Industry",
+	"ver": "23.2.15.939",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "07d276d9-3599-4fb0-8b3b-65a908201234",
+	"rolesRead": [],
+	"rolesWrite": []
+}
