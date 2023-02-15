@@ -1,20 +1,15 @@
 {
-	"id": "35065344-7aac-ed11-ba77-14cb650ba16e",
-	"createdAt": "2023-02-14T15:14:26.130Z",
-	"createdBy": "cezar.strugariu@neptune-software.com",
+	"id": "0ef66869-2f89-48a8-8720-8867fe8805c9",
+	"createdAt": "2021-01-27T10:01:04.223Z",
+	"createdBy": "oah",
 	"translation": [],
-	"tilesOrder": [],
-	"tilegroupsOrder": [
-		"6247be74-f616-ec11-ae72-0050f255283a",
-		"f1c81d87-3424-4d08-afbe-56e3ad69982f",
-		"0ef66869-2f89-48a8-8720-8867fe8805c9",
-		"387230a5-8024-4d1a-9bfe-db99a8e45003"
+	"tilesOrder": [
+		"d9681ab1-0e38-4724-b1b1-f8fa22c67031"
 	],
-	"configMessage": {
-		"type": "None"
-	},
-	"title": "CRM",
-	"subTitle": null,
+	"tilegroupsOrder": [],
+	"configMessage": {},
+	"title": "Sales Analytic",
+	"subTitle": "",
 	"description": null,
 	"titleAlignment": null,
 	"enableFullScreen": false,
@@ -32,7 +27,7 @@
 	"enableShadeCalc": false,
 	"numTiles": null,
 	"enableMessage": false,
-	"ver": "23.2.14.1516",
+	"ver": "23.2.15.1216",
 	"headColor": null,
 	"headTxtClr": null,
 	"subheadTxtClr": null,
@@ -46,7 +41,7 @@
 	"imageMobileHeight": null,
 	"imageTabletHeight": null,
 	"imageHeight": null,
-	"name": "CRM_TileGroup",
+	"name": "CRM Analytic",
 	"cardContentWidth": null,
 	"cardContentAlign": null,
 	"cardPerRow": null,
@@ -65,31 +60,13 @@
 	"roleTag": null,
 	"package": "07d276d9-3599-4fb0-8b3b-65a908201234",
 	"roles": [],
-	"tiles": [],
-	"tilegroups": [
+	"tiles": [
 		{
-			"id": "f1c81d87-3424-4d08-afbe-56e3ad69982f",
-			"name": "CRM Showcase",
-			"title": "Sales",
-			"ver": "23.2.15.1216"
-		},
-		{
-			"id": "6247be74-f616-ec11-ae72-0050f255283a",
-			"name": "CRM Applications",
-			"title": "Sales Applications",
-			"ver": "23.2.15.1222"
-		},
-		{
-			"id": "387230a5-8024-4d1a-9bfe-db99a8e45003",
-			"name": "CRM Master Data",
-			"title": "Sales Master Data",
+			"id": "d9681ab1-0e38-4724-b1b1-f8fa22c67031",
+			"name": "Sales Opportunity Analytic",
+			"title": "Opportunity ",
 			"ver": "23.2.15.1217"
-		},
-		{
-			"id": "0ef66869-2f89-48a8-8720-8867fe8805c9",
-			"name": "CRM Analytic",
-			"title": "Sales Analytic",
-			"ver": "23.2.15.1216"
 		}
-	]
+	],
+	"tilegroups": []
 }
