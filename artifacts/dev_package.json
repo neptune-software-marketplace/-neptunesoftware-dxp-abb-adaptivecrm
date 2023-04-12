@@ -64,6 +64,12 @@
 	"rulesengine": [],
 	"reports": [
 		{
+			"id": "fe262460-bc0e-4f66-abfd-ace3988f89cf",
+			"name": "crm_industry_list",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
 			"id": "dac0b4d5-5c23-4ad1-abcb-ceef6f304d2d",
 			"name": "crm_account_create",
 			"description": "",
@@ -390,7 +396,7 @@
 		},
 		{
 			"id": "a838e331-3a64-ed11-819c-0022489e262f",
-			"name": "crm_industry_edit",
+			"name": "crm_industry",
 			"description": ""
 		},
 		{
