@@ -63,28 +63,29 @@
 				"enableTab1": true,
 				"enableTab2": true,
 				"enableTab3": false,
-				"enableTab4": true,
+				"enableTab4": false,
 				"enableTab5": false,
 				"tab3Text": "Sales",
-				"tab4Text": "Analytic",
+				"tab4Text": "",
 				"tab5Text": "Tab 2",
 				"tab3Icon": "",
 				"showIcon": true,
-				"_tab4Nav": {
-					"destinationType": "F",
-					"openAs": "P",
-					"butType": "Accept",
-					"destinationTargetF": "7deb9566-5561-eb11-a607-0003ff1e4706",
-					"keyField": [
-						{
-							"fieldName": "accountid",
-							"key": "accountid",
-							"value": ""
-						}
-					]
-				},
 				"textToastSave": "Saved",
-				"enableClose": true
+				"enableClose": true,
+				"actionButtonLeft": false,
+				"iconButtonDelete": "",
+				"textButtonDelete": "Delete",
+				"textToastDelete": "Deleted",
+				"typeButtonDelete": "Reject",
+				"iconButtonAttachment": "",
+				"textButtonAttachment": "Add Attachment",
+				"typeButtonAttachment": "Transparent",
+				"tabAText": "Attachment",
+				"enableSave": true,
+				"enableDelete": false,
+				"enableAttachment": false,
+				"enableUppercase": false,
+				"enablePadding": true
 			},
 			"form": {
 				"enableCompact": false,
@@ -100,21 +101,6 @@
 				"type": "text"
 			},
 			{
-				"name": "name",
-				"label": "Name",
-				"type": "text"
-			},
-			{
-				"name": "street",
-				"label": "Street",
-				"type": "text"
-			},
-			{
-				"name": "zip",
-				"label": "ZIP",
-				"type": "text"
-			},
-			{
 				"name": "city",
 				"label": "City",
 				"type": "text"
@@ -125,13 +111,33 @@
 				"type": "text"
 			},
 			{
-				"name": "type",
-				"label": "Type",
-				"type": "smallint"
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text"
 			},
 			{
 				"name": "industry",
 				"label": "Industry ",
+				"type": "smallint"
+			},
+			{
+				"name": "name",
+				"label": "Name",
+				"type": "text"
+			},
+			{
+				"name": "street",
+				"label": "Street",
+				"type": "text"
+			},
+			{
+				"name": "type",
+				"label": "Type",
 				"type": "smallint"
 			},
 			{
@@ -145,13 +151,8 @@
 				"type": "text"
 			},
 			{
-				"name": "createdAt",
-				"label": "Created At",
-				"type": "timestamp"
-			},
-			{
-				"name": "createdBy",
-				"label": "Created By",
+				"name": "zip",
+				"label": "ZIP",
 				"type": "text"
 			}
 		],
@@ -285,7 +286,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": "1e37c246-1240-420f-bb42-60f8a477c905",
-	"ver": "22.11.14.1631",
+	"ver": "23.4.12.111",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_edit",
