@@ -18,7 +18,10 @@
 				"enableClose": false
 			},
 			"form": {},
-			"table": {}
+			"table": {
+				"showRowTotal": true,
+				"showColTotal": true
+			}
 		},
 		"fieldCatalog": [
 			{
@@ -99,7 +102,7 @@
 			},
 			{
 				"text": "Updated At",
-				"type": "DateRange",
+				"type": "DatePicker",
 				"required": false,
 				"visible": true,
 				"name": "updatedAt",
@@ -273,7 +276,7 @@
 			"rendererName": "Table",
 			"aggregatorName": "Integer Sum"
 		},
-		"id": "4DABB240-0D24-43B9-BC0B-D0EDB0039C9A"
+		"id": "4dabb240-0d24-43b9-bc0b-d0edb0039c9a"
 	},
 	"name": "crm_opportunity_analytic",
 	"description": "",
@@ -283,7 +286,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": "b68943ff-0f43-4438-b2e0-2e9bb9f58d14",
-	"ver": "22.11.14.1634",
+	"ver": "23.4.12.1048",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_bi",
