@@ -42,62 +42,80 @@
 			{
 				"name": "accountid",
 				"label": "Account ID",
-				"type": "text"
-			},
-			{
-				"name": "city",
-				"label": "City",
-				"type": "text"
-			},
-			{
-				"name": "country",
-				"label": "Country",
-				"type": "text"
-			},
-			{
-				"name": "createdAt",
-				"label": "Created At",
-				"type": "timestamp"
-			},
-			{
-				"name": "createdBy",
-				"label": "Created By",
-				"type": "text"
-			},
-			{
-				"name": "industry",
-				"label": "Industry ",
-				"type": "smallint"
+				"type": "text",
+				"usage": "BOTH"
 			},
 			{
 				"name": "name",
 				"label": "Name",
-				"type": "text"
+				"type": "text",
+				"usage": "BOTH"
 			},
 			{
 				"name": "street",
 				"label": "Street",
-				"type": "text"
-			},
-			{
-				"name": "type",
-				"label": "Type",
-				"type": "smallint"
-			},
-			{
-				"name": "updatedAt",
-				"label": "Updated At",
-				"type": "timestamp"
-			},
-			{
-				"name": "updatedBy",
-				"label": "Updated By",
-				"type": "text"
+				"type": "text",
+				"usage": "BOTH"
 			},
 			{
 				"name": "zip",
 				"label": "ZIP",
-				"type": "text"
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "city",
+				"label": "City",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "country",
+				"label": "Country",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "type",
+				"label": "Type",
+				"type": "smallint",
+				"usage": "BOTH"
+			},
+			{
+				"name": "industry",
+				"label": "Industry ",
+				"type": "smallint",
+				"usage": "BOTH"
+			},
+			{
+				"name": "ispartner",
+				"label": "Is Partner",
+				"type": "boolean",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
 			}
 		],
 		"fieldsSel": [],
@@ -154,11 +172,11 @@
 	"description": "",
 	"group": "",
 	"type": "C",
-	"connectorid": "db92d919-0d70-ed11-9f60-0022489e239a",
+	"connectorid": "37c260f8-3964-ed11-819c-0022489e262f",
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": "1e37c246-1240-420f-bb42-60f8a477c905",
-	"ver": "23.4.12.841",
+	"ver": "23.4.12.910",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_tile_chart",
