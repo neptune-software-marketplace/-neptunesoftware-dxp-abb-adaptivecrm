@@ -34,14 +34,14 @@
 					"destinationType": "F",
 					"openAs": "D",
 					"butType": "Accept",
-					"destinationTargetF": "CD66AC29-C01C-4DC5-AFF4-10E6AED99ED7",
+					"destinationTargetF": "cd66ac29-c01c-4dc5-aff4-10e6aed99ed7",
 					"keyField": []
 				},
 				"_navigationItemPress": {
 					"destinationType": "F",
 					"openAs": "D",
 					"butType": "Accept",
-					"destinationTargetF": "D8758A72-99BC-EB11-A7AC-A085FCBC9F85",
+					"destinationTargetF": "d8758a72-99bc-eb11-a7ac-a085fcbc9f85",
 					"keyField": [
 						{
 							"fieldName": "CountryCode",

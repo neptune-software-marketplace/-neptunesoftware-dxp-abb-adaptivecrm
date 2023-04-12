@@ -6,8 +6,8 @@
 	"storeItem": {},
 	"settings": {
 		"adaptive": {
-			"id": "4DABB240-0D24-43B9-BC0B-D0EDB0039C9A",
-			"idTile": "89EFFBED-DC60-EB11-A607-0003FF1E4706"
+			"id": "4dabb240-0d24-43b9-bc0b-d0edb0039c9a",
+			"idTile": "89effbed-dc60-eb11-a607-0003ff1e4706"
 		}
 	},
 	"title": "Opportunity ",
@@ -80,6 +80,7 @@
 	"roleTag": null,
 	"sapICFNode": null,
 	"actionType": "F",
+	"cockpitTile": false,
 	"package": "07d276d9-3599-4fb0-8b3b-65a908201234",
 	"roles": []
 }

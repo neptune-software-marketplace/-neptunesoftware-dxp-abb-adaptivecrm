@@ -6,7 +6,7 @@
 	"storeItem": {},
 	"settings": {
 		"adaptive": {
-			"id": "2C27A2A4-EA47-41EA-8BE6-3060A7E6E127"
+			"id": "2c27a2a4-ea47-41ea-8be6-3060a7e6e127"
 		}
 	},
 	"title": "Account Type",
@@ -79,6 +79,7 @@
 	"roleTag": null,
 	"sapICFNode": null,
 	"actionType": "F",
+	"cockpitTile": false,
 	"package": "07d276d9-3599-4fb0-8b3b-65a908201234",
 	"roles": []
 }

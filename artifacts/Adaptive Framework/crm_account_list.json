@@ -34,7 +34,7 @@
 					"destinationType": "F",
 					"openAs": "D",
 					"butType": "Accept",
-					"destinationTargetF": "47FEF3F6-B838-4959-B021-6D1FF1F3264D",
+					"destinationTargetF": "47fef3f6-b838-4959-b021-6d1ff1f3264d",
 					"keyField": [
 						{
 							"fieldName": "name",
@@ -49,7 +49,7 @@
 					"destinationType": "F",
 					"openAs": "P",
 					"butType": "Accept",
-					"destinationTargetF": "DAC0B4D5-5C23-4AD1-ABCB-CEEF6F304D2D",
+					"destinationTargetF": "dac0b4d5-5c23-4ad1-abcb-ceef6f304d2d",
 					"keyField": []
 				},
 				"enableRun": true,

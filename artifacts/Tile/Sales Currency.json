@@ -6,7 +6,7 @@
 	"storeItem": {},
 	"settings": {
 		"adaptive": {
-			"id": "B546505A-1BBA-4721-9A18-E9EEBBF6E185"
+			"id": "b546505a-1bba-4721-9a18-e9eebbf6e185"
 		}
 	},
 	"title": "Currency",
@@ -79,6 +79,7 @@
 	"roleTag": null,
 	"sapICFNode": null,
 	"actionType": "F",
+	"cockpitTile": false,
 	"package": "07d276d9-3599-4fb0-8b3b-65a908201234",
 	"roles": []
 }

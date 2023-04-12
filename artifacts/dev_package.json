@@ -88,6 +88,12 @@
 			"application": "planet9_adaptive_list"
 		},
 		{
+			"id": "bac2ea85-db5e-4f20-b191-9e06d4f29ee3",
+			"name": "crm_account_tile_chart",
+			"description": "",
+			"application": "planet9_adaptive_tile_chart"
+		},
+		{
 			"id": "b546505a-1bba-4721-9a18-e9eebbf6e185",
 			"name": "crm_currency_list",
 			"description": "",
@@ -464,5 +470,8 @@
 		}
 	],
 	"events": [],
-	"media_library": []
+	"media_library": [],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": []
 }

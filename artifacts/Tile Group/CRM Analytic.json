@@ -58,6 +58,7 @@
 	"imageMobileSize": null,
 	"hideFromMenu": false,
 	"roleTag": null,
+	"cockpitTileGroup": false,
 	"package": "07d276d9-3599-4fb0-8b3b-65a908201234",
 	"roles": [],
 	"tiles": [

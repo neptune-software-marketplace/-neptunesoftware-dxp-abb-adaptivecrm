@@ -6,7 +6,7 @@
 	"storeItem": {},
 	"settings": {
 		"adaptive": {
-			"id": "D5D0192C-02E9-4EDC-97B6-3231BAFACA3A"
+			"id": "d5d0192c-02e9-4edc-97b6-3231bafaca3a"
 		}
 	},
 	"title": "Opportunity Status",
@@ -79,6 +79,7 @@
 	"roleTag": null,
 	"sapICFNode": null,
 	"actionType": "F",
+	"cockpitTile": false,
 	"package": "07d276d9-3599-4fb0-8b3b-65a908201234",
 	"roles": []
 }

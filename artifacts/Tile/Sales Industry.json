@@ -6,7 +6,7 @@
 	"storeItem": {},
 	"settings": {
 		"adaptive": {
-			"id": "60253577-178F-4819-BCFB-0F31C13EF28B"
+			"id": "60253577-178f-4819-bcfb-0f31c13ef28b"
 		}
 	},
 	"title": "Industry",
@@ -79,6 +79,7 @@
 	"roleTag": null,
 	"sapICFNode": null,
 	"actionType": "F",
+	"cockpitTile": false,
 	"package": "07d276d9-3599-4fb0-8b3b-65a908201234",
 	"roles": []
 }

@@ -6,8 +6,8 @@
 	"storeItem": {},
 	"settings": {
 		"adaptive": {
-			"id": "9D1BB1BF-0566-4EA9-9E5E-B254C23C964F",
-			"idTile": "2DA7CB08-008D-4803-B986-3B3F551E308E"
+			"id": "9d1bb1bf-0566-4ea9-9e5e-b254c23c964f",
+			"idTile": "2da7cb08-008d-4803-b986-3b3f551e308e"
 		}
 	},
 	"title": "Contact",
@@ -80,6 +80,7 @@
 	"roleTag": null,
 	"sapICFNode": null,
 	"actionType": "F",
+	"cockpitTile": false,
 	"package": "07d276d9-3599-4fb0-8b3b-65a908201234",
 	"roles": []
 }

@@ -34,7 +34,7 @@
 					"destinationType": "F",
 					"openAs": "D",
 					"butType": "Accept",
-					"destinationTargetF": "4FFDE61E-CC60-EB11-A607-0003FF1E4706",
+					"destinationTargetF": "4ffde61e-cc60-eb11-a607-0003ff1e4706",
 					"keyField": [
 						{
 							"fieldName": "accountid",
@@ -48,7 +48,7 @@
 					"destinationType": "F",
 					"openAs": "D",
 					"butType": "Accept",
-					"destinationTargetF": "4FFDE61E-CC60-EB11-A607-0003FF1E4706",
+					"destinationTargetF": "4ffde61e-cc60-eb11-a607-0003ff1e4706",
 					"keyField": [],
 					"dialogHeight": "900px"
 				},

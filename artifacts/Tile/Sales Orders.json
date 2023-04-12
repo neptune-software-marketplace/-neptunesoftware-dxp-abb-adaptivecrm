@@ -6,8 +6,8 @@
 	"storeItem": {},
 	"settings": {
 		"adaptive": {
-			"id": "6AA8BEE5-E3B3-4136-A1F9-E54216AFE085",
-			"idTile": "89EFFBED-DC60-EB11-A607-0003FF1E4706"
+			"id": "6aa8bee5-e3b3-4136-a1f9-e54216afe085",
+			"idTile": "89effbed-dc60-eb11-a607-0003ff1e4706"
 		}
 	},
 	"title": "Sales Orders",
@@ -80,6 +80,7 @@
 	"roleTag": null,
 	"sapICFNode": null,
 	"actionType": "F",
+	"cockpitTile": false,
 	"package": "07d276d9-3599-4fb0-8b3b-65a908201234",
 	"roles": []
 }

@@ -6,7 +6,7 @@
 	"storeItem": {},
 	"settings": {
 		"adaptive": {
-			"id": "2518DA10-D612-41B3-B53C-7B86F1FD1827"
+			"id": "2518da10-d612-41b3-b53c-7b86f1fd1827"
 		}
 	},
 	"title": "Country",
@@ -79,6 +79,7 @@
 	"roleTag": null,
 	"sapICFNode": null,
 	"actionType": "F",
+	"cockpitTile": false,
 	"package": "07d276d9-3599-4fb0-8b3b-65a908201234",
 	"roles": []
 }

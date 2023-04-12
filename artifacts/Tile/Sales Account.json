@@ -6,8 +6,8 @@
 	"storeItem": {},
 	"settings": {
 		"adaptive": {
-			"id": "B53D6CAF-D126-48BA-A56D-615AA47EC85F",
-			"idTile": "BAC2EA85-DB5E-4F20-B191-9E06D4F29EE3"
+			"id": "b53d6caf-d126-48ba-a56d-615aa47ec85f",
+			"idTile": "bac2ea85-db5e-4f20-b191-9e06d4f29ee3"
 		}
 	},
 	"title": "Account",
@@ -80,6 +80,7 @@
 	"roleTag": null,
 	"sapICFNode": null,
 	"actionType": "F",
+	"cockpitTile": false,
 	"package": "07d276d9-3599-4fb0-8b3b-65a908201234",
 	"roles": []
 }

@@ -34,14 +34,14 @@
 					"destinationType": "F",
 					"openAs": "P",
 					"butType": "Accept",
-					"destinationTargetF": "16810BD1-15FF-4B4B-ADF3-28AEADC048AD",
+					"destinationTargetF": "16810bd1-15ff-4b4b-adf3-28aeadc048ad",
 					"keyField": []
 				},
 				"_navigationItemPress": {
 					"destinationType": "F",
 					"openAs": "P",
 					"butType": "Accept",
-					"destinationTargetF": "16810BD1-15FF-4B4B-ADF3-28AEADC048AD",
+					"destinationTargetF": "16810bd1-15ff-4b4b-adf3-28aeadc048ad",
 					"keyField": []
 				},
 				"enableRun": true,
@@ -53,7 +53,8 @@
 				"enableImport": false,
 				"enableVariant": false,
 				"searchLabel": "Search",
-				"searchPlaceholder": ""
+				"searchPlaceholder": "",
+				"actionButtonLeft": false
 			},
 			"form": {
 				"enableCompact": false,
@@ -76,59 +77,70 @@
 				"action3Type": "Transparent",
 				"enableAction1": false,
 				"enableAction2": false,
-				"enableAction3": false
+				"enableAction3": false,
+				"showSeparators": "All"
 			}
 		},
 		"fieldCatalog": [
 			{
 				"name": "accountid",
 				"label": "Account",
-				"type": "text"
-			},
-			{
-				"name": "createdAt",
-				"label": "Created At",
-				"type": "timestamp"
-			},
-			{
-				"name": "createdBy",
-				"label": "Created By",
-				"type": "text"
-			},
-			{
-				"name": "currency",
-				"label": "Currency",
-				"type": "text"
-			},
-			{
-				"name": "description",
-				"label": "Description",
-				"type": "text"
+				"type": "text",
+				"usage": "BOTH"
 			},
 			{
 				"name": "name",
 				"label": "Name",
-				"type": "text"
+				"type": "text",
+				"usage": "BOTH"
 			},
 			{
-				"name": "status",
-				"label": "Status",
-				"type": "smallint"
-			},
-			{
-				"name": "updatedAt",
-				"label": "Updated At",
-				"type": "timestamp"
-			},
-			{
-				"name": "updatedBy",
-				"label": "Updated By",
-				"type": "text"
+				"name": "description",
+				"label": "Description",
+				"type": "text",
+				"usage": "BOTH"
 			},
 			{
 				"name": "value",
 				"label": "Value",
-				"type": "decimal"
+				"type": "decimal",
+				"usage": "BOTH"
+			},
+			{
+				"name": "currency",
+				"label": "Currency",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "status",
+				"label": "Status",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
 			}
 		],
 		"fieldsSel": [
@@ -253,7 +265,7 @@
 					"butType": "Accept"
 				},
 				"hAlign": "",
-				"type": "",
+				"type": "ObjectStatus",
 				"objectStatusIcon": "sap-icon://fa-solid/info-circle",
 				"objectStatusState": "45A322FD-510F-4843-9C07-5F7D6F200901",
 				"valueType": "Lookup",
@@ -269,7 +281,9 @@
 					],
 					"hideKey": true,
 					"butType": "Accept"
-				}
+				},
+				"statusStateType": "Rule",
+				"statusStateRule": "45A322FD-510F-4843-9C07-5F7D6F200901"
 			},
 			{
 				"text": "Currency",
@@ -342,7 +356,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": "b68943ff-0f43-4438-b2e0-2e9bb9f58d14",
-	"ver": "22.11.14.1635",
+	"ver": "23.2.21.116",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_list",

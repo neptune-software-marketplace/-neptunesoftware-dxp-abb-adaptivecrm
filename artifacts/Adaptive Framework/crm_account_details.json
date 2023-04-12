@@ -33,7 +33,7 @@
 					"destinationType": "F",
 					"openAs": "P",
 					"butType": "Accept",
-					"destinationTargetF": "C73D91FD-69C8-478B-8A38-D1F0FEC30B52",
+					"destinationTargetF": "c73d91fd-69c8-478b-8a38-d1f0fec30b52",
 					"keyField": [
 						{
 							"fieldName": "accountid",
@@ -49,7 +49,7 @@
 					"destinationType": "F",
 					"openAs": "P",
 					"butType": "Accept",
-					"destinationTargetF": "6ED49CBD-27EC-4E6E-ABA0-1893B66B8134",
+					"destinationTargetF": "6ed49cbd-27ec-4e6e-aba0-1893b66b8134",
 					"keyField": [
 						{
 							"fieldName": "accountid",
@@ -74,7 +74,7 @@
 					"destinationType": "F",
 					"openAs": "P",
 					"butType": "Accept",
-					"destinationTargetF": "7DEB9566-5561-EB11-A607-0003FF1E4706",
+					"destinationTargetF": "7deb9566-5561-eb11-a607-0003ff1e4706",
 					"keyField": [
 						{
 							"fieldName": "accountid",
