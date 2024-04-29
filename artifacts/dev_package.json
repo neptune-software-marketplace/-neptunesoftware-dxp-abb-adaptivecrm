@@ -9,7 +9,7 @@
 	},
 	"name": "CRM",
 	"description": "Planet 9 CRM ",
-	"ver": "22.11.15.1212",
+	"ver": "24.04.29.1640",
 	"enableCICD": true,
 	"apps": [],
 	"api": [],
@@ -476,7 +476,6 @@
 		}
 	],
 	"events": [],
-	"media_library": [],
 	"code_snippets": [],
 	"wf_determination": [],
 	"wf_taskaction": []

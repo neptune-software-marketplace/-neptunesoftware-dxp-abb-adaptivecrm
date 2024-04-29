@@ -13,6 +13,32 @@
 		"status": "2"
 	},
 	{
+		"id": "d7dd7c53-785f-4cfc-80cc-e281fce14974",
+		"createdAt": "1611742490222",
+		"updatedAt": "1611749703881",
+		"createdBy": "admin",
+		"updatedBy": "oah",
+		"accountid": "332",
+		"name": "Neptune DXP Cloud",
+		"description": "",
+		"value": 11000,
+		"currency": "EUR",
+		"status": "2"
+	},
+	{
+		"id": "c9a20e5f-64bf-4682-8955-5a04ed2f485b",
+		"createdAt": "1611742490222",
+		"updatedAt": "1611749151718",
+		"createdBy": "admin",
+		"updatedBy": "oah",
+		"accountid": "9999",
+		"name": "New S/4 applications",
+		"description": "Better than standard",
+		"value": 10000,
+		"currency": "EUR",
+		"status": "2"
+	},
+	{
 		"id": "c5eb570b-02d2-40ef-8e10-9acc38c4185d",
 		"createdAt": "1637598461225",
 		"updatedAt": "1681231407059",
@@ -91,6 +117,32 @@
 		"status": "2"
 	},
 	{
+		"id": "a3bbf7cf-2a38-4df8-b8fa-63d0d80cd841",
+		"createdAt": "1611742490222",
+		"updatedAt": "1611749147584",
+		"createdBy": "admin",
+		"updatedBy": "oah",
+		"accountid": "332",
+		"name": "Neptune DXP Cloud",
+		"description": "Moving all P9 instances to Neptune DXP Cloud",
+		"value": 20000,
+		"currency": "EUR",
+		"status": "1"
+	},
+	{
+		"id": "91a2cc8e-2fc0-4c90-b400-3d0cf92a238f",
+		"createdAt": "1611771825803",
+		"updatedAt": "1611771825803",
+		"createdBy": "oah",
+		"updatedBy": "oah",
+		"accountid": "9999",
+		"name": "Operation Excellence",
+		"description": null,
+		"value": 100000,
+		"currency": "EUR",
+		"status": "1"
+	},
+	{
 		"id": "90257270-450b-4599-85a4-1dd3d723b741",
 		"createdAt": "1637598461225",
 		"updatedAt": "1681231407059",
@@ -100,6 +152,58 @@
 		"name": "Operation Excellence",
 		"description": null,
 		"value": 100000,
+		"currency": "EUR",
+		"status": "1"
+	},
+	{
+		"id": "89f8fcb9-5afc-411f-9a0d-e18700fb338e",
+		"createdAt": "1612522161597",
+		"updatedAt": "1612522161597",
+		"createdBy": "helder",
+		"updatedBy": "helder",
+		"accountid": "330",
+		"name": "P8 licenses",
+		"description": "This is for Solvay",
+		"value": 10000,
+		"currency": "EUR",
+		"status": "1"
+	},
+	{
+		"id": "8526c139-1206-4c8d-929b-d60946b7147b",
+		"createdAt": "1611742490222",
+		"updatedAt": "1624278891104",
+		"createdBy": "admin",
+		"updatedBy": "lloyd",
+		"accountid": "330",
+		"name": "Enterprise License",
+		"description": "Possible switch of all HW for 200 plants",
+		"value": 3000,
+		"currency": "EUR",
+		"status": "3"
+	},
+	{
+		"id": "849cf376-6930-4485-baee-ed477ed3cedc",
+		"createdAt": "1611742490222",
+		"updatedAt": "1611749698266",
+		"createdBy": "admin",
+		"updatedBy": "oah",
+		"accountid": "332",
+		"name": "Neptune DXP Cloud",
+		"description": "",
+		"value": 10000,
+		"currency": "EUR",
+		"status": "2"
+	},
+	{
+		"id": "7e9f0e9f-af7a-4969-a2f8-0d351ef9c17c",
+		"createdAt": "1611742490222",
+		"updatedAt": "1624278793109",
+		"createdBy": "admin",
+		"updatedBy": "lloyd",
+		"accountid": "330",
+		"name": "Enterprise License",
+		"description": "In need of a lot more apps for warehouse\n\nHughe opportunity!",
+		"value": 40000,
 		"currency": "EUR",
 		"status": "1"
 	},
@@ -128,6 +232,19 @@
 		"value": 30000,
 		"currency": "EUR",
 		"status": "1"
+	},
+	{
+		"id": "644e16f4-0855-4242-be2a-df6a352972b3",
+		"createdAt": "1611823898306",
+		"updatedAt": "1611823898306",
+		"createdBy": "oah",
+		"updatedBy": "oah",
+		"accountid": "332",
+		"name": "Neptune DXP SAP Edition",
+		"description": null,
+		"value": 10000,
+		"currency": "EUR",
+		"status": "3"
 	},
 	{
 		"id": "54d1fc20-64a3-4fb3-ac71-5506934be3d5",
@@ -219,5 +336,18 @@
 		"value": 22000,
 		"currency": "EUR",
 		"status": "1"
+	},
+	{
+		"id": "0bc495be-70f5-42bc-a542-a9ec94ee0840",
+		"createdAt": "1670241913937",
+		"updatedAt": "1670241913937",
+		"createdBy": "lloyd.trevarthen@neptune-software.com",
+		"updatedBy": "lloyd.trevarthen@neptune-software.com",
+		"accountid": "1",
+		"name": "2",
+		"description": "3",
+		"value": 1,
+		"currency": "2",
+		"status": "3"
 	}
 ]

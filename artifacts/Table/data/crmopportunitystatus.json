@@ -9,12 +9,30 @@
 		"text": "Lost"
 	},
 	{
+		"id": "af639948-c71f-4aef-9535-87fa275c6dbd",
+		"createdAt": "1611742500089",
+		"updatedAt": "1611749113743",
+		"createdBy": "admin",
+		"updatedBy": "oah",
+		"status": "2",
+		"text": "Won"
+	},
+	{
 		"id": "ac42e95d-0a47-41ff-a463-b8c07eeb3021",
 		"createdAt": "1637599682218",
 		"updatedAt": "1681231409095",
 		"createdBy": "admin",
 		"updatedBy": "admin",
 		"status": "2",
+		"text": "In Process"
+	},
+	{
+		"id": "830a9049-7659-4d75-a2c4-074e0c517277",
+		"createdAt": "1611742500089",
+		"updatedAt": "1611742500089",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"status": "1",
 		"text": "In Process"
 	},
 	{
@@ -25,6 +43,15 @@
 		"updatedBy": "admin",
 		"status": "4",
 		"text": "Opportunity"
+	},
+	{
+		"id": "52b6ba31-d1f0-4776-8b5a-4095bd83fe3d",
+		"createdAt": "1611742500089",
+		"updatedAt": "1611749111370",
+		"createdBy": "admin",
+		"updatedBy": "oah",
+		"status": "3",
+		"text": "Lost"
 	},
 	{
 		"id": "0626de2b-be9c-4657-8d7e-35a9ec84828f",
