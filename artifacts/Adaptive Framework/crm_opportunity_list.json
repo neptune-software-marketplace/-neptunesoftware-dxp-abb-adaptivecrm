@@ -54,11 +54,16 @@
 				"enableVariant": false,
 				"searchLabel": "Search",
 				"searchPlaceholder": "",
-				"actionButtonLeft": false
+				"actionButtonLeft": false,
+				"requiredFieldsToast": "Please fill in all required fields",
+				"textConfirmDelete": "Do you want to delete this entry ? ",
+				"titleConfirmDelete": "Delete",
+				"odataValueList": "Field does not have any OData ValueList reference"
 			},
 			"form": {
 				"enableCompact": false,
-				"headerExpanded": true
+				"headerExpanded": true,
+				"headerPreserveState": false
 			},
 			"table": {
 				"enablePagination": false,
@@ -78,7 +83,14 @@
 				"enableAction1": false,
 				"enableAction2": false,
 				"enableAction3": false,
-				"showSeparators": "All"
+				"showSeparators": "All",
+				"enableAutoPopin": false,
+				"enableAction4": false,
+				"enableAction5": false,
+				"action4Text": "",
+				"action4Type": "Transparent",
+				"action5Text": "",
+				"action5Type": "Transparent"
 			}
 		},
 		"fieldCatalog": [
@@ -283,7 +295,7 @@
 					"butType": "Accept"
 				},
 				"statusStateType": "Rule",
-				"statusStateRule": "45A322FD-510F-4843-9C07-5F7D6F200901"
+				"statusStateRule": "6cea5812-cec8-4d3b-b088-089af6dc5af6"
 			},
 			{
 				"text": "Currency",
@@ -356,7 +368,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": "b68943ff-0f43-4438-b2e0-2e9bb9f58d14",
-	"ver": "23.2.21.116",
+	"ver": "24.05.01.1328",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_list",

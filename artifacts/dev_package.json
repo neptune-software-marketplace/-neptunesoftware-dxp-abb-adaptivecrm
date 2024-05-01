@@ -9,7 +9,7 @@
 	},
 	"name": "CRM",
 	"description": "Planet 9 CRM ",
-	"ver": "24.05.01.1231",
+	"ver": "24.05.01.1329",
 	"enableCICD": true,
 	"apps": [],
 	"api": [],
