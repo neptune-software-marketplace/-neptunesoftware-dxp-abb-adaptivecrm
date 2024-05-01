@@ -6,12 +6,7 @@
 	"tilesOrder": [
 		"b549338b-443e-ec11-981f-0050f2794553"
 	],
-	"tilegroupsOrder": [
-		"f1c81d87-3424-4d08-afbe-56e3ad69982f",
-		"cd78c6cd-f296-425d-a8d8-7446cef7a8f1",
-		"0ef66869-2f89-48a8-8720-8867fe8805c9",
-		"387230a5-8024-4d1a-9bfe-db99a8e45003"
-	],
+	"tilegroupsOrder": [],
 	"configMessage": {},
 	"title": "Sales Applications",
 	"subTitle": null,
@@ -32,7 +27,7 @@
 	"enableShadeCalc": false,
 	"numTiles": null,
 	"enableMessage": false,
-	"ver": "23.2.15.1222",
+	"ver": "24.05.01.1224",
 	"headColor": null,
 	"headTxtClr": null,
 	"subheadTxtClr": null,
@@ -74,30 +69,5 @@
 			"ver": "23.2.15.1215"
 		}
 	],
-	"tilegroups": [
-		{
-			"id": "f1c81d87-3424-4d08-afbe-56e3ad69982f",
-			"name": "CRM Showcase",
-			"title": "Sales",
-			"ver": "23.2.15.1216"
-		},
-		{
-			"id": "cd78c6cd-f296-425d-a8d8-7446cef7a8f1",
-			"name": "SRM",
-			"title": "My Supplier Analytics",
-			"ver": "23.2.15.1216"
-		},
-		{
-			"id": "387230a5-8024-4d1a-9bfe-db99a8e45003",
-			"name": "CRM Master Data",
-			"title": "Sales Master Data",
-			"ver": "23.2.15.1217"
-		},
-		{
-			"id": "0ef66869-2f89-48a8-8720-8867fe8805c9",
-			"name": "CRM Analytic",
-			"title": "Sales Analytic",
-			"ver": "23.2.15.1216"
-		}
-	]
+	"tilegroups": []
 }
