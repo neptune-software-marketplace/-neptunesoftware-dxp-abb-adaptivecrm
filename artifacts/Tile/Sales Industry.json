@@ -6,7 +6,7 @@
 	"storeItem": {},
 	"settings": {
 		"adaptive": {
-			"id": "fe262460-bc0e-4f66-abfd-ace3988f89cf"
+			"id": "e78776be-f718-ef11-96f5-000d3add6b9f"
 		}
 	},
 	"title": "Industry",
@@ -60,7 +60,7 @@
 	"helpText": "<p><br></p>",
 	"helpEnabled": false,
 	"openClickTile": true,
-	"ver": "23.4.12.1055",
+	"ver": "24.05.23.1138",
 	"actionWebApp": null,
 	"name": "Sales Industry",
 	"cardWidth": null,

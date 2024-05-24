@@ -13,66 +13,91 @@
 				"showFilter": false
 			},
 			"table": {
-				"chartHeight": 250,
+				"chartHeight": "350",
 				"chartType": "bar",
 				"legendEnable": true,
 				"legendAlign": "center",
 				"legendVerticalAlign": "bottom",
 				"legendLayout": "horizontal",
 				"xAxisTitleEnable": true,
-				"yAxisTitleEnable": true
+				"yAxisTitleEnable": true,
+				"titleAlign": "center",
+				"enableSorting": false,
+				"enableMonochrome": false,
+				"pieInnerSize": 0,
+				"enable3D": false,
+				"alpha3D": 0,
+				"beta3D": 0,
+				"depth3D": 100,
+				"xAxisReversed": false,
+				"xAxisStartOnTick": true,
+				"xAxisGridLineWidth": 0,
+				"yAxisReversed": false,
+				"yAxisStartOnTick": true,
+				"yAxisGridLineWidth": 1,
+				"chartColor": "[\"#ffc107\", \"#107e3e\", \"#ce0202\"]"
 			}
 		},
 		"fieldCatalog": [
 			{
 				"name": "accountid",
 				"label": "Account",
-				"type": "text"
+				"type": "text",
+				"usage": "BOTH"
 			},
 			{
 				"name": "createdAt",
 				"label": "Created At",
-				"type": "timestamp"
+				"type": "timestamp",
+				"usage": "BOTH"
 			},
 			{
 				"name": "createdBy",
 				"label": "Created By",
-				"type": "text"
+				"type": "text",
+				"usage": "BOTH"
 			},
 			{
 				"name": "currency",
 				"label": "Currency",
-				"type": "text"
+				"type": "text",
+				"usage": "BOTH"
 			},
 			{
 				"name": "description",
 				"label": "Description",
-				"type": "text"
+				"type": "text",
+				"usage": "BOTH"
 			},
 			{
 				"name": "name",
 				"label": "Name",
-				"type": "text"
+				"type": "text",
+				"usage": "BOTH"
 			},
 			{
 				"name": "status",
 				"label": "Status",
-				"type": "text"
+				"type": "text",
+				"usage": "BOTH"
 			},
 			{
 				"name": "updatedAt",
 				"label": "Updated At",
-				"type": "timestamp"
+				"type": "timestamp",
+				"usage": "BOTH"
 			},
 			{
 				"name": "updatedBy",
 				"label": "Updated By",
-				"type": "text"
+				"type": "text",
+				"usage": "BOTH"
 			},
 			{
 				"name": "value",
 				"label": "Value",
-				"type": "decimal"
+				"type": "decimal",
+				"usage": "BOTH"
 			}
 		],
 		"fieldsSel": [],
@@ -94,7 +119,8 @@
 					],
 					"hideKey": true,
 					"butType": "Accept"
-				}
+				},
+				"valueType": ""
 			},
 			{
 				"text": "Value",
@@ -123,8 +149,8 @@
 	"connectorid": "4b7bd155-3a64-ed11-819c-0022489e262f",
 	"scriptSel": null,
 	"scriptRun": null,
-	"tableid": "b68943ff-0f43-4438-b2e0-2e9bb9f58d14",
-	"ver": "22.11.14.1635",
+	"tableid": null,
+	"ver": "24.05.23.0834",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_tile_chart",
@@ -132,9 +158,5 @@
 	"roles": [],
 	"scriptSelObj": null,
 	"scriptRunObj": null,
-	"tableObj": {
-		"id": "b68943ff-0f43-4438-b2e0-2e9bb9f58d14",
-		"name": "crmopportunity",
-		"ver": "23.2.13.1151"
-	}
+	"tableObj": null
 }

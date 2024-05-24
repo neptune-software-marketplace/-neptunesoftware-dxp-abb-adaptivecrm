@@ -27,7 +27,7 @@
 	"enableShadeCalc": false,
 	"numTiles": null,
 	"enableMessage": false,
-	"ver": "24.05.01.1224",
+	"ver": "24.05.24.1518",
 	"headColor": null,
 	"headTxtClr": null,
 	"subheadTxtClr": null,
@@ -66,7 +66,7 @@
 			"id": "b549338b-443e-ec11-981f-0050f2794553",
 			"name": "Sales Video",
 			"title": "Sales Demo",
-			"ver": "24.05.01.1329"
+			"ver": "23.2.15.1215"
 		}
 	],
 	"tilegroups": []

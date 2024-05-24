@@ -4,11 +4,12 @@
 	"createdBy": "oah",
 	"translation": [],
 	"tilesOrder": [
-		"d9681ab1-0e38-4724-b1b1-f8fa22c67031"
+		"d9681ab1-0e38-4724-b1b1-f8fa22c67031",
+		"cb26983e-aed7-ee11-85f9-000d3ad7b47d"
 	],
 	"tilegroupsOrder": [],
 	"configMessage": {},
-	"title": "Sales Analytic",
+	"title": "Sales Analytic - PowerBI",
 	"subTitle": "",
 	"description": null,
 	"titleAlignment": null,
@@ -27,7 +28,7 @@
 	"enableShadeCalc": false,
 	"numTiles": null,
 	"enableMessage": false,
-	"ver": "23.2.15.1216",
+	"ver": "24.03.26.1411",
 	"headColor": null,
 	"headTxtClr": null,
 	"subheadTxtClr": null,
@@ -42,7 +43,7 @@
 	"imageTabletHeight": null,
 	"imageHeight": null,
 	"name": "CRM Analytic",
-	"cardContentWidth": null,
+	"cardContentWidth": "",
 	"cardContentAlign": null,
 	"cardPerRow": null,
 	"cardStyle": null,
@@ -67,6 +68,12 @@
 			"name": "Sales Opportunity Analytic",
 			"title": "Opportunity ",
 			"ver": "23.2.15.1217"
+		},
+		{
+			"id": "cb26983e-aed7-ee11-85f9-000d3ad7b47d",
+			"name": "PowerBI_report",
+			"title": null,
+			"ver": "24.05.24.1514"
 		}
 	],
 	"tilegroups": []

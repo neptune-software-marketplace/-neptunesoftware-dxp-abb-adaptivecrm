@@ -123,7 +123,7 @@
 	"connectorid": "7284c84f-3a64-ed11-819c-0022489e262f",
 	"scriptSel": null,
 	"scriptRun": null,
-	"tableid": "712efaab-6adc-40e9-9b7c-f4036a68f1d8",
+	"tableid": null,
 	"ver": "22.11.14.1635",
 	"disabled": false,
 	"appType": "A",
@@ -132,9 +132,5 @@
 	"roles": [],
 	"scriptSelObj": null,
 	"scriptRunObj": null,
-	"tableObj": {
-		"id": "712efaab-6adc-40e9-9b7c-f4036a68f1d8",
-		"name": "crmopportunitystatus",
-		"ver": "23.2.13.1151"
-	}
+	"tableObj": null
 }

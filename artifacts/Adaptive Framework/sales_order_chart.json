@@ -1,28 +1,22 @@
 {
-	"id": "bac2ea85-db5e-4f20-b191-9e06d4f29ee3",
-	"createdAt": "2021-01-27T10:00:24.140Z",
-	"createdBy": "oah",
+	"id": "0660e63e-0519-ef11-96f5-000d3add6b9f",
+	"createdAt": "2024-05-23T13:06:20.280Z",
+	"createdBy": "emmanuella.ndukwe@neptune-software.com",
 	"settings": {
 		"properties": {
 			"report": {
-				"paginationRows": "500",
-				"updateTime": "1",
-				"initialGroupField": "industry"
+				"paginationRows": "14",
+				"updateTime": 0,
+				"initialGroupField": ""
 			},
 			"form": {
 				"enableCompact": false,
 				"showFilter": false
 			},
 			"table": {
-				"chartHeight": 250,
-				"chartType": "column",
-				"legendEnable": true,
-				"legendAlign": "center",
-				"legendVerticalAlign": "bottom",
-				"legendLayout": "horizontal",
-				"xAxisTitleEnable": true,
-				"yAxisTitleEnable": true,
 				"titleAlign": "center",
+				"chartHeight": "300",
+				"chartType": "areaspline",
 				"enableSorting": false,
 				"enableMonochrome": false,
 				"pieInnerSize": 0,
@@ -30,9 +24,15 @@
 				"alpha3D": 0,
 				"beta3D": 0,
 				"depth3D": 100,
+				"legendEnable": true,
+				"legendAlign": "center",
+				"legendVerticalAlign": "bottom",
+				"legendLayout": "horizontal",
+				"xAxisTitleEnable": true,
 				"xAxisReversed": false,
 				"xAxisStartOnTick": true,
 				"xAxisGridLineWidth": 0,
+				"yAxisTitleEnable": true,
 				"yAxisReversed": false,
 				"yAxisStartOnTick": true,
 				"yAxisGridLineWidth": 1
@@ -40,57 +40,75 @@
 		},
 		"fieldCatalog": [
 			{
-				"name": "accountid",
-				"label": "Account ID",
+				"name": "salesOrderNumber",
+				"label": "salesOrderNumber",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "customerID",
+				"label": "customerID",
 				"type": "text",
 				"usage": "BOTH"
 			},
 			{
 				"name": "name",
-				"label": "Name",
-				"type": "text",
-				"usage": "BOTH"
-			},
-			{
-				"name": "street",
-				"label": "Street",
-				"type": "text",
-				"usage": "BOTH"
-			},
-			{
-				"name": "zip",
-				"label": "ZIP",
-				"type": "text",
-				"usage": "BOTH"
-			},
-			{
-				"name": "city",
-				"label": "City",
+				"label": "name",
 				"type": "text",
 				"usage": "BOTH"
 			},
 			{
 				"name": "country",
-				"label": "Country",
+				"label": "country",
 				"type": "text",
 				"usage": "BOTH"
 			},
 			{
-				"name": "type",
-				"label": "Type",
-				"type": "smallint",
+				"name": "salesOrganization",
+				"label": "salesOrganization",
+				"type": "text",
 				"usage": "BOTH"
 			},
 			{
-				"name": "industry",
-				"label": "Industry ",
-				"type": "smallint",
+				"name": "distributionChannel",
+				"label": "distributionChannel",
+				"type": "text",
 				"usage": "BOTH"
 			},
 			{
-				"name": "ispartner",
-				"label": "Is Partner",
-				"type": "boolean",
+				"name": "orderDate",
+				"label": "orderDate",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "deliveryDate",
+				"label": "deliveryDate",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "invoicingPlan",
+				"label": "invoicingPlan",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "currency",
+				"label": "currency",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "amount",
+				"label": "amount",
+				"type": "decimal",
+				"usage": "BOTH"
+			},
+			{
+				"name": "orderMonth",
+				"label": "orderMonth",
+				"type": "text",
 				"usage": "BOTH"
 			},
 			{
@@ -121,44 +139,23 @@
 		"fieldsSel": [],
 		"fieldsRun": [
 			{
-				"text": "Industry ",
-				"type": "data",
 				"visible": true,
-				"name": "industry",
+				"name": "amount",
+				"text": "amount",
 				"enableFilter": false,
 				"fieldPos": 1,
-				"_lookup": {
-					"table": "crmindustry",
-					"textField": "name",
-					"keyField": [
-						{
-							"fieldName": "industry",
-							"key": "industry",
-							"value": ""
-						}
-					],
-					"hideKey": true,
-					"butType": "Accept"
-				},
-				"valueType": "Lookup",
-				"valueFixed": "",
-				"valueLookup": {
-					"table": "crmindustry",
-					"textField": "name",
-					"keyField": [
-						{
-							"fieldName": "industry",
-							"key": "industry",
-							"value": ""
-						}
-					],
-					"hideKey": true,
-					"butType": "Accept"
-				}
+				"type": "value"
+			},
+			{
+				"visible": true,
+				"name": "orderMonth",
+				"text": "Sales by Month",
+				"fieldPos": 2,
+				"type": "category"
 			}
 		],
 		"defaultVariant": {
-			"id": "70a8e17f-e037-49b3-d47f-5c1eb429ac4d",
+			"id": "1a346c2b-b8f3-45c8-fc83-28f28fb4d702",
 			"colOrder": "key_a_to_z",
 			"rowOrder": "key_a_to_z",
 			"row": [],
@@ -168,15 +165,15 @@
 			"exclusions": {}
 		}
 	},
-	"name": "crm_account_tile_chart",
+	"name": "sales_order_chart",
 	"description": "",
 	"group": "",
 	"type": "C",
-	"connectorid": "37c260f8-3964-ed11-819c-0022489e262f",
+	"connectorid": "d2c13c10-0219-ef11-96f5-000d3add6b9f",
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "23.4.12.910",
+	"ver": "24.05.23.1344",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_tile_chart",

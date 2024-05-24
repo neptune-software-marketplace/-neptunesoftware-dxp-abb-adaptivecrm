@@ -2,7 +2,7 @@
 	{
 		"id": "ef8773e4-855d-4a04-b03b-7a75bfde2f50",
 		"createdAt": "1637598226248",
-		"updatedAt": "1681231402975",
+		"updatedAt": "1716482616027",
 		"createdBy": "admin",
 		"updatedBy": "admin",
 		"currency": "USD",
@@ -11,70 +11,34 @@
 	{
 		"id": "d69d6f14-96f1-4ef8-a6d2-ed9355aef70b",
 		"createdAt": "1637598226248",
-		"updatedAt": "1681231402975",
+		"updatedAt": "1716482616027",
 		"createdBy": "admin",
 		"updatedBy": "admin",
 		"currency": "NOK",
 		"text": "Norwegian Krone"
 	},
 	{
-		"id": "590dd4af-55fc-40bc-b86d-d6ae6206fabf",
-		"createdAt": "1611742467827",
-		"updatedAt": "1611742467827",
-		"createdBy": "admin",
-		"updatedBy": "admin",
-		"currency": "USD",
-		"text": "United States Dollar"
-	},
-	{
 		"id": "43a4dc2a-3882-43a2-a6dd-ef88ae47c6b4",
 		"createdAt": "1637598226248",
-		"updatedAt": "1681231402975",
+		"updatedAt": "1716482616027",
 		"createdBy": "admin",
 		"updatedBy": "admin",
 		"currency": "CHF",
 		"text": "Swiss Franc"
 	},
 	{
-		"id": "3fd0d921-a6eb-4b1c-adeb-57eaef59c3de",
-		"createdAt": "1611742467827",
-		"updatedAt": "1611742467827",
-		"createdBy": "admin",
-		"updatedBy": "admin",
-		"currency": "GBP",
-		"text": "British Pound"
-	},
-	{
 		"id": "266a0ccd-440f-44a7-bddd-fb7855dc3b22",
 		"createdAt": "1637598226248",
-		"updatedAt": "1681231402975",
+		"updatedAt": "1716482616027",
 		"createdBy": "admin",
 		"updatedBy": "admin",
 		"currency": "GBP",
 		"text": "British Pound"
-	},
-	{
-		"id": "1b4aebb9-3c3f-4389-9729-f2e099eb69dd",
-		"createdAt": "1611742467827",
-		"updatedAt": "1611742688698",
-		"createdBy": "admin",
-		"updatedBy": "admin",
-		"currency": "NOK",
-		"text": "Norwegian Krone"
-	},
-	{
-		"id": "0f462b2b-c76b-4673-8e23-40411a7218d3",
-		"createdAt": "1611742467827",
-		"updatedAt": "1611742467827",
-		"createdBy": "admin",
-		"updatedBy": "admin",
-		"currency": "EUR",
-		"text": "Euro"
 	},
 	{
 		"id": "01854c3c-a3e2-4cb0-9b1d-4a17ee8b5e7d",
 		"createdAt": "1637598226248",
-		"updatedAt": "1681231402975",
+		"updatedAt": "1716482616027",
 		"createdBy": "admin",
 		"updatedBy": "admin",
 		"currency": "EUR",

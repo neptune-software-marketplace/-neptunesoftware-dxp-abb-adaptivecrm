@@ -27,7 +27,21 @@
 				"enableTab2": false,
 				"enableTab3": false,
 				"enableTab4": false,
-				"enableTab5": false
+				"enableTab5": false,
+				"actionButtonLeft": false,
+				"iconButtonDelete": "",
+				"textButtonDelete": "Delete",
+				"textToastDelete": "Deleted",
+				"typeButtonDelete": "Reject",
+				"iconButtonAttachment": "",
+				"textButtonAttachment": "Add Attachment",
+				"typeButtonAttachment": "Transparent",
+				"tabAText": "Attachment",
+				"enableSave": true,
+				"enableDelete": false,
+				"enableAttachment": false,
+				"enableUppercase": false,
+				"enablePadding": true
 			},
 			"form": {
 				"enableCompact": false,
@@ -75,7 +89,9 @@
 				"required": true,
 				"visible": true,
 				"name": "type",
-				"fieldPos": 1
+				"fieldPos": 1,
+				"inputType": "Number",
+				"placeholder": "Number"
 			},
 			{
 				"text": "Name",
@@ -83,7 +99,8 @@
 				"required": true,
 				"visible": true,
 				"name": "name",
-				"fieldPos": 2
+				"fieldPos": 2,
+				"placeholder": "Text"
 			},
 			{
 				"text": "Updated At",
@@ -123,8 +140,8 @@
 	"connectorid": "a4cd5dfe-3964-ed11-819c-0022489e262f",
 	"scriptSel": null,
 	"scriptRun": null,
-	"tableid": "d9cb042f-65fb-4df4-aaa7-37c17e687375",
-	"ver": "22.11.14.1633",
+	"tableid": null,
+	"ver": "24.05.23.1145",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_edit",
@@ -132,9 +149,5 @@
 	"roles": [],
 	"scriptSelObj": null,
 	"scriptRunObj": null,
-	"tableObj": {
-		"id": "d9cb042f-65fb-4df4-aaa7-37c17e687375",
-		"name": "crmaccounttype",
-		"ver": "23.2.13.1150"
-	}
+	"tableObj": null
 }

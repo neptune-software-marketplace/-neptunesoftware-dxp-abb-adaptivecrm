@@ -20,59 +20,84 @@
 				"legendVerticalAlign": "bottom",
 				"legendLayout": "horizontal",
 				"xAxisTitleEnable": false,
-				"yAxisTitleEnable": false
+				"yAxisTitleEnable": false,
+				"titleAlign": "center",
+				"enableSorting": false,
+				"enableMonochrome": true,
+				"pieInnerSize": 0,
+				"enable3D": true,
+				"alpha3D": 0,
+				"beta3D": "10",
+				"depth3D": 100,
+				"xAxisReversed": false,
+				"xAxisStartOnTick": true,
+				"xAxisGridLineWidth": 0,
+				"yAxisReversed": false,
+				"yAxisStartOnTick": true,
+				"yAxisGridLineWidth": 1,
+				"colorMonochrome": "#2ea2bf"
 			}
 		},
 		"fieldCatalog": [
 			{
 				"name": "accountid",
 				"label": "Account",
-				"type": "text"
-			},
-			{
-				"name": "createdAt",
-				"label": "Created At",
-				"type": "timestamp"
-			},
-			{
-				"name": "createdBy",
-				"label": "Created By",
-				"type": "text"
-			},
-			{
-				"name": "currency",
-				"label": "Currency",
-				"type": "text"
-			},
-			{
-				"name": "description",
-				"label": "Description",
-				"type": "text"
+				"type": "text",
+				"usage": "BOTH"
 			},
 			{
 				"name": "name",
 				"label": "Name",
-				"type": "text"
+				"type": "text",
+				"usage": "BOTH"
 			},
 			{
-				"name": "status",
-				"label": "Status",
-				"type": "text"
-			},
-			{
-				"name": "updatedAt",
-				"label": "Updated At",
-				"type": "timestamp"
-			},
-			{
-				"name": "updatedBy",
-				"label": "Updated By",
-				"type": "text"
+				"name": "description",
+				"label": "Description",
+				"type": "text",
+				"usage": "BOTH"
 			},
 			{
 				"name": "value",
 				"label": "Value",
-				"type": "decimal"
+				"type": "decimal",
+				"usage": "BOTH"
+			},
+			{
+				"name": "currency",
+				"label": "Currency",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "status",
+				"label": "Status",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
 			}
 		],
 		"fieldsSel": [],
@@ -111,8 +136,8 @@
 	"connectorid": "372b0e3a-3a64-ed11-819c-0022489e262f",
 	"scriptSel": null,
 	"scriptRun": null,
-	"tableid": "b68943ff-0f43-4438-b2e0-2e9bb9f58d14",
-	"ver": "22.11.14.1634",
+	"tableid": null,
+	"ver": "24.05.23.1121",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_tile_chart",
@@ -120,9 +145,5 @@
 	"roles": [],
 	"scriptSelObj": null,
 	"scriptRunObj": null,
-	"tableObj": {
-		"id": "b68943ff-0f43-4438-b2e0-2e9bb9f58d14",
-		"name": "crmopportunity",
-		"ver": "23.2.13.1151"
-	}
+	"tableObj": null
 }

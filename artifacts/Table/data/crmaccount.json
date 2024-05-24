@@ -2,7 +2,7 @@
 	{
 		"id": "fb55bde2-d04b-46c7-8932-12182436be77",
 		"createdAt": "1637597918029",
-		"updatedAt": "1681231394808",
+		"updatedAt": "1716482603137",
 		"createdBy": "admin",
 		"updatedBy": "admin",
 		"accountid": "9999",
@@ -18,7 +18,7 @@
 	{
 		"id": "ef5a5dda-fb65-4e52-ac62-c9a17e081fa2",
 		"createdAt": "1637597918029",
-		"updatedAt": "1681231394808",
+		"updatedAt": "1716482603137",
 		"createdBy": "admin",
 		"updatedBy": "admin",
 		"accountid": "1128",
@@ -34,7 +34,7 @@
 	{
 		"id": "dceaf9d2-cc8d-4500-8495-4fd33c297044",
 		"createdAt": "1637597918029",
-		"updatedAt": "1681231394808",
+		"updatedAt": "1716482603137",
 		"createdBy": "admin",
 		"updatedBy": "admin",
 		"accountid": "4432",
@@ -50,7 +50,7 @@
 	{
 		"id": "c44557b4-a68c-47e1-8d52-bdd1dde0d7ee",
 		"createdAt": "1637597918029",
-		"updatedAt": "1681231394808",
+		"updatedAt": "1716482603137",
 		"createdBy": "admin",
 		"updatedBy": "admin",
 		"accountid": "616",
@@ -66,7 +66,7 @@
 	{
 		"id": "b9656856-c50b-4ef3-830b-91448fe236f6",
 		"createdAt": "1637597918029",
-		"updatedAt": "1681231394808",
+		"updatedAt": "1716482603137",
 		"createdBy": "admin",
 		"updatedBy": "admin",
 		"accountid": "232323",
@@ -80,41 +80,9 @@
 		"ispartner": false
 	},
 	{
-		"id": "b592df14-16d5-44f7-ab86-84ab64cb0df6",
-		"createdAt": "1611779680966",
-		"updatedAt": "1647515836395",
-		"createdBy": "oah",
-		"updatedBy": "lloyd",
-		"accountid": "185",
-		"name": "Volvo Information Technology AB",
-		"street": null,
-		"zip": "405 08",
-		"city": "Göteborg",
-		"country": "SE",
-		"type": 3,
-		"industry": 5,
-		"ispartner": false
-	},
-	{
-		"id": "a683946c-b85c-4b51-8d3b-8cab9e56de2b",
-		"createdAt": "1611742379546",
-		"updatedAt": "1647515718609",
-		"createdBy": "admin",
-		"updatedBy": "lloyd",
-		"accountid": "9999",
-		"name": "Neptune Software",
-		"street": "Rosenkrantz Gate 22",
-		"zip": "0161",
-		"city": "Oslo",
-		"country": "NO",
-		"type": 2,
-		"industry": 42,
-		"ispartner": false
-	},
-	{
 		"id": "86c3a5e0-0872-4505-9b24-5f44b1c9f359",
 		"createdAt": "1637597918029",
-		"updatedAt": "1681231394808",
+		"updatedAt": "1716482603137",
 		"createdBy": "admin",
 		"updatedBy": "admin",
 		"accountid": "332",
@@ -128,41 +96,9 @@
 		"ispartner": false
 	},
 	{
-		"id": "73ad8c16-4d72-4e5c-8ea7-cb9ca6aa2abd",
-		"createdAt": "1611742379546",
-		"updatedAt": "1647515836396",
-		"createdBy": "admin",
-		"updatedBy": "lloyd",
-		"accountid": "335",
-		"name": "Aker BP ASA",
-		"street": "",
-		"zip": "1366",
-		"city": "Lysaker",
-		"country": "NO",
-		"type": 3,
-		"industry": 17,
-		"ispartner": false
-	},
-	{
-		"id": "69fb91ec-f010-4ab6-a294-c75b7af31a51",
-		"createdAt": "1611777234970",
-		"updatedAt": "1657730835040",
-		"createdBy": "oah",
-		"updatedBy": "abesh",
-		"accountid": "1128",
-		"name": "Equinor (Statoil) ASA",
-		"street": null,
-		"zip": "4035",
-		"city": "Stavanger",
-		"country": "NO",
-		"type": 3,
-		"industry": 18,
-		"ispartner": false
-	},
-	{
 		"id": "46b2d9aa-aaa1-4826-bd5f-a6eff696f133",
 		"createdAt": "1637597918029",
-		"updatedAt": "1681231394808",
+		"updatedAt": "1716482603137",
 		"createdBy": "admin",
 		"updatedBy": "admin",
 		"accountid": "184",
@@ -176,25 +112,9 @@
 		"ispartner": false
 	},
 	{
-		"id": "4662d569-bc7a-4d24-a564-abf22d0fb21a",
-		"createdAt": "1611776730944",
-		"updatedAt": "1647515836398",
-		"createdBy": "oah",
-		"updatedBy": "lloyd",
-		"accountid": "26",
-		"name": "Saint-Gobain International Digital-IT",
-		"street": "Tour Saint-Gobain\n12 place de l'Iris",
-		"zip": "92400",
-		"city": "Courbevoie",
-		"country": "FR",
-		"type": 3,
-		"industry": 29,
-		"ispartner": false
-	},
-	{
 		"id": "34c2083f-0778-488d-a02c-58637d820b9b",
 		"createdAt": "1637597918029",
-		"updatedAt": "1681231394808",
+		"updatedAt": "1716482603137",
 		"createdBy": "admin",
 		"updatedBy": "admin",
 		"accountid": "26",
@@ -210,7 +130,7 @@
 	{
 		"id": "34bd7974-07d7-41fc-8042-f4c521ebc569",
 		"createdAt": "1637597918029",
-		"updatedAt": "1681231394808",
+		"updatedAt": "1716482603137",
 		"createdBy": "admin",
 		"updatedBy": "admin",
 		"accountid": "330",
@@ -226,7 +146,7 @@
 	{
 		"id": "2c1a2683-f3d9-4d27-8732-b2b213613abc",
 		"createdAt": "1637597918029",
-		"updatedAt": "1681231394808",
+		"updatedAt": "1716482603137",
 		"createdBy": "admin",
 		"updatedBy": "admin",
 		"accountid": "4479",
@@ -237,22 +157,6 @@
 		"country": "UK",
 		"type": 3,
 		"industry": 11,
-		"ispartner": false
-	},
-	{
-		"id": "038018e0-a892-40c7-aa85-9a7bc21e7686",
-		"createdAt": "1614868325644",
-		"updatedAt": "1647515836400",
-		"createdBy": "helder",
-		"updatedBy": "lloyd",
-		"accountid": "232323",
-		"name": "Helder",
-		"street": "123",
-		"zip": "",
-		"city": "",
-		"country": "NO",
-		"type": 2,
-		"industry": 3,
 		"ispartner": false
 	}
 ]

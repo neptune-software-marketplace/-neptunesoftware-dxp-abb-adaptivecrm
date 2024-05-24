@@ -243,7 +243,7 @@
 	"connectorid": "e4193e99-3964-ed11-819c-0022489e262f",
 	"scriptSel": null,
 	"scriptRun": null,
-	"tableid": "1e37c246-1240-420f-bb42-60f8a477c905",
+	"tableid": null,
 	"ver": "22.11.14.1630",
 	"disabled": false,
 	"appType": "A",
@@ -252,9 +252,5 @@
 	"roles": [],
 	"scriptSelObj": null,
 	"scriptRunObj": null,
-	"tableObj": {
-		"id": "1e37c246-1240-420f-bb42-60f8a477c905",
-		"name": "crmaccount",
-		"ver": "23.2.15.938"
-	}
+	"tableObj": null
 }

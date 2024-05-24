@@ -63,29 +63,28 @@
 				"enableTab1": true,
 				"enableTab2": true,
 				"enableTab3": false,
-				"enableTab4": false,
+				"enableTab4": true,
 				"enableTab5": false,
 				"tab3Text": "Sales",
-				"tab4Text": "",
+				"tab4Text": "Analytic",
 				"tab5Text": "Tab 2",
 				"tab3Icon": "",
 				"showIcon": true,
+				"_tab4Nav": {
+					"destinationType": "F",
+					"openAs": "P",
+					"butType": "Accept",
+					"destinationTargetF": "7deb9566-5561-eb11-a607-0003ff1e4706",
+					"keyField": [
+						{
+							"fieldName": "accountid",
+							"key": "accountid",
+							"value": ""
+						}
+					]
+				},
 				"textToastSave": "Saved",
-				"enableClose": true,
-				"actionButtonLeft": false,
-				"iconButtonDelete": "",
-				"textButtonDelete": "Delete",
-				"textToastDelete": "Deleted",
-				"typeButtonDelete": "Reject",
-				"iconButtonAttachment": "",
-				"textButtonAttachment": "Add Attachment",
-				"typeButtonAttachment": "Transparent",
-				"tabAText": "Attachment",
-				"enableSave": true,
-				"enableDelete": false,
-				"enableAttachment": false,
-				"enableUppercase": false,
-				"enablePadding": true
+				"enableClose": true
 			},
 			"form": {
 				"enableCompact": false,
@@ -101,31 +100,6 @@
 				"type": "text"
 			},
 			{
-				"name": "city",
-				"label": "City",
-				"type": "text"
-			},
-			{
-				"name": "country",
-				"label": "Country",
-				"type": "text"
-			},
-			{
-				"name": "createdAt",
-				"label": "Created At",
-				"type": "timestamp"
-			},
-			{
-				"name": "createdBy",
-				"label": "Created By",
-				"type": "text"
-			},
-			{
-				"name": "industry",
-				"label": "Industry ",
-				"type": "smallint"
-			},
-			{
 				"name": "name",
 				"label": "Name",
 				"type": "text"
@@ -136,8 +110,28 @@
 				"type": "text"
 			},
 			{
+				"name": "zip",
+				"label": "ZIP",
+				"type": "text"
+			},
+			{
+				"name": "city",
+				"label": "City",
+				"type": "text"
+			},
+			{
+				"name": "country",
+				"label": "Country",
+				"type": "text"
+			},
+			{
 				"name": "type",
 				"label": "Type",
+				"type": "smallint"
+			},
+			{
+				"name": "industry",
+				"label": "Industry ",
 				"type": "smallint"
 			},
 			{
@@ -151,8 +145,13 @@
 				"type": "text"
 			},
 			{
-				"name": "zip",
-				"label": "ZIP",
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
 				"type": "text"
 			}
 		],
@@ -285,8 +284,8 @@
 	"connectorid": "46baaabd-3964-ed11-819c-0022489e262f",
 	"scriptSel": null,
 	"scriptRun": null,
-	"tableid": "1e37c246-1240-420f-bb42-60f8a477c905",
-	"ver": "23.4.12.111",
+	"tableid": null,
+	"ver": "22.11.14.1631",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_edit",
@@ -294,9 +293,5 @@
 	"roles": [],
 	"scriptSelObj": null,
 	"scriptRunObj": null,
-	"tableObj": {
-		"id": "1e37c246-1240-420f-bb42-60f8a477c905",
-		"name": "crmaccount",
-		"ver": "23.2.15.938"
-	}
+	"tableObj": null
 }

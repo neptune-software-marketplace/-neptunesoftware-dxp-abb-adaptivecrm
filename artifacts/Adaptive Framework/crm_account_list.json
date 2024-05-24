@@ -61,7 +61,8 @@
 				"iconButtonImport": "sap-icon://fa-solid/file-import",
 				"textButtonImport": "",
 				"typeButtonImport": "Transparent",
-				"enableImport": false
+				"enableImport": false,
+				"actionButtonLeft": false
 			},
 			"form": {
 				"enableCompact": false,
@@ -84,7 +85,8 @@
 				"enableAction1": false,
 				"enableAction2": false,
 				"enableAction3": false,
-				"paginationShowSelection": false
+				"paginationShowSelection": false,
+				"showSeparators": "All"
 			}
 		},
 		"fieldCatalog": [
@@ -228,31 +230,6 @@
 				}
 			},
 			{
-				"text": "Account ID",
-				"wrapping": false,
-				"enableGroup": false,
-				"enableFilter": true,
-				"enableSort": true,
-				"visible": true,
-				"name": "accountid",
-				"fieldPos": 5,
-				"width": "120px",
-				"valueType": "",
-				"valueLookup": {
-					"table": "crmaccount",
-					"textField": "name",
-					"keyField": [
-						{
-							"fieldName": "accountid",
-							"key": "accountid",
-							"value": ""
-						}
-					],
-					"hideKey": true,
-					"butType": "Accept"
-				}
-			},
-			{
 				"text": "Name",
 				"wrapping": false,
 				"enableGroup": false,
@@ -260,7 +237,7 @@
 				"enableSort": true,
 				"visible": true,
 				"name": "name",
-				"fieldPos": 6
+				"fieldPos": 5
 			},
 			{
 				"text": "Type",
@@ -270,7 +247,7 @@
 				"enableSort": true,
 				"visible": true,
 				"name": "type",
-				"fieldPos": 7,
+				"fieldPos": 6,
 				"_lookup": {
 					"table": "crmaccounttype",
 					"textField": "name",
@@ -307,7 +284,7 @@
 				"enableSort": true,
 				"visible": true,
 				"name": "industry",
-				"fieldPos": 8,
+				"fieldPos": 7,
 				"_lookup": {
 					"table": "crmindustry",
 					"textField": "name",
@@ -355,8 +332,8 @@
 	"connectorid": "34c260f8-3964-ed11-819c-0022489e262f",
 	"scriptSel": null,
 	"scriptRun": null,
-	"tableid": "1e37c246-1240-420f-bb42-60f8a477c905",
-	"ver": "22.11.14.1632",
+	"tableid": null,
+	"ver": "24.05.22.1411",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_list",
@@ -364,9 +341,5 @@
 	"roles": [],
 	"scriptSelObj": null,
 	"scriptRunObj": null,
-	"tableObj": {
-		"id": "1e37c246-1240-420f-bb42-60f8a477c905",
-		"name": "crmaccount",
-		"ver": "23.2.15.938"
-	}
+	"tableObj": null
 }

@@ -9,7 +9,7 @@
 	},
 	"name": "CRM",
 	"description": "Planet 9 CRM ",
-	"ver": "24.05.01.1329",
+	"ver": "23.4.12.917",
 	"enableCICD": true,
 	"apps": [],
 	"api": [],
@@ -20,6 +20,11 @@
 			"id": "d9cb042f-65fb-4df4-aaa7-37c17e687375",
 			"name": "crmaccounttype",
 			"description": "Account Type"
+		},
+		{
+			"id": "b7a1cc2d-fe18-ef11-96f5-000d3add6b9f",
+			"name": "crm_salesorder",
+			"description": null
 		},
 		{
 			"id": "b68943ff-0f43-4438-b2e0-2e9bb9f58d14",
@@ -61,16 +66,10 @@
 	"jsscript_group": [],
 	"theme": [],
 	"pdf": [],
-	"rulesengine": [
-		{
-			"id": "6cea5812-cec8-4d3b-b088-089af6dc5af6",
-			"name": "Opportunity Status",
-			"description": ""
-		}
-	],
+	"rulesengine": [],
 	"reports": [
 		{
-			"id": "fe262460-bc0e-4f66-abfd-ace3988f89cf",
+			"id": "e78776be-f718-ef11-96f5-000d3add6b9f",
 			"name": "crm_industry_list",
 			"description": "",
 			"application": "planet9_adaptive_list"
@@ -160,6 +159,12 @@
 			"application": "planet9_adaptive_edit"
 		},
 		{
+			"id": "5e44e440-0919-ef11-96f5-000d3add6b9f",
+			"name": "crm_sales_orders_list",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
 			"id": "4ffde61e-cc60-eb11-a607-0003ff1e4706",
 			"name": "crm_contact_edit_child",
 			"description": "",
@@ -230,6 +235,12 @@
 			"name": "crm_opportunity_edit",
 			"description": "",
 			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "0660e63e-0519-ef11-96f5-000d3add6b9f",
+			"name": "sales_order_chart",
+			"description": "",
+			"application": "planet9_adaptive_tile_chart"
 		},
 		{
 			"id": "04bf6e0b-e600-419a-8f8a-d0755c02cd24",
@@ -391,6 +402,11 @@
 			"description": ""
 		},
 		{
+			"id": "d2c13c10-0219-ef11-96f5-000d3add6b9f",
+			"name": "crm_salesOrder",
+			"description": null
+		},
+		{
 			"id": "ae2f9911-3a64-ed11-819c-0022489e262f",
 			"name": "crm_contact_edit_child",
 			"description": ""
@@ -402,7 +418,7 @@
 		},
 		{
 			"id": "a838e331-3a64-ed11-819c-0022489e262f",
-			"name": "crm_industry",
+			"name": "crm_industry_edit",
 			"description": ""
 		},
 		{

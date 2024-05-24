@@ -6,8 +6,8 @@
 	"storeItem": {},
 	"settings": {
 		"adaptive": {
-			"id": "6aa8bee5-e3b3-4136-a1f9-e54216afe085",
-			"idTile": "89effbed-dc60-eb11-a607-0003ff1e4706"
+			"id": "5e44e440-0919-ef11-96f5-000d3add6b9f",
+			"idTile": "0660e63e-0519-ef11-96f5-000d3add6b9f"
 		}
 	},
 	"title": "Sales Orders",
@@ -61,7 +61,7 @@
 	"helpText": "<p><strong>CRM Sales Orders</strong></p><p><br></p><p><strong>High level summary of the application:</strong></p><p>CRM Sales Orders is an adaptive application designed to display the sales orders information in a form of a graph chart.</p><p>Within the application, the user can create a new sales order, update the existing list, as well as exporting it as a .CSV format.</p><p><br></p><p><strong>Key functionalities:</strong></p><ul><li>Fully Responsive (Mobile,      Tablet, Desktop).</li><li>Easy branding.<br></li><li>View sales orders.</li><li>Access sales orders.<br></li><li>Create sales orders.</li><li>Update the sales orders list.</li><li>Search for a sales order.</li><li>Filter the orders by: Status, Account and Currency.<br></li></ul><p><br></p><p><br></p>",
 	"helpEnabled": false,
 	"openClickTile": true,
-	"ver": "23.2.15.1216",
+	"ver": "24.05.23.1341",
 	"actionWebApp": null,
 	"name": "Sales Orders",
 	"cardWidth": "Wider",

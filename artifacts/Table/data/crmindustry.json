@@ -1,389 +1,389 @@
 [
 	{
-		"id": "ff53d24b-4931-4435-af23-308bc49d516e",
-		"createdAt": "1611742478270",
-		"updatedAt": "1611742478270",
-		"createdBy": "admin",
-		"updatedBy": "admin",
-		"industry": 7,
-		"name": "Biotechnology"
-	},
-	{
-		"id": "fd851298-890b-4a99-b3cb-0da28ba50c6c",
-		"createdAt": "1611742478270",
-		"updatedAt": "1611742478270",
-		"createdBy": "admin",
-		"updatedBy": "admin",
-		"industry": 33,
-		"name": "Not For Profit"
-	},
-	{
-		"id": "eacd4f9b-6166-43fd-9cbc-b821b046a52d",
-		"createdAt": "1611742478270",
-		"updatedAt": "1611742478270",
-		"createdBy": "admin",
-		"updatedBy": "admin",
-		"industry": 20,
-		"name": "Environmental"
-	},
-	{
-		"id": "e01b5d35-30ed-4e62-86bc-0658ae637cd7",
-		"createdAt": "1611742478270",
-		"updatedAt": "1611742478270",
-		"createdBy": "admin",
-		"updatedBy": "admin",
-		"industry": 24,
-		"name": "Healthcare and Pharmaceuticals"
-	},
-	{
-		"id": "dd7f79ee-1b6a-4a1c-a15b-c3dc12878596",
-		"createdAt": "1611742478270",
-		"updatedAt": "1611742478270",
-		"createdBy": "admin",
-		"updatedBy": "admin",
-		"industry": 39,
-		"name": "Retail"
-	},
-	{
-		"id": "d7b9f2aa-b6d6-4219-b470-a22c430fe735",
-		"createdAt": "1611742478270",
-		"updatedAt": "1611742478270",
-		"createdBy": "admin",
-		"updatedBy": "admin",
-		"industry": 35,
-		"name": "Other"
-	},
-	{
-		"id": "ce18431a-b5e5-404d-8d72-7e8d01fbaaab",
-		"createdAt": "1611742478270",
-		"updatedAt": "1611742478270",
-		"createdBy": "admin",
-		"updatedBy": "admin",
-		"industry": 21,
-		"name": "Financial"
-	},
-	{
-		"id": "c43418ef-9014-49fd-bda0-c7be4efb7d3d",
-		"createdAt": "1611742478270",
-		"updatedAt": "1611742478270",
-		"createdBy": "admin",
-		"updatedBy": "admin",
-		"industry": 10,
-		"name": "Computer Hardware"
-	},
-	{
-		"id": "c37afb2c-747d-4bd6-8208-4b4612895ae3",
-		"createdAt": "1611742478270",
-		"updatedAt": "1611742478270",
-		"createdBy": "admin",
-		"updatedBy": "admin",
-		"industry": 29,
-		"name": "Manufacturing"
-	},
-	{
-		"id": "badc5302-ff4e-45c2-be5b-0774df396597",
-		"createdAt": "1611742478270",
-		"updatedAt": "1611742478270",
-		"createdBy": "admin",
-		"updatedBy": "admin",
-		"industry": 32,
-		"name": "Metals & Mining"
-	},
-	{
-		"id": "b691d790-d8ec-4854-9838-e6e31cfe9399",
-		"createdAt": "1611742478270",
-		"updatedAt": "1611742478270",
-		"createdBy": "admin",
-		"updatedBy": "admin",
-		"industry": 44,
-		"name": "Transportation"
-	},
-	{
-		"id": "ad56264a-6c7a-475b-bd1b-43a36a6da34b",
-		"createdAt": "1611742478270",
-		"updatedAt": "1611742478270",
-		"createdBy": "admin",
-		"updatedBy": "admin",
-		"industry": 3,
-		"name": "Apparel"
-	},
-	{
-		"id": "abcdd85b-ae85-46a3-936e-0ab0be973855",
-		"createdAt": "1611742478270",
-		"updatedAt": "1611742478270",
-		"createdBy": "admin",
-		"updatedBy": "admin",
-		"industry": 5,
-		"name": "Automotive & Transport"
-	},
-	{
-		"id": "9c801eeb-4109-4859-82b3-80e7a53f5cd8",
-		"createdAt": "1611742478270",
-		"updatedAt": "1611742478270",
-		"createdBy": "admin",
-		"updatedBy": "admin",
-		"industry": 11,
-		"name": "Computer Software"
-	},
-	{
-		"id": "92bbfc4d-455e-4b27-81e6-ef7f1621c22e",
-		"createdAt": "1611742478270",
-		"updatedAt": "1611742478270",
-		"createdBy": "admin",
-		"updatedBy": "admin",
-		"industry": 36,
-		"name": "Public Sector"
-	},
-	{
-		"id": "91f352a9-2dc8-45f1-8911-328cf766dd2c",
-		"createdAt": "1611742478270",
-		"updatedAt": "1611742478270",
-		"createdBy": "admin",
-		"updatedBy": "admin",
-		"industry": 15,
-		"name": "Education"
-	},
-	{
-		"id": "91510206-2c04-4c7e-8842-bbc26e50d97c",
-		"createdAt": "1611742478270",
-		"updatedAt": "1611742478270",
-		"createdBy": "admin",
-		"updatedBy": "admin",
-		"industry": 23,
-		"name": "Government"
-	},
-	{
-		"id": "8cf68d38-dd13-4d57-a62d-922c489b72ff",
-		"createdAt": "1611742478270",
-		"updatedAt": "1611742478270",
-		"createdBy": "admin",
-		"updatedBy": "admin",
-		"industry": 31,
-		"name": "Medical Devices"
-	},
-	{
-		"id": "82970f11-6229-4bef-8368-6872b82c70e0",
-		"createdAt": "1611742478270",
-		"updatedAt": "1611742478270",
-		"createdBy": "admin",
-		"updatedBy": "admin",
-		"industry": 4,
-		"name": "Associations"
-	},
-	{
-		"id": "756fce45-d398-4559-931f-2a6402fd7026",
-		"createdAt": "1611742478270",
-		"updatedAt": "1611742478270",
-		"createdBy": "admin",
-		"updatedBy": "admin",
-		"industry": 34,
-		"name": "Oil and Gas"
-	},
-	{
-		"id": "755bb288-1ca3-40f4-aaa9-ab59dcdc5f89",
-		"createdAt": "1611742478270",
-		"updatedAt": "1611742478270",
-		"createdBy": "admin",
-		"updatedBy": "admin",
-		"industry": 27,
-		"name": "Insurance"
-	},
-	{
-		"id": "6a607ff8-265e-4b49-a180-4371d3a104af",
-		"createdAt": "1611742478270",
-		"updatedAt": "1611742478270",
-		"createdBy": "admin",
-		"updatedBy": "admin",
-		"industry": 28,
-		"name": "Machinery"
-	},
-	{
-		"id": "68e92524-0da1-4518-bc79-48cea2b527fb",
-		"createdAt": "1611742478270",
-		"updatedAt": "1611742478270",
-		"createdBy": "admin",
-		"updatedBy": "admin",
-		"industry": 42,
-		"name": "Technology"
-	},
-	{
-		"id": "5988ef42-810b-4caa-ac33-85b8f34768b6",
-		"createdAt": "1611742478270",
-		"updatedAt": "1611742478270",
-		"createdBy": "admin",
-		"updatedBy": "admin",
-		"industry": 8,
-		"name": "Chemicals"
-	},
-	{
-		"id": "5894529e-7bd4-47da-9fa4-e14566bd3a75",
-		"createdAt": "1611742478270",
-		"updatedAt": "1611742478270",
-		"createdBy": "admin",
-		"updatedBy": "admin",
-		"industry": 1,
-		"name": "Aerospace & Defense"
-	},
-	{
-		"id": "571568bc-d05d-424f-b4f0-771a20930054",
-		"createdAt": "1611742478270",
-		"updatedAt": "1611742478270",
-		"createdBy": "admin",
-		"updatedBy": "admin",
-		"industry": 41,
-		"name": "Shipping"
-	},
-	{
-		"id": "53569583-22d1-444a-a6e6-f1993a27246f",
-		"createdAt": "1611742478270",
-		"updatedAt": "1611742478270",
-		"createdBy": "admin",
-		"updatedBy": "admin",
-		"industry": 38,
-		"name": "Recreation"
-	},
-	{
-		"id": "4c13a626-ee14-4d92-847f-087c5c2f99ae",
-		"createdAt": "1611742478270",
-		"updatedAt": "1611742478270",
-		"createdBy": "admin",
-		"updatedBy": "admin",
-		"industry": 43,
-		"name": "Telecommunications"
-	},
-	{
-		"id": "48b74ad1-7dae-4dec-810f-62a3bc9ee382",
-		"createdAt": "1611742478270",
-		"updatedAt": "1611742478270",
-		"createdBy": "admin",
-		"updatedBy": "admin",
-		"industry": 22,
-		"name": "Food & Beverage"
-	},
-	{
-		"id": "442a0cf0-5dc0-4f61-bb48-3597ac134b0c",
-		"createdAt": "1611742478270",
-		"updatedAt": "1611742478270",
+		"id": "fde705de-cbe8-4468-92e4-c87d15b995f7",
+		"createdAt": "1637598978023",
+		"updatedAt": "1716482619139",
 		"createdBy": "admin",
 		"updatedBy": "admin",
 		"industry": 30,
 		"name": "Media"
 	},
 	{
-		"id": "34c01164-8542-44c6-a33a-ebc42e69e194",
-		"createdAt": "1611742478270",
-		"updatedAt": "1611742478270",
-		"createdBy": "admin",
-		"updatedBy": "admin",
-		"industry": 45,
-		"name": "Utilities"
-	},
-	{
-		"id": "321bc180-cd04-4d9a-929a-2a597b86e12b",
-		"createdAt": "1611742478270",
-		"updatedAt": "1611742478270",
-		"createdBy": "admin",
-		"updatedBy": "admin",
-		"industry": 25,
-		"name": "Healthcare and Pharmaceuticals"
-	},
-	{
-		"id": "26cfe41d-5e54-4b83-85a0-1a356548f842",
-		"createdAt": "1611742478270",
-		"updatedAt": "1611742478270",
-		"createdBy": "admin",
-		"updatedBy": "admin",
-		"industry": 18,
-		"name": "Engineering"
-	},
-	{
-		"id": "26b3e84c-438f-4838-ad5b-32e12e4bd14f",
-		"createdAt": "1611742478270",
-		"updatedAt": "1611742478270",
-		"createdBy": "admin",
-		"updatedBy": "admin",
-		"industry": 14,
-		"name": "Consumer Goods"
-	},
-	{
-		"id": "25527454-3e8e-4ec5-a8c1-95bcb69829ec",
-		"createdAt": "1611742478270",
-		"updatedAt": "1611742478270",
-		"createdBy": "admin",
-		"updatedBy": "admin",
-		"industry": 9,
-		"name": "Communications"
-	},
-	{
-		"id": "223c4687-ebb4-466d-8127-42020722f359",
-		"createdAt": "1611742478270",
-		"updatedAt": "1611742478270",
-		"createdBy": "admin",
-		"updatedBy": "admin",
-		"industry": 6,
-		"name": "Banking"
-	},
-	{
-		"id": "1cc4d9dc-259b-4c42-8342-87ded9c85775",
-		"createdAt": "1611742478270",
-		"updatedAt": "1611742478270",
-		"createdBy": "admin",
-		"updatedBy": "admin",
-		"industry": 13,
-		"name": "Consulting"
-	},
-	{
-		"id": "1aa03c21-3d2b-4b1e-b494-61a6e24b9aa2",
-		"createdAt": "1611742478270",
-		"updatedAt": "1611742478270",
-		"createdBy": "admin",
-		"updatedBy": "admin",
-		"industry": 17,
-		"name": "Energy"
-	},
-	{
-		"id": "15f6c980-e541-48a5-8fa5-70966db69a90",
-		"createdAt": "1611742478270",
-		"updatedAt": "1611742478270",
+		"id": "f4ad8764-c46c-43b8-bde9-f3807ff88c8d",
+		"createdAt": "1637598978023",
+		"updatedAt": "1716482619139",
 		"createdBy": "admin",
 		"updatedBy": "admin",
 		"industry": 37,
 		"name": "Real Estate"
 	},
 	{
-		"id": "1127ff1c-ff5b-4c25-99f0-897ea1023c01",
-		"createdAt": "1611742478270",
-		"updatedAt": "1611742478270",
+		"id": "eec549ff-d113-47bd-b77a-e495136c7ad8",
+		"createdAt": "1637598978023",
+		"updatedAt": "1716482619139",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"industry": 31,
+		"name": "Medical Devices"
+	},
+	{
+		"id": "ee488667-2202-4cde-b137-e7b82bfb50b3",
+		"createdAt": "1637598978023",
+		"updatedAt": "1716482619139",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"industry": 8,
+		"name": "Chemicals"
+	},
+	{
+		"id": "e8879aa8-51c0-4262-968e-5ffcee8c0bab",
+		"createdAt": "1637598978023",
+		"updatedAt": "1716482619139",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"industry": 38,
+		"name": "Recreation"
+	},
+	{
+		"id": "e0f6a545-1eca-4925-b6fa-3384f2d4970e",
+		"createdAt": "1637598978023",
+		"updatedAt": "1716482619139",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"industry": 39,
+		"name": "Retail"
+	},
+	{
+		"id": "e03e015d-6265-4827-b007-6dd3d2b322f3",
+		"createdAt": "1637598978023",
+		"updatedAt": "1716482619139",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"industry": 23,
+		"name": "Government"
+	},
+	{
+		"id": "dbc2b5f7-8995-4d97-bc8d-2ea0b2883a6e",
+		"createdAt": "1637598978023",
+		"updatedAt": "1716482619139",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"industry": 25,
+		"name": "Healthcare and Pharmaceuticals"
+	},
+	{
+		"id": "db1f8976-e346-4f91-93a8-ce1ffc35eca4",
+		"createdAt": "1637598978023",
+		"updatedAt": "1716482619139",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"industry": 41,
+		"name": "Shipping"
+	},
+	{
+		"id": "d16c296f-b5b0-46d4-8337-d5f45248a7c8",
+		"createdAt": "1637598978023",
+		"updatedAt": "1716482619139",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"industry": 7746,
+		"name": "Communications"
+	},
+	{
+		"id": "d0ed19fd-557b-4ecb-b749-9adc1e6c8220",
+		"createdAt": "1637598978023",
+		"updatedAt": "1716482619139",
 		"createdBy": "admin",
 		"updatedBy": "admin",
 		"industry": 12,
 		"name": "Construction"
 	},
 	{
-		"id": "0fc8bf37-126e-4af5-a720-5a29cda628b0",
-		"createdAt": "1611742478270",
-		"updatedAt": "1611742478270",
+		"id": "ce9a7461-49f5-405c-8920-11cbe5b9fc08",
+		"createdAt": "1637598978023",
+		"updatedAt": "1716482619139",
 		"createdBy": "admin",
 		"updatedBy": "admin",
-		"industry": 40,
-		"name": "Services"
+		"industry": 13,
+		"name": "Consulting"
 	},
 	{
-		"id": "08cc376f-b8d6-4a44-bc31-447d52a72cb3",
-		"createdAt": "1611742478270",
-		"updatedAt": "1611742478270",
+		"id": "ce8b3361-841d-4b9f-8d43-dc56143e362d",
+		"createdAt": "1637598978023",
+		"updatedAt": "1716482619139",
 		"createdBy": "admin",
 		"updatedBy": "admin",
 		"industry": 26,
 		"name": "Industrials"
 	},
 	{
-		"id": "0411e0fa-b441-46cb-a427-56bfdc5dca40",
-		"createdAt": "1611742478270",
-		"updatedAt": "1611742478270",
+		"id": "c71a48e6-c486-4878-8979-2712563f55cb",
+		"createdAt": "1637598978023",
+		"updatedAt": "1716482619139",
 		"createdBy": "admin",
 		"updatedBy": "admin",
-		"industry": 2,
-		"name": "Agriculture"
+		"industry": 17,
+		"name": "Energy"
+	},
+	{
+		"id": "c464fab7-3a51-409f-866a-5faf38d01329",
+		"createdAt": "1637598978023",
+		"updatedAt": "1716482619139",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"industry": 40,
+		"name": "Services"
+	},
+	{
+		"id": "be2289d4-133e-451e-97c9-428b6a3351d5",
+		"createdAt": "1637598978023",
+		"updatedAt": "1716482619139",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"industry": 5,
+		"name": "Automotive & Transport"
+	},
+	{
+		"id": "b97a80de-f1fa-45b2-919e-540fc1e52745",
+		"createdAt": "1637598978023",
+		"updatedAt": "1716482619139",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"industry": 21,
+		"name": "Financial"
+	},
+	{
+		"id": "b3b61cc7-29dd-4782-aa06-d8e25ae40387",
+		"createdAt": "1637598978023",
+		"updatedAt": "1716482619139",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"industry": 1,
+		"name": "Aerospace & Defense"
+	},
+	{
+		"id": "ac6321dd-c070-41cc-b066-fc97317681b3",
+		"createdAt": "1637598978023",
+		"updatedAt": "1716482619139",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"industry": 20,
+		"name": "Environmental"
+	},
+	{
+		"id": "9eb2683d-3858-4bb1-8fb4-52308d5483ca",
+		"createdAt": "1637598978023",
+		"updatedAt": "1716482619139",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"industry": 45,
+		"name": "Utilities"
+	},
+	{
+		"id": "8dbbbf12-1340-4ac3-a52e-c51e34e70676",
+		"createdAt": "1637598978023",
+		"updatedAt": "1716482619139",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"industry": 32,
+		"name": "Metals & Mining"
+	},
+	{
+		"id": "8d06afc9-9341-4e3c-95c2-77cf479c6607",
+		"createdAt": "1637598978023",
+		"updatedAt": "1716482619139",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"industry": 7,
+		"name": "Biotechnology"
+	},
+	{
+		"id": "7fe42c48-78e3-4424-ab27-79818293747f",
+		"createdAt": "1637598978023",
+		"updatedAt": "1716482619139",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"industry": 4,
+		"name": "Associations"
+	},
+	{
+		"id": "7560077c-8502-4481-815b-1dc486932b58",
+		"createdAt": "1637598978023",
+		"updatedAt": "1716482619139",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"industry": 33,
+		"name": "Not For Profit"
+	},
+	{
+		"id": "6793285d-25ec-4bb7-a0e3-65a1783ab356",
+		"createdAt": "1637598978023",
+		"updatedAt": "1716482619139",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"industry": 34,
+		"name": "Oil and Gas"
+	},
+	{
+		"id": "672d7c5e-8a45-4c23-937e-b38445cdd441",
+		"createdAt": "1637598978023",
+		"updatedAt": "1716482619139",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"industry": 35,
+		"name": "Other"
+	},
+	{
+		"id": "62223ad2-5661-4a1c-97b6-2681b868a925",
+		"createdAt": "1637598978023",
+		"updatedAt": "1716482619139",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"industry": 6,
+		"name": "Banking"
+	},
+	{
+		"id": "5a364192-08f8-48be-a6f0-4df9de7fde6f",
+		"createdAt": "1637598978023",
+		"updatedAt": "1716482619139",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"industry": 3,
+		"name": "Apparel"
+	},
+	{
+		"id": "50c7b639-9490-4d0c-b932-bda014218617",
+		"createdAt": "1637598978023",
+		"updatedAt": "1716482619139",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"industry": 29,
+		"name": "Manufacturing"
+	},
+	{
+		"id": "3e567b7b-5cd7-43a3-86af-6e674a30af0c",
+		"createdAt": "1637598978023",
+		"updatedAt": "1716482619139",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"industry": 2211,
+		"name": "AgroPro"
+	},
+	{
+		"id": "3e01adc1-2e9f-46dd-a1fb-bf82291ad9ed",
+		"createdAt": "1637598978023",
+		"updatedAt": "1716482619139",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"industry": 18,
+		"name": "Engineering"
+	},
+	{
+		"id": "3de6cb3c-1f4f-4a6d-83f2-0c58902823e4",
+		"createdAt": "1637598978023",
+		"updatedAt": "1716482619139",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"industry": 22,
+		"name": "Food & Beverage"
+	},
+	{
+		"id": "3c492975-a1e7-4f5e-8c8c-933f4c096636",
+		"createdAt": "1637598978023",
+		"updatedAt": "1716482619139",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"industry": 43,
+		"name": "Telecommunications"
+	},
+	{
+		"id": "35595985-15da-4426-bd80-b03e92b9dc56",
+		"createdAt": "1637598978023",
+		"updatedAt": "1716482619139",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"industry": 42,
+		"name": "Technology"
+	},
+	{
+		"id": "2fc0be78-8468-43c1-8155-75aad915c9d0",
+		"createdAt": "1637598978023",
+		"updatedAt": "1716482619139",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"industry": 24,
+		"name": "Healthcare and Pharmaceuticals"
+	},
+	{
+		"id": "1b96f262-f2d3-4b34-9863-2e2e7acd2ac8",
+		"createdAt": "1637598978023",
+		"updatedAt": "1716482619139",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"industry": 44,
+		"name": "Transportation"
+	},
+	{
+		"id": "19cc5aea-eab7-4ebf-bf9f-64f1e9da5b70",
+		"createdAt": "1637598978023",
+		"updatedAt": "1716482619139",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"industry": 14,
+		"name": "Consumer Goods"
+	},
+	{
+		"id": "180fc2c1-578b-4947-b52f-eb3976be9eab",
+		"createdAt": "1637598978023",
+		"updatedAt": "1716482619139",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"industry": 28,
+		"name": "Machinery"
+	},
+	{
+		"id": "10ef4d8d-9870-4707-9a4f-fb1c5a931d75",
+		"createdAt": "1637598978023",
+		"updatedAt": "1716482619139",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"industry": 11,
+		"name": "Computer Software"
+	},
+	{
+		"id": "0e7ca7dc-5941-4360-9a36-01fffca4f41b",
+		"createdAt": "1637598978023",
+		"updatedAt": "1716482619139",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"industry": 36,
+		"name": "Public Sector"
+	},
+	{
+		"id": "0988817a-c46a-45df-9eca-a76020273732",
+		"createdAt": "1637598978023",
+		"updatedAt": "1716482619139",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"industry": 10,
+		"name": "Computer Hardware"
+	},
+	{
+		"id": "07873d3b-30a2-431e-9596-3d32ccde10d3",
+		"createdAt": "1637598978023",
+		"updatedAt": "1716482619139",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"industry": 27,
+		"name": "Insurance"
+	},
+	{
+		"id": "012c796c-21f2-4045-89b2-71076a8e1b68",
+		"createdAt": "1637598978023",
+		"updatedAt": "1716482619139",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"industry": 15,
+		"name": "Education"
 	}
 ]

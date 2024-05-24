@@ -170,7 +170,7 @@
 	"connectorid": "f744790a-3a64-ed11-819c-0022489e262f",
 	"scriptSel": null,
 	"scriptRun": null,
-	"tableid": "817f15a0-c646-4154-926e-f3b611716890",
+	"tableid": null,
 	"ver": "22.11.14.1633",
 	"disabled": false,
 	"appType": "A",
@@ -179,9 +179,5 @@
 	"roles": [],
 	"scriptSelObj": null,
 	"scriptRunObj": null,
-	"tableObj": {
-		"id": "817f15a0-c646-4154-926e-f3b611716890",
-		"name": "crmcontacts",
-		"ver": "23.2.13.1150"
-	}
+	"tableObj": null
 }

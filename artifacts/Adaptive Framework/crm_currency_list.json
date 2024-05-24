@@ -172,7 +172,7 @@
 	"connectorid": "a638e331-3a64-ed11-819c-0022489e262f",
 	"scriptSel": null,
 	"scriptRun": null,
-	"tableid": "632cafbf-7700-4490-871d-3af809779252",
+	"tableid": null,
 	"ver": "22.11.14.1634",
 	"disabled": false,
 	"appType": "A",
@@ -181,9 +181,5 @@
 	"roles": [],
 	"scriptSelObj": null,
 	"scriptRunObj": null,
-	"tableObj": {
-		"id": "632cafbf-7700-4490-871d-3af809779252",
-		"name": "crmcurrency",
-		"ver": "23.2.13.1151"
-	}
+	"tableObj": null
 }

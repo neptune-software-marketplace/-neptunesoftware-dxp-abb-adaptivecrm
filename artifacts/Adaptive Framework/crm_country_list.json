@@ -196,7 +196,7 @@
 	"connectorid": "f88e422a-3a64-ed11-819c-0022489e262f",
 	"scriptSel": null,
 	"scriptRun": null,
-	"tableid": "94c614c4-8760-eb11-a607-0003ff1e4706",
+	"tableid": null,
 	"ver": "22.11.14.1634",
 	"disabled": false,
 	"appType": "A",
@@ -205,9 +205,5 @@
 	"roles": [],
 	"scriptSelObj": null,
 	"scriptRunObj": null,
-	"tableObj": {
-		"id": "94c614c4-8760-eb11-a607-0003ff1e4706",
-		"name": "crmcountry",
-		"ver": "23.2.13.1151"
-	}
+	"tableObj": null
 }

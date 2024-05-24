@@ -2,7 +2,7 @@
 	{
 		"id": "f77637d6-101f-44ad-bdf6-806317042f5e",
 		"createdAt": "1637598785419",
-		"updatedAt": "1681231398877",
+		"updatedAt": "1716482609722",
 		"createdBy": "admin",
 		"updatedBy": "admin",
 		"accountid": "4479",
@@ -14,7 +14,7 @@
 	{
 		"id": "d4150b9d-9084-4da4-93a9-eff2f561dbcb",
 		"createdAt": "1637598785419",
-		"updatedAt": "1681231398877",
+		"updatedAt": "1716482609722",
 		"createdBy": "admin",
 		"updatedBy": "admin",
 		"accountid": "330",
@@ -24,21 +24,9 @@
 		"text": ""
 	},
 	{
-		"id": "c72a53d0-a9e0-425a-ad1c-c358cb9fafdf",
-		"createdAt": "1611742431585",
-		"updatedAt": "1611742431585",
-		"createdBy": "admin",
-		"updatedBy": "admin",
-		"accountid": "332",
-		"name": "Frode Helland",
-		"phone": "",
-		"email": "frode@neptune-software.com",
-		"text": ""
-	},
-	{
 		"id": "b1e9d531-5c61-4cf9-971e-78476df9efac",
 		"createdAt": "1637598785419",
-		"updatedAt": "1681231398877",
+		"updatedAt": "1716482609722",
 		"createdBy": "admin",
 		"updatedBy": "admin",
 		"accountid": "616",
@@ -48,33 +36,9 @@
 		"text": null
 	},
 	{
-		"id": "91ac2f0c-fe43-4f2c-a705-0c7e8b973c8b",
-		"createdAt": "1611771611473",
-		"updatedAt": "1611771658506",
-		"createdBy": "oah",
-		"updatedBy": "oah",
-		"accountid": "330",
-		"name": "Morten Petersen",
-		"phone": "",
-		"email": "morten.petersen@neptune-software.com",
-		"text": ""
-	},
-	{
-		"id": "5f9dfe6c-68ba-4fb1-b0cb-7e3972896b7c",
-		"createdAt": "1611742431585",
-		"updatedAt": "1611742431585",
-		"createdBy": "admin",
-		"updatedBy": "admin",
-		"accountid": "330",
-		"name": "Ole-Andre Haugen",
-		"phone": "+4790846995",
-		"email": "ole-andre.haugen@neptune-software.com",
-		"text": null
-	},
-	{
 		"id": "57fa092b-faca-40dc-9c69-d3d9835a544e",
 		"createdAt": "1637598785419",
-		"updatedAt": "1681231398877",
+		"updatedAt": "1716482609722",
 		"createdBy": "admin",
 		"updatedBy": "admin",
 		"accountid": "330",
@@ -82,23 +46,11 @@
 		"phone": "+4790846995",
 		"email": "ole-andre.haugen@neptune-software.com",
 		"text": null
-	},
-	{
-		"id": "4c7f6740-0f5c-4640-a1e7-138e930fe071",
-		"createdAt": "1611742431585",
-		"updatedAt": "1618299762865",
-		"createdBy": "admin",
-		"updatedBy": "oah",
-		"accountid": "9999",
-		"name": "Elling Skjetlein",
-		"phone": "",
-		"email": "elling@neptune-software.com",
-		"text": ""
 	},
 	{
 		"id": "3551c800-2dd7-4a78-a869-8bacdd8797b5",
 		"createdAt": "1637598785419",
-		"updatedAt": "1681231398877",
+		"updatedAt": "1716482609722",
 		"createdBy": "admin",
 		"updatedBy": "admin",
 		"accountid": "9999",
@@ -110,7 +62,7 @@
 	{
 		"id": "22919f01-3ddd-45b6-a548-3c04524cfd9b",
 		"createdAt": "1637598785419",
-		"updatedAt": "1681231398877",
+		"updatedAt": "1716482609722",
 		"createdBy": "admin",
 		"updatedBy": "admin",
 		"accountid": "332",
@@ -118,29 +70,5 @@
 		"phone": "",
 		"email": "frode@neptune-software.com",
 		"text": ""
-	},
-	{
-		"id": "0ed01116-5b9a-40a7-8882-df6a06150c10",
-		"createdAt": "1638881038001",
-		"updatedAt": "1638881038001",
-		"createdBy": "hendrik",
-		"updatedBy": "hendrik",
-		"accountid": "9999",
-		"name": "Hendrik Haase",
-		"phone": "015233978801",
-		"email": "hendrik.haase@neptune-software.com",
-		"text": null
-	},
-	{
-		"id": "0cae950b-0bba-4108-8318-b7780b11ba46",
-		"createdAt": "1611823485681",
-		"updatedAt": "1611823485681",
-		"createdBy": "oah",
-		"updatedBy": "oah",
-		"accountid": "616",
-		"name": "David Bartolome",
-		"phone": null,
-		"email": "david.bartolome@neptune-software.com",
-		"text": null
 	}
 ]

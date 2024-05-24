@@ -28,7 +28,21 @@
 				"enableTab4": false,
 				"enableTab5": false,
 				"textToastSave": "Saved",
-				"enableClose": true
+				"enableClose": true,
+				"actionButtonLeft": false,
+				"iconButtonDelete": "",
+				"textButtonDelete": "Delete",
+				"textToastDelete": "Deleted",
+				"typeButtonDelete": "Reject",
+				"iconButtonAttachment": "",
+				"textButtonAttachment": "Add Attachment",
+				"typeButtonAttachment": "Transparent",
+				"tabAText": "Attachment",
+				"enableSave": true,
+				"enableDelete": false,
+				"enableAttachment": false,
+				"enableUppercase": false,
+				"enablePadding": true
 			},
 			"form": {
 				"enableCompact": false,
@@ -43,13 +57,23 @@
 				"type": "text"
 			},
 			{
-				"name": "name",
-				"label": "Name",
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
 				"type": "text"
 			},
 			{
 				"name": "flagurl",
 				"label": "Flag URL",
+				"type": "text"
+			},
+			{
+				"name": "name",
+				"label": "Name",
 				"type": "text"
 			},
 			{
@@ -61,27 +85,18 @@
 				"name": "updatedBy",
 				"label": "Updated By",
 				"type": "text"
-			},
-			{
-				"name": "createdAt",
-				"label": "Created At",
-				"type": "timestamp"
-			},
-			{
-				"name": "createdBy",
-				"label": "Created By",
-				"type": "text"
 			}
 		],
 		"fieldsSel": [
 			{
-				"text": "Country",
+				"text": "Country Code",
 				"columnLabel": "Details",
 				"editable": true,
 				"required": true,
 				"visible": true,
 				"name": "country",
-				"fieldPos": 1
+				"fieldPos": 1,
+				"placeholder": "eg US, UK, NO"
 			},
 			{
 				"text": "Name",
@@ -89,7 +104,8 @@
 				"required": true,
 				"visible": true,
 				"name": "name",
-				"fieldPos": 2
+				"fieldPos": 2,
+				"placeholder": "e.g. Norway"
 			},
 			{
 				"text": "Flag URL",
@@ -97,7 +113,9 @@
 				"required": false,
 				"visible": true,
 				"name": "flagurl",
-				"fieldPos": 3
+				"fieldPos": 3,
+				"description": "",
+				"placeholder": "e.g. https://us.govt/flag"
 			},
 			{
 				"text": "Updated At",
@@ -137,8 +155,8 @@
 	"connectorid": "74666523-3a64-ed11-819c-0022489e262f",
 	"scriptSel": null,
 	"scriptRun": null,
-	"tableid": "94c614c4-8760-eb11-a607-0003ff1e4706",
-	"ver": "22.11.14.1634",
+	"tableid": null,
+	"ver": "24.05.23.1150",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_edit",
@@ -146,9 +164,5 @@
 	"roles": [],
 	"scriptSelObj": null,
 	"scriptRunObj": null,
-	"tableObj": {
-		"id": "94c614c4-8760-eb11-a607-0003ff1e4706",
-		"name": "crmcountry",
-		"ver": "23.2.13.1151"
-	}
+	"tableObj": null
 }

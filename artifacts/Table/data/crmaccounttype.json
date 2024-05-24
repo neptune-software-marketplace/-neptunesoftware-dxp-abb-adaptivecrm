@@ -1,26 +1,35 @@
 [
 	{
-		"id": "82bc1c0b-c6b9-4b6f-be4e-fce98e967a84",
-		"createdAt": "1611742415604",
-		"updatedAt": "1611742415604",
+		"id": "c8020c99-aaed-43b4-811e-1115ff5afac4",
+		"createdAt": "1637599259486",
+		"updatedAt": "1716482606321",
 		"createdBy": "admin",
 		"updatedBy": "admin",
 		"type": 3,
 		"name": "Customer"
 	},
 	{
-		"id": "53632411-f9ab-4bee-b11a-bc2dff715057",
-		"createdAt": "1611742415604",
-		"updatedAt": "1611742415604",
+		"id": "7440cce9-0193-43ff-ab8c-2b31cb4de5a5",
+		"createdAt": "1637599259486",
+		"updatedAt": "1716482606321",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"type": 4,
+		"name": "Partner"
+	},
+	{
+		"id": "5f562338-eaa9-4e7c-b4d6-86683b37c1e1",
+		"createdAt": "1637599259486",
+		"updatedAt": "1716482606321",
 		"createdBy": "admin",
 		"updatedBy": "admin",
 		"type": 1,
 		"name": "Prospect"
 	},
 	{
-		"id": "2449ef4f-0997-4806-b447-7bd826a1e462",
-		"createdAt": "1611742415604",
-		"updatedAt": "1611742415604",
+		"id": "30b45627-0ecf-4038-a6a1-3c27d0c105a5",
+		"createdAt": "1637599259486",
+		"updatedAt": "1716482606321",
 		"createdBy": "admin",
 		"updatedBy": "admin",
 		"type": 2,

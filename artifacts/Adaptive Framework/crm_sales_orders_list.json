@@ -1,6 +1,6 @@
 {
-	"id": "e78776be-f718-ef11-96f5-000d3add6b9f",
-	"createdAt": "2024-05-23T11:29:41.343Z",
+	"id": "5e44e440-0919-ef11-96f5-000d3add6b9f",
+	"createdAt": "2024-05-23T13:35:01.636Z",
 	"createdBy": "emmanuella.ndukwe@neptune-software.com",
 	"settings": {
 		"properties": {
@@ -25,8 +25,8 @@
 				"iconButtonRun": "",
 				"textButtonRun": "Update",
 				"typeButtonRun": "Emphasized",
-				"enableRun": false,
-				"enableCreate": true,
+				"enableRun": true,
+				"enableCreate": false,
 				"enableClose": false,
 				"enableDelete": false,
 				"enableExport": false,
@@ -38,25 +38,13 @@
 				"autoRunFocus": false,
 				"searchLabel": "Search",
 				"searchPlaceholder": "",
-				"_navigationCreate": {
-					"destinationType": "F",
-					"openAs": "P",
-					"butType": "Accept",
-					"destinationTargetF": "60253577-178f-4819-bcfb-0f31c13ef28b",
-					"keyField": []
-				},
-				"_navigationItemPress": {
-					"destinationType": "F",
-					"openAs": "P",
-					"butType": "Accept",
-					"destinationTargetF": "60253577-178f-4819-bcfb-0f31c13ef28b",
-					"keyField": []
-				},
-				"avatarIcon": "sap-icon://fa-solid/industry"
+				"title": "Sales Order Details",
+				"subTitle": "List of all sales in 2023",
+				"avatarIcon": "sap-icon://sales-order"
 			},
 			"form": {
 				"enableCompact": false,
-				"headerExpanded": false
+				"headerExpanded": true
 			},
 			"table": {
 				"enablePagination": false,
@@ -75,19 +63,80 @@
 				"enableAction2": false,
 				"enableAction3": false,
 				"fixedLayout": false,
-				"inset": false
+				"inset": false,
+				"headerText": ""
 			}
 		},
 		"fieldCatalog": [
 			{
-				"name": "industry",
-				"label": "Industry",
-				"type": "smallint",
+				"name": "salesOrderNumber",
+				"label": "salesOrderNumber",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "customerID",
+				"label": "customerID",
+				"type": "text",
 				"usage": "BOTH"
 			},
 			{
 				"name": "name",
-				"label": "Name",
+				"label": "name",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "country",
+				"label": "country",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "salesOrganization",
+				"label": "salesOrganization",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "distributionChannel",
+				"label": "distributionChannel",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "orderDate",
+				"label": "orderDate",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "deliveryDate",
+				"label": "deliveryDate",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "invoicingPlan",
+				"label": "invoicingPlan",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "currency",
+				"label": "currency",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "amount",
+				"label": "amount",
+				"type": "decimal",
+				"usage": "BOTH"
+			},
+			{
+				"name": "orderMonth",
+				"label": "orderMonth",
 				"type": "text",
 				"usage": "BOTH"
 			},
@@ -119,11 +168,11 @@
 		"fieldsSel": [],
 		"fieldsRun": [
 			{
-				"enableFilter": false,
+				"enableFilter": true,
 				"enableSort": true,
 				"visible": true,
-				"name": "industry",
-				"text": "Industry",
+				"name": "salesOrderNumber",
+				"text": "Order Number",
 				"fieldPos": 1
 			},
 			{
@@ -131,21 +180,52 @@
 				"enableSort": true,
 				"visible": true,
 				"name": "name",
-				"text": "Name",
+				"text": "Cuatomer Name",
 				"fieldPos": 2
+			},
+			{
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "distributionChannel",
+				"text": "Distribution Channel",
+				"fieldPos": 3
+			},
+			{
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "currency",
+				"text": "Currency",
+				"fieldPos": 4
 			},
 			{
 				"enableFilter": false,
 				"enableSort": true,
 				"visible": true,
-				"name": "updatedAt",
-				"text": "Updated At",
-				"fieldPos": 3,
-				"formatter": "date00"
+				"name": "amount",
+				"text": "Amount",
+				"fieldPos": 5
+			},
+			{
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "invoicingPlan",
+				"text": "Invoicing Plan",
+				"fieldPos": 6
+			},
+			{
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "orderDate",
+				"text": "Order Date",
+				"fieldPos": 7
 			}
 		],
 		"defaultVariant": {
-			"id": "340a7fe1-0c46-4328-add7-937da128ea2d",
+			"id": "a291ef9a-92e3-44a4-d3b4-71cacc29e87c",
 			"colOrder": "key_a_to_z",
 			"rowOrder": "key_a_to_z",
 			"row": [],
@@ -155,15 +235,15 @@
 			"exclusions": {}
 		}
 	},
-	"name": "crm_industry_list",
+	"name": "crm_sales_orders_list",
 	"description": "",
 	"group": "",
 	"type": "C",
-	"connectorid": "a838e331-3a64-ed11-819c-0022489e262f",
+	"connectorid": "d2c13c10-0219-ef11-96f5-000d3add6b9f",
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "24.05.23.1137",
+	"ver": "24.05.23.1340",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_list",
