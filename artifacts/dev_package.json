@@ -268,6 +268,11 @@
 			"name": "Sales Opportunity Analytic"
 		},
 		{
+			"id": "cb26983e-aed7-ee11-85f9-000d3ad7b47d",
+			"description": null,
+			"name": "PowerBI_report"
+		},
+		{
 			"id": "b89dfe9e-5272-48da-864f-dab4827b93c7",
 			"description": null,
 			"name": "Sales Contact"
@@ -315,11 +320,6 @@
 			"name": "CRM Showcase"
 		},
 		{
-			"id": "cd78c6cd-f296-425d-a8d8-7446cef7a8f1",
-			"description": null,
-			"name": "SRM"
-		},
-		{
 			"id": "6247be74-f616-ec11-ae72-0050f255283a",
 			"description": null,
 			"name": "CRM Applications"
@@ -332,7 +332,7 @@
 		{
 			"id": "35065344-7aac-ed11-ba77-14cb650ba16e",
 			"description": null,
-			"name": "CRM_TileGroup"
+			"name": "CRM_Main_TileGroup"
 		},
 		{
 			"id": "0ef66869-2f89-48a8-8720-8867fe8805c9",

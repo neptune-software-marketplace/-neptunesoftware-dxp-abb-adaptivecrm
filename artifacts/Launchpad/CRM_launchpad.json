@@ -130,9 +130,9 @@
 	"cat": [
 		{
 			"id": "35065344-7aac-ed11-ba77-14cb650ba16e",
-			"name": "CRM_TileGroup",
+			"name": "CRM_Main_TileGroup",
 			"title": "CRM",
-			"ver": "23.2.14.1516"
+			"ver": "24.05.27.1013"
 		}
 	]
 }
