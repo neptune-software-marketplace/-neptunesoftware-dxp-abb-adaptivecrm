@@ -9,9 +9,19 @@
 	},
 	"name": "CRM",
 	"description": "Planet 9 CRM ",
-	"ver": "23.4.12.917",
+	"ver": "24.05.27.1035",
 	"enableCICD": true,
-	"apps": [],
+	"apps": [
+		{
+			"id": "6c6293a2-468f-4a5d-a9d2-3f1d5d13cfdb",
+			"application": "powerbi_report",
+			"title": "PowerBI Reports",
+			"description": "",
+			"package": {
+				"id": "07D276D9-3599-4FB0-8B3B-65A908201234"
+			}
+		}
+	],
 	"api": [],
 	"odataSource": [],
 	"odataMock": [],
