@@ -160,8 +160,7 @@
 															"attribute": "change",
 															"grouping": "Events",
 															"value": "Anonymous Function",
-															"script": "file://event/sap.m.Select/oSelect/change.js",
-															"language": "javascript",
+															"script": "",
 															"translation": []
 														}
 													],
@@ -342,70 +341,6 @@
 			]
 		},
 		{
-			"fieldNo": "1",
-			"fieldName": "oShell",
-			"fieldParent": 0,
-			"fieldType": "sap.m.Shell",
-			"script": "",
-			"customComponent": false,
-			"disabled": true,
-			"request": [],
-			"response": [],
-			"attributes": [
-				{
-					"attribute": "appWidthLimited",
-					"grouping": "Properties",
-					"value": "false",
-					"script": "",
-					"translation": []
-				}
-			],
-			"data": [
-				{
-					"fieldNo": "2",
-					"fieldName": "oApp",
-					"fieldParent": "1",
-					"fieldType": "sap.m.App",
-					"script": "",
-					"customComponent": false,
-					"disabled": true,
-					"request": [],
-					"response": [],
-					"attributes": [],
-					"data": [
-						{
-							"fieldNo": "19b583a6-d7f8-4e32-b56f-58ff7da63b97",
-							"fieldName": "oPage",
-							"fieldParent": "2",
-							"fieldType": "sap.m.Page",
-							"script": "",
-							"customComponent": false,
-							"disabled": true,
-							"request": [],
-							"response": [],
-							"attributes": [
-								{
-									"attribute": "styleClass",
-									"grouping": "Properties",
-									"value": "height",
-									"script": "",
-									"translation": []
-								},
-								{
-									"attribute": "showHeader",
-									"grouping": "Properties",
-									"value": "false",
-									"script": "",
-									"translation": []
-								}
-							],
-							"data": []
-						}
-					]
-				}
-			]
-		},
-		{
 			"fieldNo": 99999,
 			"data": [
 				{
@@ -428,7 +363,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "24.05.27.1045",
+	"ver": "24.05.28.1248",
 	"application": "powerbi_report",
 	"title": "PowerBI Reports",
 	"description": "",
