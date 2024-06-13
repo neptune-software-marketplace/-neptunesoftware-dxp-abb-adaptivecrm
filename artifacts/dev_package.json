@@ -3,7 +3,7 @@
 	"createdAt": "2021-01-27T09:59:08.470Z",
 	"createdBy": "oah",
 	"git": {
-		"remote": "https://github.com/neptune-software-marketplace/neptunesoftware-dxp-abb-adaptivecrm",
+		"remote": "https://github.com/neptune-software-marketplace/-neptunesoftware-dxp-abb-adaptivecrm",
 		"targetServers": [],
 		"testServers": []
 	},
@@ -298,6 +298,11 @@
 			"name": "Sales Video"
 		},
 		{
+			"id": "a47b0f4b-931d-ef11-96f5-000d3add6b9f",
+			"description": null,
+			"name": "CRMYoutube"
+		},
+		{
 			"id": "4cfb9d5f-c760-eb11-a607-0003ff1e4706",
 			"description": null,
 			"name": "Sales Orders"
@@ -328,11 +333,6 @@
 			"id": "f1c81d87-3424-4d08-afbe-56e3ad69982f",
 			"description": null,
 			"name": "CRM Showcase"
-		},
-		{
-			"id": "6247be74-f616-ec11-ae72-0050f255283a",
-			"description": null,
-			"name": "CRM Applications"
 		},
 		{
 			"id": "387230a5-8024-4d1a-9bfe-db99a8e45003",
