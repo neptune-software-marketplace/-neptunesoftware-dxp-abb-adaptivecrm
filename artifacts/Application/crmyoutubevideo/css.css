@@ -1,0 +1,23 @@
+.videoFrame{
+    width: 1200px;
+    height: 500px;
+}
+
+@media (max-width: 1200px) {
+.videoFrame{
+    width: 900px;
+    height: 500px;
+}
+}
+@media (max-width: 900px) {
+.videoFrame{
+    width: 500px;
+    height: 500px;
+}
+}
+@media (max-width: 500px) {
+.videoFrame{
+    width: 300px;
+    height: 500px;
+}
+}

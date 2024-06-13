@@ -13,6 +13,15 @@
 	"enableCICD": true,
 	"apps": [
 		{
+			"id": "a6347b02-931d-ef11-96f5-000d3add6b9f",
+			"application": "crmyoutubevideo",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "07D276D9-3599-4FB0-8B3B-65A908201234"
+			}
+		},
+		{
 			"id": "6c6293a2-468f-4a5d-a9d2-3f1d5d13cfdb",
 			"application": "powerbi_report",
 			"title": "PowerBI Reports",
