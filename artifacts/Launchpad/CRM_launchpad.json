@@ -93,7 +93,7 @@
 	"hideSidemenu": false,
 	"ui5Version": "customCDN",
 	"ui5Url": "https://openui5.hana.ondemand.com/resources/sap-ui-core.js",
-	"ui5Theme": null,
+	"ui5Theme": "sap_horizon",
 	"header": [
 		"==OBJECT STRING==",
 		"<script src=https://cdnjs.cloudflare.com/ajax/libs/powerbi-client/2.18.6/powerbi.min.js",
@@ -122,7 +122,7 @@
 	"searchEnableShadeCalc": null,
 	"usedEnableShadeCalc": null,
 	"enableTrace": false,
-	"ver": "24.05.27.1050",
+	"ver": "24.06.17.1057",
 	"pwa_enable": false,
 	"pwa_customImageIos": null,
 	"pwa_customImageAndroidOld": null,
