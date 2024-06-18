@@ -54,11 +54,16 @@
 				"enableVariant": false,
 				"searchLabel": "Search",
 				"searchPlaceholder": "",
-				"actionButtonLeft": false
+				"actionButtonLeft": false,
+				"requiredFieldsToast": "Please fill in all required fields",
+				"textConfirmDelete": "Do you want to delete this entry ? ",
+				"titleConfirmDelete": "Delete",
+				"odataValueList": "Field does not have any OData ValueList reference"
 			},
 			"form": {
 				"enableCompact": false,
-				"headerExpanded": true
+				"headerExpanded": true,
+				"headerPreserveState": false
 			},
 			"table": {
 				"enablePagination": false,
@@ -78,7 +83,14 @@
 				"enableAction1": false,
 				"enableAction2": false,
 				"enableAction3": false,
-				"showSeparators": "All"
+				"showSeparators": "All",
+				"enableAutoPopin": false,
+				"enableAction4": false,
+				"enableAction5": false,
+				"action4Text": "",
+				"action4Type": "Transparent",
+				"action5Text": "",
+				"action5Type": "Transparent"
 			}
 		},
 		"fieldCatalog": [
@@ -89,20 +101,8 @@
 				"usage": "BOTH"
 			},
 			{
-				"name": "createdAt",
-				"label": "Created At",
-				"type": "timestamp",
-				"usage": "BOTH"
-			},
-			{
-				"name": "createdBy",
-				"label": "Created By",
-				"type": "text",
-				"usage": "BOTH"
-			},
-			{
-				"name": "currency",
-				"label": "Currency",
+				"name": "name",
+				"label": "Name",
 				"type": "text",
 				"usage": "BOTH"
 			},
@@ -113,8 +113,14 @@
 				"usage": "BOTH"
 			},
 			{
-				"name": "name",
-				"label": "Name",
+				"name": "value",
+				"label": "Value",
+				"type": "decimal",
+				"usage": "BOTH"
+			},
+			{
+				"name": "currency",
+				"label": "Currency",
 				"type": "text",
 				"usage": "BOTH"
 			},
@@ -131,15 +137,21 @@
 				"usage": "BOTH"
 			},
 			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
 				"name": "updatedBy",
 				"label": "Updated By",
 				"type": "text",
 				"usage": "BOTH"
 			},
 			{
-				"name": "value",
-				"label": "Value",
-				"type": "decimal",
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
 				"usage": "BOTH"
 			}
 		],
@@ -283,7 +295,7 @@
 					"butType": "Accept"
 				},
 				"statusStateType": "Rule",
-				"statusStateRule": "45A322FD-510F-4843-9C07-5F7D6F200901"
+				"statusStateRule": "52c88289-7ddc-4a42-b719-76f0c0be6231"
 			},
 			{
 				"text": "Currency",
@@ -334,7 +346,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "24.05.22.1454",
+	"ver": "24.06.18.1528",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_list",

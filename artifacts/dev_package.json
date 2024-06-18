@@ -85,7 +85,13 @@
 	"jsscript_group": [],
 	"theme": [],
 	"pdf": [],
-	"rulesengine": [],
+	"rulesengine": [
+		{
+			"id": "52c88289-7ddc-4a42-b719-76f0c0be6231",
+			"name": "Opportunity Status",
+			"description": ""
+		}
+	],
 	"reports": [
 		{
 			"id": "e78776be-f718-ef11-96f5-000d3add6b9f",
