@@ -3,7 +3,7 @@
 	"createdAt": "2021-01-27T09:59:08.470Z",
 	"createdBy": "oah",
 	"git": {
-		"remote": "https://github.com/neptune-software-marketplace/-neptunesoftware-dxp-abb-adaptivecrm",
+		"remote": "https://github.com/neptune-software-marketplace/neptunesoftware-dxp-abb-adaptivecrm",
 		"targetServers": [],
 		"testServers": []
 	},
