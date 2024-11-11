@@ -127,11 +127,17 @@
 	"pwa_customImageIos": null,
 	"pwa_customImageAndroidOld": null,
 	"pwa_customImageAndroidNew": null,
+	"pwa_desktopScreenshotWide": null,
+	"pwa_desktopScreenshotNarrow": null,
 	"pwa_displayMode": null,
 	"pwa_themeColor": "rgb(255,255,255)",
+	"layout_light": null,
+	"layout_dark": null,
+	"layout_preference": 0,
 	"pwa_backgroundColor": "rgb(255,255,255)",
 	"passwordResetEmail": null,
 	"activationCodeEmail": null,
+	"noSubmenuHover": false,
 	"package": "07d276d9-3599-4fb0-8b3b-65a908201234",
 	"cat": [
 		{

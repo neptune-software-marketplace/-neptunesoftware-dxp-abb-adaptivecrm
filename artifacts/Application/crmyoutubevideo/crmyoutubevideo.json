@@ -105,7 +105,7 @@
 	"ui5_url": "",
 	"cus_theme": "",
 	"css": "file:///css.css",
-	"compiledCss": "file://script/undefined/undefined.script",
+	"compiledCss": "file:///compiledCss.css",
 	"header": "",
 	"manifest": "",
 	"globalScript": null,
@@ -121,6 +121,6 @@
 	"printWidth": null,
 	"generateVersionOnActivation": false,
 	"activationHistoryCount": 0,
-	"apis": [],
-	"package": "07d276d9-3599-4fb0-8b3b-65a908201234"
+	"package": "07d276d9-3599-4fb0-8b3b-65a908201234",
+	"apis": []
 }
