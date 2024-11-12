@@ -27,7 +27,30 @@
 				"enableTab2": false,
 				"enableTab3": false,
 				"enableTab4": false,
-				"enableTab5": false
+				"enableTab5": false,
+				"actionButtonLeft": false,
+				"confirmationCheckCreate": false,
+				"confirmationCheckUpdate": false,
+				"iconButtonDelete": "",
+				"textButtonDelete": "Delete",
+				"textToastDelete": "Deleted",
+				"typeButtonDelete": "Reject",
+				"iconButtonAttachment": "",
+				"textButtonAttachment": "Add Attachment",
+				"typeButtonAttachment": "Transparent",
+				"tabAText": "Attachment",
+				"enableSave": true,
+				"enableDelete": false,
+				"enableAttachment": false,
+				"enableUppercase": false,
+				"enablePadding": true,
+				"titleConfirmCreate": "Create entry",
+				"textConfirmCreate": "Are you sure you want to create this entry?",
+				"titleConfirmUpdate": "Update entry",
+				"textConfirmUpdate": "Are you sure you want to update this entry?",
+				"textConfirmDelete": "Do you want to delete this entry? ",
+				"titleConfirmDelete": "Delete ",
+				"requiredFieldsToast": "Please fill in all the required fields"
 			},
 			"form": {
 				"enableCompact": false,
@@ -36,6 +59,16 @@
 			"table": {}
 		},
 		"fieldCatalog": [
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text"
+			},
 			{
 				"name": "status",
 				"label": "Status",
@@ -54,16 +87,6 @@
 			{
 				"name": "updatedBy",
 				"label": "Updated By",
-				"type": "text"
-			},
-			{
-				"name": "createdAt",
-				"label": "Created At",
-				"type": "timestamp"
-			},
-			{
-				"name": "createdBy",
-				"label": "Created By",
 				"type": "text"
 			}
 		],
@@ -124,10 +147,10 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "22.11.14.1635",
+	"ver": "24.11.12.1427",
 	"disabled": false,
 	"appType": "A",
-	"application": "planet9_adaptive_edit",
+	"application": "neptunedxp_adaptive_edit",
 	"package": "07d276d9-3599-4fb0-8b3b-65a908201234",
 	"roles": [],
 	"scriptSelObj": null,

@@ -40,11 +40,17 @@
 				"searchPlaceholder": "",
 				"title": "Sales Order Details",
 				"subTitle": "List of all sales in 2023",
-				"avatarIcon": "sap-icon://sales-order"
+				"avatarIcon": "sap-icon://sales-order",
+				"requiredFieldsToast": "Please fill in all required fields",
+				"textConfirmDelete": "Do you want to delete this entry? ",
+				"titleConfirmDelete": "Delete",
+				"odataValueList": "Field does not have any OData ValueListReference"
 			},
 			"form": {
 				"enableCompact": false,
-				"headerExpanded": true
+				"headerExpanded": true,
+				"headerPreserveState": false,
+				"enableSearchWildcard": false
 			},
 			"table": {
 				"enablePagination": false,
@@ -64,79 +70,26 @@
 				"enableAction3": false,
 				"fixedLayout": false,
 				"inset": false,
-				"headerText": ""
+				"headerText": "",
+				"enableAutoPopin": false,
+				"enableAction4": false,
+				"enableAction5": false,
+				"action4Text": "",
+				"action4Type": "Transparent",
+				"action5Text": "",
+				"action5Type": "Transparent"
 			}
 		},
 		"fieldCatalog": [
 			{
-				"name": "salesOrderNumber",
-				"label": "salesOrderNumber",
-				"type": "text",
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
 				"usage": "BOTH"
 			},
 			{
-				"name": "customerID",
-				"label": "customerID",
-				"type": "text",
-				"usage": "BOTH"
-			},
-			{
-				"name": "name",
-				"label": "name",
-				"type": "text",
-				"usage": "BOTH"
-			},
-			{
-				"name": "country",
-				"label": "country",
-				"type": "text",
-				"usage": "BOTH"
-			},
-			{
-				"name": "salesOrganization",
-				"label": "salesOrganization",
-				"type": "text",
-				"usage": "BOTH"
-			},
-			{
-				"name": "distributionChannel",
-				"label": "distributionChannel",
-				"type": "text",
-				"usage": "BOTH"
-			},
-			{
-				"name": "orderDate",
-				"label": "orderDate",
-				"type": "text",
-				"usage": "BOTH"
-			},
-			{
-				"name": "deliveryDate",
-				"label": "deliveryDate",
-				"type": "text",
-				"usage": "BOTH"
-			},
-			{
-				"name": "invoicingPlan",
-				"label": "invoicingPlan",
-				"type": "text",
-				"usage": "BOTH"
-			},
-			{
-				"name": "currency",
-				"label": "currency",
-				"type": "text",
-				"usage": "BOTH"
-			},
-			{
-				"name": "amount",
-				"label": "amount",
-				"type": "decimal",
-				"usage": "BOTH"
-			},
-			{
-				"name": "orderMonth",
-				"label": "orderMonth",
+				"name": "createdBy",
+				"label": "Created By",
 				"type": "text",
 				"usage": "BOTH"
 			},
@@ -147,20 +100,80 @@
 				"usage": "BOTH"
 			},
 			{
-				"name": "createdAt",
-				"label": "Created At",
-				"type": "timestamp",
-				"usage": "BOTH"
-			},
-			{
 				"name": "updatedBy",
 				"label": "Updated By",
 				"type": "text",
 				"usage": "BOTH"
 			},
 			{
-				"name": "createdBy",
-				"label": "Created By",
+				"name": "amount",
+				"label": "amount",
+				"type": "decimal",
+				"usage": "BOTH"
+			},
+			{
+				"name": "country",
+				"label": "country",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "currency",
+				"label": "currency",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "customerID",
+				"label": "customerID",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "deliveryDate",
+				"label": "deliveryDate",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "distributionChannel",
+				"label": "distributionChannel",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "invoicingPlan",
+				"label": "invoicingPlan",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "name",
+				"label": "name",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "orderDate",
+				"label": "orderDate",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "orderMonth",
+				"label": "orderMonth",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "salesOrderNumber",
+				"label": "salesOrderNumber",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "salesOrganization",
+				"label": "salesOrganization",
 				"type": "text",
 				"usage": "BOTH"
 			}
@@ -243,10 +256,10 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "24.05.23.1340",
+	"ver": "24.11.12.1422",
 	"disabled": false,
 	"appType": "A",
-	"application": "planet9_adaptive_list",
+	"application": "neptunedxp_adaptive_list",
 	"package": "07d276d9-3599-4fb0-8b3b-65a908201234",
 	"roles": [],
 	"scriptSelObj": null,

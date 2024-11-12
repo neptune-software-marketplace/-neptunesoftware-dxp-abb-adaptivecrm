@@ -96,181 +96,181 @@
 			"id": "e78776be-f718-ef11-96f5-000d3add6b9f",
 			"name": "crm_industry_list",
 			"description": "",
-			"application": "planet9_adaptive_list"
+			"application": "neptunedxp_adaptive_list"
 		},
 		{
 			"id": "dac0b4d5-5c23-4ad1-abcb-ceef6f304d2d",
 			"name": "crm_account_create",
 			"description": "",
-			"application": "planet9_adaptive_edit"
+			"application": "neptunedxp_adaptive_edit"
 		},
 		{
 			"id": "d5d0192c-02e9-4edc-97b6-3231bafaca3a",
 			"name": "crm_opportunity_status_list",
 			"description": "",
-			"application": "planet9_adaptive_list"
+			"application": "neptunedxp_adaptive_list"
 		},
 		{
 			"id": "cd66ac29-c01c-4dc5-aff4-10e6aed99ed7",
 			"name": "crm_country_edit",
 			"description": "",
-			"application": "planet9_adaptive_edit"
+			"application": "neptunedxp_adaptive_edit"
 		},
 		{
 			"id": "c73d91fd-69c8-478b-8a38-d1f0fec30b52",
 			"name": "crm_opportunity_list_child",
 			"description": "",
-			"application": "planet9_adaptive_list"
+			"application": "neptunedxp_adaptive_list"
 		},
 		{
 			"id": "bac2ea85-db5e-4f20-b191-9e06d4f29ee3",
 			"name": "crm_account_tile_chart",
 			"description": "",
-			"application": "planet9_adaptive_tile_chart"
+			"application": "neptunedxp_adaptive_tile_chart"
 		},
 		{
 			"id": "b546505a-1bba-4721-9a18-e9eebbf6e185",
 			"name": "crm_currency_list",
 			"description": "",
-			"application": "planet9_adaptive_list"
+			"application": "neptunedxp_adaptive_list"
 		},
 		{
 			"id": "b53d6caf-d126-48ba-a56d-615aa47ec85f",
 			"name": "crm_account_list",
 			"description": "",
-			"application": "planet9_adaptive_list"
+			"application": "neptunedxp_adaptive_list"
 		},
 		{
 			"id": "b1457f95-cc60-eb11-a607-0003ff1e4706",
 			"name": "crm_opportunity_edit_child",
 			"description": "",
-			"application": "planet9_adaptive_edit"
+			"application": "neptunedxp_adaptive_edit"
 		},
 		{
 			"id": "9d1bb1bf-0566-4ea9-9e5e-b254c23c964f",
 			"name": "crm_contact_list",
 			"description": "",
-			"application": "planet9_adaptive_list"
+			"application": "neptunedxp_adaptive_list"
 		},
 		{
 			"id": "997ee454-0d68-4dff-9dc5-bec94f9ecd6f",
 			"name": "crm_opportunity_status_edit",
 			"description": "",
-			"application": "planet9_adaptive_edit"
+			"application": "neptunedxp_adaptive_edit"
 		},
 		{
 			"id": "89effbed-dc60-eb11-a607-0003ff1e4706",
 			"name": "crm_opportunity_analytic_chart",
 			"description": "",
-			"application": "planet9_adaptive_tile_chart"
+			"application": "neptunedxp_adaptive_tile_chart"
 		},
 		{
 			"id": "6ed49cbd-27ec-4e6e-aba0-1893b66b8134",
 			"name": "crm_contact_list_child",
 			"description": "",
-			"application": "planet9_adaptive_list"
+			"application": "neptunedxp_adaptive_list"
 		},
 		{
 			"id": "6aa8bee5-e3b3-4136-a1f9-e54216afe085",
 			"name": "crm_opportunity_list",
 			"description": "",
-			"application": "planet9_adaptive_list"
+			"application": "neptunedxp_adaptive_list"
 		},
 		{
 			"id": "60253577-178f-4819-bcfb-0f31c13ef28b",
 			"name": "crm_industry_edit",
 			"description": "",
-			"application": "planet9_adaptive_edit"
+			"application": "neptunedxp_adaptive_edit"
 		},
 		{
 			"id": "5e44e440-0919-ef11-96f5-000d3add6b9f",
 			"name": "crm_sales_orders_list",
 			"description": "",
-			"application": "planet9_adaptive_list"
+			"application": "neptunedxp_adaptive_list"
 		},
 		{
 			"id": "4ffde61e-cc60-eb11-a607-0003ff1e4706",
 			"name": "crm_contact_edit_child",
 			"description": "",
-			"application": "planet9_adaptive_edit"
+			"application": "neptunedxp_adaptive_edit"
 		},
 		{
 			"id": "4dabb240-0d24-43b9-bc0b-d0edb0039c9a",
 			"name": "crm_opportunity_analytic",
 			"description": "",
-			"application": "planet9_adaptive_bi"
+			"application": "neptunedxp_adaptive_bi"
 		},
 		{
 			"id": "4b655958-4b3a-4d94-b578-cab7e0fbfcf5",
 			"name": "crm_account_type_edit",
 			"description": "",
-			"application": "planet9_adaptive_edit"
+			"application": "neptunedxp_adaptive_edit"
 		},
 		{
 			"id": "47fef3f6-b838-4959-b021-6d1ff1f3264d",
 			"name": "crm_account_details",
 			"description": "",
-			"application": "planet9_adaptive_edit"
+			"application": "neptunedxp_adaptive_edit"
 		},
 		{
 			"id": "43c13fb2-b5e9-4e1e-92c9-ba8580c15f61",
 			"name": "crm_currency_edit",
 			"description": "",
-			"application": "planet9_adaptive_edit"
+			"application": "neptunedxp_adaptive_edit"
 		},
 		{
 			"id": "2da7cb08-008d-4803-b986-3b3f551e308e",
 			"name": "crm_contact_tile_table",
 			"description": "",
-			"application": "planet9_adaptive_tile_table"
+			"application": "neptunedxp_adaptive_tile_table"
 		},
 		{
 			"id": "2c27a2a4-ea47-41ea-8be6-3060a7e6e127",
 			"name": "crm_account_type_list",
 			"description": "",
-			"application": "planet9_adaptive_list"
+			"application": "neptunedxp_adaptive_list"
 		},
 		{
 			"id": "2518da10-d612-41b3-b53c-7b86f1fd1827",
 			"name": "crm_country_list",
 			"description": "",
-			"application": "planet9_adaptive_list"
+			"application": "neptunedxp_adaptive_list"
 		},
 		{
 			"id": "1d62477a-dd60-eb11-a607-0003ff1e4706",
 			"name": "crm_opportunity_tile_chart",
 			"description": "",
-			"application": "planet9_adaptive_tile_chart"
+			"application": "neptunedxp_adaptive_tile_chart"
 		},
 		{
 			"id": "1ccc5e00-e33e-4da7-8a0c-9c0ea65dedd3",
 			"name": "crm_opportunity_chart",
 			"description": "",
-			"application": "planet9_adaptive_tile_chart"
+			"application": "neptunedxp_adaptive_tile_chart"
 		},
 		{
 			"id": "193590cd-fb4c-43d9-a6e1-edec506447ed",
 			"name": "crm_contact_edit",
 			"description": "",
-			"application": "planet9_adaptive_edit"
+			"application": "neptunedxp_adaptive_edit"
 		},
 		{
 			"id": "16810bd1-15ff-4b4b-adf3-28aeadc048ad",
 			"name": "crm_opportunity_edit",
 			"description": "",
-			"application": "planet9_adaptive_edit"
+			"application": "neptunedxp_adaptive_edit"
 		},
 		{
 			"id": "0660e63e-0519-ef11-96f5-000d3add6b9f",
 			"name": "sales_order_chart",
 			"description": "",
-			"application": "planet9_adaptive_tile_chart"
+			"application": "neptunedxp_adaptive_tile_chart"
 		},
 		{
 			"id": "04bf6e0b-e600-419a-8f8a-d0755c02cd24",
 			"name": "crm_contact_create",
 			"description": "",
-			"application": "planet9_adaptive_edit"
+			"application": "neptunedxp_adaptive_edit"
 		}
 	],
 	"api_authentication": [],

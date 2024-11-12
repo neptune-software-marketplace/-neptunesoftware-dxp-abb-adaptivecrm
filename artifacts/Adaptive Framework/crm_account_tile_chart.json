@@ -46,24 +46,6 @@
 				"usage": "BOTH"
 			},
 			{
-				"name": "name",
-				"label": "Name",
-				"type": "text",
-				"usage": "BOTH"
-			},
-			{
-				"name": "street",
-				"label": "Street",
-				"type": "text",
-				"usage": "BOTH"
-			},
-			{
-				"name": "zip",
-				"label": "ZIP",
-				"type": "text",
-				"usage": "BOTH"
-			},
-			{
 				"name": "city",
 				"label": "City",
 				"type": "text",
@@ -76,9 +58,15 @@
 				"usage": "BOTH"
 			},
 			{
-				"name": "type",
-				"label": "Type",
-				"type": "smallint",
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
 				"usage": "BOTH"
 			},
 			{
@@ -94,14 +82,26 @@
 				"usage": "BOTH"
 			},
 			{
-				"name": "updatedAt",
-				"label": "Updated At",
-				"type": "timestamp",
+				"name": "name",
+				"label": "Name",
+				"type": "text",
 				"usage": "BOTH"
 			},
 			{
-				"name": "createdAt",
-				"label": "Created At",
+				"name": "street",
+				"label": "Street",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "type",
+				"label": "Type",
+				"type": "smallint",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
 				"type": "timestamp",
 				"usage": "BOTH"
 			},
@@ -112,8 +112,8 @@
 				"usage": "BOTH"
 			},
 			{
-				"name": "createdBy",
-				"label": "Created By",
+				"name": "zip",
+				"label": "ZIP",
 				"type": "text",
 				"usage": "BOTH"
 			}
@@ -176,10 +176,10 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "23.4.12.910",
+	"ver": "24.11.12.1426",
 	"disabled": false,
 	"appType": "A",
-	"application": "planet9_adaptive_tile_chart",
+	"application": "neptunedxp_adaptive_tile_chart",
 	"package": "07d276d9-3599-4fb0-8b3b-65a908201234",
 	"roles": [],
 	"scriptSelObj": null,

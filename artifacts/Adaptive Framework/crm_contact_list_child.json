@@ -59,11 +59,18 @@
 				"enableImport": false,
 				"enableVariant": false,
 				"searchLabel": "Search",
-				"searchPlaceholder": ""
+				"searchPlaceholder": "",
+				"actionButtonLeft": false,
+				"requiredFieldsToast": "Please fill in all required fields",
+				"textConfirmDelete": "Do you want to delete this entry? ",
+				"titleConfirmDelete": "Delete",
+				"odataValueList": "Field does not have any OData ValueListReference"
 			},
 			"form": {
 				"enableCompact": true,
-				"headerExpanded": false
+				"headerExpanded": false,
+				"headerPreserveState": false,
+				"enableSearchWildcard": false
 			},
 			"table": {
 				"enablePagination": false,
@@ -83,13 +90,31 @@
 				"action3Type": "Transparent",
 				"enableAction1": false,
 				"enableAction2": false,
-				"enableAction3": false
+				"enableAction3": false,
+				"showSeparators": "All",
+				"enableAutoPopin": false,
+				"enableAction4": false,
+				"enableAction5": false,
+				"action4Text": "",
+				"action4Type": "Transparent",
+				"action5Text": "",
+				"action5Type": "Transparent"
 			}
 		},
 		"fieldCatalog": [
 			{
 				"name": "accountid",
 				"label": "Account",
+				"type": "text"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
 				"type": "text"
 			},
 			{
@@ -100,11 +125,6 @@
 			{
 				"name": "phone",
 				"label": "Phone",
-				"type": "text"
-			},
-			{
-				"name": "email",
-				"label": "eMail",
 				"type": "text"
 			},
 			{
@@ -123,13 +143,8 @@
 				"type": "text"
 			},
 			{
-				"name": "createdAt",
-				"label": "Created At",
-				"type": "timestamp"
-			},
-			{
-				"name": "createdBy",
-				"label": "Created By",
+				"name": "email",
+				"label": "eMail",
 				"type": "text"
 			}
 		],
@@ -203,10 +218,10 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "22.11.14.1633",
+	"ver": "24.11.12.1424",
 	"disabled": false,
 	"appType": "A",
-	"application": "planet9_adaptive_list",
+	"application": "neptunedxp_adaptive_list",
 	"package": "07d276d9-3599-4fb0-8b3b-65a908201234",
 	"roles": [],
 	"scriptSelObj": null,

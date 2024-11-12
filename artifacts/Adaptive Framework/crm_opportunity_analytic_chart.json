@@ -46,8 +46,20 @@
 				"usage": "BOTH"
 			},
 			{
-				"name": "name",
-				"label": "Name",
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "currency",
+				"label": "Currency",
 				"type": "text",
 				"usage": "BOTH"
 			},
@@ -58,14 +70,8 @@
 				"usage": "BOTH"
 			},
 			{
-				"name": "value",
-				"label": "Value",
-				"type": "decimal",
-				"usage": "BOTH"
-			},
-			{
-				"name": "currency",
-				"label": "Currency",
+				"name": "name",
+				"label": "Name",
 				"type": "text",
 				"usage": "BOTH"
 			},
@@ -82,21 +88,15 @@
 				"usage": "BOTH"
 			},
 			{
-				"name": "createdAt",
-				"label": "Created At",
-				"type": "timestamp",
-				"usage": "BOTH"
-			},
-			{
 				"name": "updatedBy",
 				"label": "Updated By",
 				"type": "text",
 				"usage": "BOTH"
 			},
 			{
-				"name": "createdBy",
-				"label": "Created By",
-				"type": "text",
+				"name": "value",
+				"label": "Value",
+				"type": "decimal",
 				"usage": "BOTH"
 			}
 		],
@@ -137,10 +137,10 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "24.05.23.1121",
+	"ver": "24.11.12.1422",
 	"disabled": false,
 	"appType": "A",
-	"application": "planet9_adaptive_tile_chart",
+	"application": "neptunedxp_adaptive_tile_chart",
 	"package": "07d276d9-3599-4fb0-8b3b-65a908201234",
 	"roles": [],
 	"scriptSelObj": null,
