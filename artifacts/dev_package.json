@@ -6,14 +6,15 @@
 		"remote": "https://github.com/neptune-software-marketplace/neptunesoftware-dxp-abb-adaptivecrm",
 		"targetServers": [],
 		"testServers": [],
-		"branch": "v24"
+		"branch": "v24",
+		"head": "45f39dadff468fa9ec32a33d907cb8ed12003bfe"
 	},
 	"name": "CRM",
 	"description": "Planet 9 CRM ",
 	"ver": "24.11.11.1741",
 	"enableCICD": true,
 	"internalReadOnly": false,
-	"oeVersion": null,
+	"oeVersion": "24.10.0-rc.3",
 	"excludeTemplateFiles": true,
 	"roles": [],
 	"apps": [
