@@ -8,9 +8,9 @@
 		"testServers": [],
 		"branch": "v24"
 	},
-	"name": "neptunesoftware-dxp-abb-demo-crm",
+	"name": "neptunesoftware-dxp-abb-adaptivecrm",
 	"description": "Planet 9 CRM ",
-	"ver": "24.11.14.1333",
+	"ver": "24.11.14.1349",
 	"enableCICD": true,
 	"internalReadOnly": false,
 	"oeVersion": "24.10.0-rc.3",
