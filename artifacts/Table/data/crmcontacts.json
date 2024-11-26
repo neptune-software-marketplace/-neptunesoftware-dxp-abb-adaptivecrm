@@ -6,9 +6,9 @@
 		"createdBy": "admin",
 		"updatedBy": "admin",
 		"accountid": "4479",
-		"name": "Cezar Strugariu",
+		"name": "John Doe",
 		"phone": "+440788657432",
-		"email": "cezar.strugariu@neptune-software.com",
+		"email": "john.doe@example.com",
 		"text": "Example text."
 	},
 	{
@@ -18,9 +18,9 @@
 		"createdBy": "admin",
 		"updatedBy": "admin",
 		"accountid": "330",
-		"name": "Morten Petersen",
+		"name": "Jane Smith",
 		"phone": "",
-		"email": "morten.petersen@neptune-software.com",
+		"email": "jane.smith@example.com",
 		"text": ""
 	},
 	{
@@ -30,9 +30,9 @@
 		"createdBy": "admin",
 		"updatedBy": "admin",
 		"accountid": "616",
-		"name": "David Bartolome",
+		"name": "Alice Johnson",
 		"phone": null,
-		"email": "david.bartolome@neptune-software.com",
+		"email": "alice.johnson@example.com",
 		"text": null
 	},
 	{
@@ -42,9 +42,9 @@
 		"createdBy": "admin",
 		"updatedBy": "admin",
 		"accountid": "330",
-		"name": "Ole-Andre Haugen",
+		"name": "Bob Williams",
 		"phone": "+4790846995",
-		"email": "ole-andre.haugen@neptune-software.com",
+		"email": "bob.williams@example.com",
 		"text": null
 	},
 	{
@@ -54,9 +54,9 @@
 		"createdBy": "admin",
 		"updatedBy": "admin",
 		"accountid": "9999",
-		"name": "Elling Skjetlein",
+		"name": "Charlie Brown",
 		"phone": "",
-		"email": "elling@neptune-software.com",
+		"email": "charlie.brown@example.com",
 		"text": ""
 	},
 	{
@@ -66,9 +66,9 @@
 		"createdBy": "admin",
 		"updatedBy": "admin",
 		"accountid": "332",
-		"name": "Frode Helland",
+		"name": "Diana Prince",
 		"phone": "",
-		"email": "frode@neptune-software.com",
+		"email": "diana.prince@example.com",
 		"text": ""
 	}
 ]
