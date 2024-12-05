@@ -2,6 +2,8 @@
 	"id": "f93afb05-9ab2-4deb-bc7d-9342fef19b03",
 	"createdAt": "2021-01-27T10:01:05.530Z",
 	"createdBy": "oah",
+	"lightTileLayouts": null,
+	"darkTileLayouts": null,
 	"translation": [],
 	"storeItem": {},
 	"settings": {
@@ -53,7 +55,6 @@
 	"styleClass": null,
 	"titleAlignment": null,
 	"titleLevel": null,
-	"subTitleLevel": null,
 	"dataUrl": null,
 	"dataInterval": null,
 	"footer": null,
@@ -79,11 +80,7 @@
 	"imageRepeat": null,
 	"imageSize": null,
 	"imagePosition": null,
-	"iconPlacement": null,
-	"imgShapeCircle": false,
-	"iconOnlyMenu": false,
 	"forceAttributes": false,
-	"imageType": null,
 	"openText": "Manage Accounts",
 	"imageHeight": null,
 	"bodyHeight": null,
@@ -93,6 +90,7 @@
 	"cockpitTile": false,
 	"cardImageDarkNone": false,
 	"imageDarkNone": false,
+	"oneTileLayout": false,
 	"package": "07d276d9-3599-4fb0-8b3b-65a908201234",
 	"roles": []
 }
