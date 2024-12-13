@@ -9,7 +9,7 @@
 		"branch": "v24"
 	},
 	"name": "neptunesoftware-dxp-abb-adaptivecrm",
-	"description": "Neptune DXP CRM ",
+	"description": "A suite of adaptive applications for managing CRM data, including sales, analytics, and master data.",
 	"ver": "24.12.05.1514",
 	"enableCICD": true,
 	"internalReadOnly": false,
