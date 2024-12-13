@@ -8,7 +8,7 @@
 		"testServers": []
 	},
 	"name": "CRM",
-	"description": "Planet 9 CRM ",
+	"description": "A suite of adaptive applications for managing CRM data, including sales, analytics, and master data.",
 	"ver": "24.05.31.0843",
 	"enableCICD": true,
 	"apps": [
