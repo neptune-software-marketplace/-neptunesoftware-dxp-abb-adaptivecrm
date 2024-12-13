@@ -7,24 +7,15 @@
 		"targetServers": [],
 		"testServers": []
 	},
-	"name": "CRM",
+	"name": "neptunesoftware-dxp-abb-adaptivecrm",
 	"description": "A suite of adaptive applications for managing CRM data, including sales, analytics, and master data.",
-	"ver": "24.05.31.0843",
+	"ver": "24.12.13.1609",
 	"enableCICD": true,
 	"apps": [
 		{
 			"id": "a6347b02-931d-ef11-96f5-000d3add6b9f",
 			"application": "crmyoutubevideo",
 			"title": "",
-			"description": "",
-			"package": {
-				"id": "07d276d9-3599-4fb0-8b3b-65a908201234"
-			}
-		},
-		{
-			"id": "6c6293a2-468f-4a5d-a9d2-3f1d5d13cfdb",
-			"application": "powerbi_report",
-			"title": "PowerBI Reports",
 			"description": "",
 			"package": {
 				"id": "07d276d9-3599-4fb0-8b3b-65a908201234"
