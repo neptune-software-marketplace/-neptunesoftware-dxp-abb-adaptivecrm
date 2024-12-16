@@ -22,6 +22,12 @@
 			"application": "crmyoutubevideo",
 			"title": "",
 			"description": ""
+		},
+		{
+			"id": "6c6293a2-468f-4a5d-a9d2-3f1d5d13cfdb",
+			"application": "powerbi_report",
+			"title": "PowerBI Reports",
+			"description": ""
 		}
 	],
 	"api": [],
