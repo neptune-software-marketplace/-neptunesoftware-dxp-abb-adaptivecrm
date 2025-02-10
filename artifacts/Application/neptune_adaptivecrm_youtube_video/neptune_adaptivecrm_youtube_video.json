@@ -1,0 +1,126 @@
+{
+	"id": "f9451809-5705-441d-89a1-bb8d74d4bdb9",
+	"createdAt": "2025-02-07T10:23:47.000Z",
+	"createdBy": "admin",
+	"objects": [
+		{
+			"fieldNo": "9e1b97a9-5e10-41fd-96b5-03d991d33f2e",
+			"fieldName": "HBox",
+			"fieldParent": 0,
+			"fieldType": "sap.m.HBox",
+			"script": "",
+			"customComponent": false,
+			"request": [],
+			"response": [],
+			"attributes": [
+				{
+					"attribute": "width",
+					"grouping": "Properties",
+					"value": "100%",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "renderType",
+					"grouping": "Properties",
+					"value": "Bare",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "justifyContent",
+					"grouping": "Properties",
+					"value": "Center",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "fitContainer",
+					"grouping": "Properties",
+					"value": "true",
+					"script": "",
+					"translation": []
+				}
+			],
+			"data": [
+				{
+					"fieldNo": "a7bd5951-d7ae-4b28-ff9a-61e05c27a828",
+					"fieldName": "HTMLObject",
+					"fieldParent": "9e1b97a9-5e10-41fd-96b5-03d991d33f2e",
+					"fieldType": "sap.ui.core.HTML",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "a8071b0a-33a1-4d61-b357-dbc220f4b80c",
+							"fieldName": "HTML",
+							"fieldParent": "a7bd5951-d7ae-4b28-ff9a-61e05c27a828",
+							"fieldType": "neptune.Html",
+							"script": "<iframe class=\"videoFrame\"  src=\"https://www.youtube.com/embed/D005h_Qry5E?si=Htz2WGOBqRMVQCQx\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": []
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": [],
+	"ver": "25.02.07.1025",
+	"application": "neptune_adaptivecrm_youtube_video",
+	"title": "",
+	"description": "Embedded Adaptive CRM demo video.",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": true,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_horizon",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": "",
+	"cus_theme": "",
+	"css": "file:///css.css",
+	"compiledCss": "file:///compiledCss.css",
+	"header": "",
+	"manifest": "",
+	"globalScript": null,
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
+	"generateVersionOnActivation": false,
+	"activationHistoryCount": 0,
+	"package": "07d276d9-3599-4fb0-8b3b-65a908201234",
+	"apis": []
+}

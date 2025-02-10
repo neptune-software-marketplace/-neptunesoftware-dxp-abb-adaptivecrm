@@ -1,0 +1,17 @@
+{
+	"id": "a4cd5dfe-3964-ed11-819c-0022489e262f",
+	"createdAt": "2022-11-14T16:33:03.830Z",
+	"createdBy": "lloyd",
+	"settings": {
+		"tableid": "d9cb042f-65fb-4df4-aaa7-37c17e687375",
+		"hasDocumentation": false
+	},
+	"documentation": [],
+	"name": "neptune-adaptivecrm-account-type-edit",
+	"description": "Connector for editing the accounts type.",
+	"group": null,
+	"type": "T",
+	"ver": "25.02.07.1129",
+	"disabled": false,
+	"package": "07d276d9-3599-4fb0-8b3b-65a908201234"
+}

@@ -13,21 +13,21 @@
 	"ver": "24.12.05.1514",
 	"enableCICD": true,
 	"internalReadOnly": false,
-	"oeVersion": "24.10.1",
+	"oeVersion": "24.11.0-rc.3",
 	"excludeTemplateFiles": true,
 	"roles": [],
 	"apps": [
 		{
-			"id": "a6347b02-931d-ef11-96f5-000d3add6b9f",
-			"application": "crmyoutubevideo",
+			"id": "f9451809-5705-441d-89a1-bb8d74d4bdb9",
+			"application": "neptune_adaptivecrm_youtube_video",
 			"title": "",
-			"description": ""
+			"description": "Embedded Adaptive CRM demo video."
 		},
 		{
-			"id": "6c6293a2-468f-4a5d-a9d2-3f1d5d13cfdb",
-			"application": "powerbi_report",
+			"id": "9342621a-d01c-4562-988b-615906ebc23a",
+			"application": "neptune_adaptive_powerbi_report",
 			"title": "PowerBI Reports",
-			"description": ""
+			"description": "Integrated Microsoft PowerBI Reports."
 		}
 	],
 	"api": [],
@@ -36,48 +36,48 @@
 	"dictionary": [
 		{
 			"id": "d9cb042f-65fb-4df4-aaa7-37c17e687375",
-			"name": "crmaccounttype",
-			"description": "Account Type"
+			"name": "neptune-adaptivecrm-account-type",
+			"description": "Table for account types."
 		},
 		{
 			"id": "b7a1cc2d-fe18-ef11-96f5-000d3add6b9f",
-			"name": "crm_salesorder",
-			"description": null
+			"name": "neptune-adaptivecrm-salesorder",
+			"description": "Table for sales orders."
 		},
 		{
 			"id": "b68943ff-0f43-4438-b2e0-2e9bb9f58d14",
-			"name": "crmopportunity",
-			"description": "Opportunity"
+			"name": "neptune-adaptivecrm-opportunity",
+			"description": "Table for sales opportunities."
 		},
 		{
 			"id": "aa65c1e2-5c3f-4ddd-801f-95267da804a4",
-			"name": "crmindustry",
-			"description": "Industry"
+			"name": "neptune-adaptivecrm-industry",
+			"description": "Table for industries."
 		},
 		{
 			"id": "94c614c4-8760-eb11-a607-0003ff1e4706",
-			"name": "crmcountry",
-			"description": "Country"
+			"name": "neptune-adaptivecrm-country",
+			"description": "Table for countries."
 		},
 		{
 			"id": "817f15a0-c646-4154-926e-f3b611716890",
-			"name": "crmcontacts",
-			"description": "Contacts"
+			"name": "neptune-adaptivecrm-contacts",
+			"description": "Table for contacts."
 		},
 		{
 			"id": "712efaab-6adc-40e9-9b7c-f4036a68f1d8",
-			"name": "crmopportunitystatus",
-			"description": "Opportunity Status"
+			"name": "neptune-adaptivecrm-opportunitystatus",
+			"description": "Table for opportunity status."
 		},
 		{
 			"id": "632cafbf-7700-4490-871d-3af809779252",
-			"name": "crmcurrency",
-			"description": "Currency"
+			"name": "neptune-adaptivecrm-currency",
+			"description": "Table for currencies."
 		},
 		{
 			"id": "1e37c246-1240-420f-bb42-60f8a477c905",
-			"name": "crmaccount",
-			"description": "Account"
+			"name": "neptune-adaptivecrm-account",
+			"description": "Table for accounts."
 		}
 	],
 	"jsclass": [],
@@ -87,189 +87,189 @@
 	"rulesengine": [
 		{
 			"id": "52c88289-7ddc-4a42-b719-76f0c0be6231",
-			"name": "Opportunity Status",
-			"description": ""
+			"name": "neptune-adaptivecrm-opportunity-status-rule",
+			"description": "Rules for opportunity status value state (color based on status)."
 		}
 	],
 	"reports": [
 		{
 			"id": "e78776be-f718-ef11-96f5-000d3add6b9f",
-			"name": "crm_industry_list",
-			"description": "",
+			"name": "neptune_adaptivecrm_industry_list",
+			"description": "Adaptive application for listing the industries.",
 			"application": "neptunedxp_adaptive_list"
 		},
 		{
 			"id": "dac0b4d5-5c23-4ad1-abcb-ceef6f304d2d",
-			"name": "crm_account_create",
-			"description": "",
+			"name": "neptune_adaptivecrm_account_create",
+			"description": "Adaptive application for accounts creation.",
 			"application": "neptunedxp_adaptive_edit"
 		},
 		{
 			"id": "d5d0192c-02e9-4edc-97b6-3231bafaca3a",
-			"name": "crm_opportunity_status_list",
-			"description": "",
+			"name": "neptune_adaptivecrm_opportunity_status_list",
+			"description": "Adaptive application for listing the sales opportunities status.",
 			"application": "neptunedxp_adaptive_list"
 		},
 		{
 			"id": "cd66ac29-c01c-4dc5-aff4-10e6aed99ed7",
-			"name": "crm_country_edit",
-			"description": "",
+			"name": "neptune_adaptivecrm_country_edit",
+			"description": "Adaptive application for editing the countries details.",
 			"application": "neptunedxp_adaptive_edit"
 		},
 		{
 			"id": "c73d91fd-69c8-478b-8a38-d1f0fec30b52",
-			"name": "crm_opportunity_list_child",
-			"description": "",
+			"name": "neptune_adaptivecrm_opportunity_list_child",
+			"description": "Adaptive application for displaying the sales opportunities list of each account in the account detail application. ",
 			"application": "neptunedxp_adaptive_list"
 		},
 		{
 			"id": "bac2ea85-db5e-4f20-b191-9e06d4f29ee3",
-			"name": "crm_account_tile_chart",
-			"description": "",
+			"name": "neptune_adaptivecrm_account_tile_chart",
+			"description": "Adaptive application for displaying the accounts industry in a Column chart.",
 			"application": "neptunedxp_adaptive_tile_chart"
 		},
 		{
 			"id": "b546505a-1bba-4721-9a18-e9eebbf6e185",
-			"name": "crm_currency_list",
-			"description": "",
+			"name": "neptune_adaptivecrm_currency_list",
+			"description": "Adaptive application for listing the currencies.",
 			"application": "neptunedxp_adaptive_list"
 		},
 		{
 			"id": "b53d6caf-d126-48ba-a56d-615aa47ec85f",
-			"name": "crm_account_list",
-			"description": "",
+			"name": "neptune_adaptivecrm_account_list",
+			"description": "Adaptive application for listing the accounts.",
 			"application": "neptunedxp_adaptive_list"
 		},
 		{
 			"id": "b1457f95-cc60-eb11-a607-0003ff1e4706",
-			"name": "crm_opportunity_edit_child",
-			"description": "",
+			"name": "neptune_adaptivecrm_opportunity_edit_child",
+			"description": "Adaptive application for managing the sales opportunities.",
 			"application": "neptunedxp_adaptive_edit"
 		},
 		{
 			"id": "9d1bb1bf-0566-4ea9-9e5e-b254c23c964f",
-			"name": "crm_contact_list",
-			"description": "",
+			"name": "neptune_adaptivecrm_contact_list",
+			"description": "Adaptive application for listing the contacts.",
 			"application": "neptunedxp_adaptive_list"
 		},
 		{
 			"id": "997ee454-0d68-4dff-9dc5-bec94f9ecd6f",
-			"name": "crm_opportunity_status_edit",
-			"description": "",
+			"name": "neptune_adaptivecrm_opportunity_status_edit",
+			"description": "Adaptive application for editing the sales opportunities status.",
 			"application": "neptunedxp_adaptive_edit"
 		},
 		{
 			"id": "89effbed-dc60-eb11-a607-0003ff1e4706",
-			"name": "crm_opportunity_analytic_chart",
-			"description": "",
+			"name": "neptune_adaptivecrm_opportunity_analytic_chart",
+			"description": "Adaptive application displaying the sales opportunities in a Area Spline chart.",
 			"application": "neptunedxp_adaptive_tile_chart"
 		},
 		{
 			"id": "6ed49cbd-27ec-4e6e-aba0-1893b66b8134",
-			"name": "crm_contact_list_child",
-			"description": "",
+			"name": "neptune_adaptivecrm_contact_list_child",
+			"description": "Adaptive application used for displaying the contacts list of each account in the account detail application. ",
 			"application": "neptunedxp_adaptive_list"
 		},
 		{
 			"id": "6aa8bee5-e3b3-4136-a1f9-e54216afe085",
-			"name": "crm_opportunity_list",
-			"description": "",
+			"name": "neptune_adaptivecrm_opportunity_list",
+			"description": "Adaptive application for listing the sales opportunities.",
 			"application": "neptunedxp_adaptive_list"
 		},
 		{
 			"id": "60253577-178f-4819-bcfb-0f31c13ef28b",
-			"name": "crm_industry_edit",
-			"description": "",
+			"name": "neptune_adaptivecrm_industry_edit",
+			"description": "Adaptive application for editing the industries.",
 			"application": "neptunedxp_adaptive_edit"
 		},
 		{
 			"id": "5e44e440-0919-ef11-96f5-000d3add6b9f",
-			"name": "crm_sales_orders_list",
-			"description": "",
+			"name": "neptune_adaptivecrm_sales_orders_list",
+			"description": "Adaptive application for listing the sales orders.",
 			"application": "neptunedxp_adaptive_list"
 		},
 		{
 			"id": "4ffde61e-cc60-eb11-a607-0003ff1e4706",
-			"name": "crm_contact_edit_child",
-			"description": "",
+			"name": "neptune_adaptivecrm_contact_edit_child",
+			"description": "Adaptive application for maintaining the contact details.",
 			"application": "neptunedxp_adaptive_edit"
 		},
 		{
 			"id": "4dabb240-0d24-43b9-bc0b-d0edb0039c9a",
-			"name": "crm_opportunity_analytic",
-			"description": "",
+			"name": "neptune_adaptivecrm_opportunity_analytic",
+			"description": "Adaptive application for generating powerBI reports on the sales opportunities. ",
 			"application": "neptunedxp_adaptive_bi"
 		},
 		{
 			"id": "4b655958-4b3a-4d94-b578-cab7e0fbfcf5",
-			"name": "crm_account_type_edit",
-			"description": "",
+			"name": "neptune_adaptivecrm_account_type_edit",
+			"description": "Adaptive application for editing accounts type.",
 			"application": "neptunedxp_adaptive_edit"
 		},
 		{
 			"id": "47fef3f6-b838-4959-b021-6d1ff1f3264d",
-			"name": "crm_account_details",
-			"description": "",
+			"name": "neptune_adaptivecrm_account_detail",
+			"description": "Adaptive application for editing the accounts details.",
 			"application": "neptunedxp_adaptive_edit"
 		},
 		{
 			"id": "43c13fb2-b5e9-4e1e-92c9-ba8580c15f61",
-			"name": "crm_currency_edit",
-			"description": "",
+			"name": "neptune_adaptivecrm_currency_edit",
+			"description": "Adaptive application for editing the currencies.",
 			"application": "neptunedxp_adaptive_edit"
 		},
 		{
 			"id": "2da7cb08-008d-4803-b986-3b3f551e308e",
-			"name": "crm_contact_tile_table",
-			"description": "",
+			"name": "neptune_adaptivecrm_contact_tile_table",
+			"description": "Adaptive application used to display the contacts list as a table within the tile.",
 			"application": "neptunedxp_adaptive_tile_table"
 		},
 		{
 			"id": "2c27a2a4-ea47-41ea-8be6-3060a7e6e127",
-			"name": "crm_account_type_list",
-			"description": "",
+			"name": "neptune_adaptivecrm_account_type_list",
+			"description": "Adaptive application for listing account types.",
 			"application": "neptunedxp_adaptive_list"
 		},
 		{
 			"id": "2518da10-d612-41b3-b53c-7b86f1fd1827",
-			"name": "crm_country_list",
-			"description": "",
+			"name": "neptune_adaptivecrm_country_list",
+			"description": "Adaptive application for listing the countries list.",
 			"application": "neptunedxp_adaptive_list"
 		},
 		{
 			"id": "1d62477a-dd60-eb11-a607-0003ff1e4706",
-			"name": "crm_opportunity_tile_chart",
-			"description": "",
+			"name": "neptune_adaptivecrm_opportunity_tile_chart",
+			"description": "Adaptive application displaying the sales opportunities value based on status, in a Bar chart.",
 			"application": "neptunedxp_adaptive_tile_chart"
 		},
 		{
 			"id": "1ccc5e00-e33e-4da7-8a0c-9c0ea65dedd3",
-			"name": "crm_opportunity_chart",
-			"description": "",
+			"name": "neptune_adaptivecrm_opportunity_chart",
+			"description": "Adaptive application for displaying the sales opportunities value and currency in a Bar chart.",
 			"application": "neptunedxp_adaptive_tile_chart"
 		},
 		{
 			"id": "193590cd-fb4c-43d9-a6e1-edec506447ed",
-			"name": "crm_contact_edit",
-			"description": "",
+			"name": "neptune_adaptivecrm_contact_edit",
+			"description": "Adaptive application for editing the contacts details.",
 			"application": "neptunedxp_adaptive_edit"
 		},
 		{
 			"id": "16810bd1-15ff-4b4b-adf3-28aeadc048ad",
-			"name": "crm_opportunity_edit",
-			"description": "",
+			"name": "neptune_adaptivecrm_opportunity_edit",
+			"description": "Adaptive application for editing the sales opportunities.",
 			"application": "neptunedxp_adaptive_edit"
 		},
 		{
 			"id": "0660e63e-0519-ef11-96f5-000d3add6b9f",
-			"name": "sales_order_chart",
-			"description": "",
+			"name": "neptune_adaptivecrm_sales_order_chart",
+			"description": "Adaptive application for displaying monthly sales orders in a Area Spline chart.",
 			"application": "neptunedxp_adaptive_tile_chart"
 		},
 		{
 			"id": "04bf6e0b-e600-419a-8f8a-d0755c02cd24",
-			"name": "crm_contact_create",
-			"description": "",
+			"name": "neptune_adaptivecrm_contact_create",
+			"description": "Adaptive application for creating contacts.",
 			"application": "neptunedxp_adaptive_edit"
 		}
 	],
@@ -278,99 +278,94 @@
 	"tile": [
 		{
 			"id": "f93afb05-9ab2-4deb-bc7d-9342fef19b03",
-			"description": null,
-			"name": "Sales Account"
+			"description": "",
+			"name": "neptune-adaptivecrm-sales-account"
 		},
 		{
 			"id": "db24f3ce-4af3-4069-b51f-9f80b6ab3ed1",
 			"description": null,
-			"name": "Sales Opportunity Status"
+			"name": "neptune-adaptivecrm-sales-opportunity-status"
 		},
 		{
 			"id": "d9681ab1-0e38-4724-b1b1-f8fa22c67031",
 			"description": null,
-			"name": "Sales Opportunity Analytic"
+			"name": "neptune-adaptivecrm-sales-opportunity-analytic"
 		},
 		{
 			"id": "cb26983e-aed7-ee11-85f9-000d3ad7b47d",
 			"description": null,
-			"name": "PowerBI_report"
+			"name": "neptune-adaptivecrm-powerbi-reports"
 		},
 		{
 			"id": "b89dfe9e-5272-48da-864f-dab4827b93c7",
 			"description": null,
-			"name": "Sales Contact"
+			"name": "neptune-adaptivecrm-sales-contact"
 		},
 		{
 			"id": "b6c73ba2-5ad8-424a-baa3-95c8f8da99bf",
 			"description": null,
-			"name": "Sales Opportunity"
-		},
-		{
-			"id": "b549338b-443e-ec11-981f-0050f2794553",
-			"description": null,
-			"name": "Sales Video"
+			"name": "neptune-adaptivecrm-sales-opportunity"
 		},
 		{
 			"id": "a47b0f4b-931d-ef11-96f5-000d3add6b9f",
-			"description": null,
-			"name": "CRMYoutube"
+			"description": "",
+			"name": "neptune-adaptivecrm-YouTube-video"
 		},
 		{
 			"id": "4cfb9d5f-c760-eb11-a607-0003ff1e4706",
 			"description": null,
-			"name": "Sales Orders"
+			"name": "neptune-adaptivecrm-sales-orders"
 		},
 		{
 			"id": "3ca7bbc7-422d-4f32-971d-4ce9216077fc",
 			"description": null,
-			"name": "Sales Country"
+			"name": "neptune-adaptivecrm-sales-country"
 		},
 		{
 			"id": "2df662dd-efbf-4a13-903c-d6ba790623bf",
 			"description": null,
-			"name": "Sales Account Type"
+			"name": "neptune-adaptivecrm-sales-account-type"
 		},
 		{
 			"id": "2d047095-c58b-447b-8b15-960a387eadc2",
 			"description": null,
-			"name": "Sales Currency"
+			"name": "neptune-adaptivecrm-sales-currency"
 		},
 		{
 			"id": "203c1e42-a38b-44f7-87e5-553a08b83444",
 			"description": null,
-			"name": "Sales Industry"
+			"name": "neptune-adaptivecrm-sales-industry"
 		}
 	],
 	"tile_layout": [],
 	"category": [
 		{
 			"id": "f1c81d87-3424-4d08-afbe-56e3ad69982f",
-			"description": null,
-			"name": "CRM Showcase"
+			"description": "Tile Group for the adatptivecrm tile charts.",
+			"name": "neptune-adaptivecrm-showcase"
 		},
 		{
 			"id": "387230a5-8024-4d1a-9bfe-db99a8e45003",
-			"description": null,
-			"name": "CRM Master Data"
+			"description": "Tile Group for the adaptivecrm master data tiles.",
+			"name": "neptune-adaptivecrm-master-data"
 		},
 		{
 			"id": "35065344-7aac-ed11-ba77-14cb650ba16e",
-			"description": null,
-			"name": "CRM_Main_TileGroup"
+			"description": "Main Tile Group for all the adaptivecrm tiles.",
+			"name": "neptune-adaptivecrm-main-tilegroup"
 		},
 		{
 			"id": "0ef66869-2f89-48a8-8720-8867fe8805c9",
-			"description": null,
-			"name": "CRM Analytic"
+			"description": "Tile Group for the adaptivecrm powerBI tiles. ",
+			"name": "neptune-adaptivecrm-analytic"
 		}
 	],
 	"tilegroup_layout": [],
 	"launchpad": [
 		{
 			"id": "795d6e08-7aac-ed11-ba77-14cb650ba16e",
-			"name": "CRM_launchpad",
-			"description": null
+			"name": "neptune-adaptivecrm-launchpad",
+			"description": "Central entry point for the Adaptive CRM applications. "
 		}
 	],
 	"launchpad_layout": [],
@@ -385,148 +380,149 @@
 	"connector": [
 		{
 			"id": "fdee0e19-3a64-ed11-819c-0022489e262f",
-			"name": "crm_contact_list_child",
-			"description": ""
+			"name": "neptune-adaptivecrm-contact-list-child",
+			"description": "Connector for listing the contacts in the Contacts tab."
 		},
 		{
 			"id": "fbee0e19-3a64-ed11-819c-0022489e262f",
-			"name": "crm_contact_list",
-			"description": ""
+			"name": "neptune-adaptivecrm-contact-list",
+			"description": "Connector for listing the contacts."
 		},
 		{
 			"id": "fa8e422a-3a64-ed11-819c-0022489e262f",
-			"name": "crm_currency_edit",
-			"description": ""
+			"name": "neptune-adaptivecrm-currency-edit",
+			"description": "Connector for editing the currencies."
 		},
 		{
 			"id": "f88e422a-3a64-ed11-819c-0022489e262f",
-			"name": "crm_country_list",
-			"description": ""
+			"name": "neptune-adaptivecrm-country-list",
+			"description": "Connector for listing the countries."
 		},
 		{
 			"id": "f744790a-3a64-ed11-819c-0022489e262f",
-			"name": "crm_contact_create",
-			"description": ""
+			"name": "neptune-adaptivecrm-contact-create",
+			"description": "Connector for creating contacts."
 		},
 		{
 			"id": "f544790a-3a64-ed11-819c-0022489e262f",
-			"name": "crm_account_type_list",
-			"description": ""
+			"name": "neptune-adaptivecrm-account-type-list",
+			"description": "Connector for listing the accounts type."
 		},
 		{
 			"id": "e4193e99-3964-ed11-819c-0022489e262f",
-			"name": "crm_account_create",
-			"description": ""
+			"name": "neptune-adaptive-crm-account-create",
+			"description": "Connector for creating accounts."
 		},
 		{
 			"id": "d7a9f948-3a64-ed11-819c-0022489e262f",
-			"name": "crm_opportunity_list",
-			"description": ""
+			"name": "neptune-adaptivecrm-opportunity-list",
+			"description": "Connector for listing the sales opportunities. "
 		},
 		{
 			"id": "d5a9f948-3a64-ed11-819c-0022489e262f",
-			"name": "crm_opportunity_edit_child",
-			"description": ""
+			"name": "neptune-adaptivecrm-opportunity-edit-child",
+			"description": "Connector for managing the opportunity edit child."
 		},
 		{
 			"id": "d2c13c10-0219-ef11-96f5-000d3add6b9f",
-			"name": "crm_salesOrder",
-			"description": null
+			"name": "neptune-adaptivecrm-sales-order-list",
+			"description": "Connector for listing the sales orders."
 		},
 		{
 			"id": "ae2f9911-3a64-ed11-819c-0022489e262f",
-			"name": "crm_contact_edit_child",
-			"description": ""
+			"name": "neptune-adaptivecrm-contact-edit-child",
+			"description": "Connector for maintaining contact details."
 		},
 		{
 			"id": "ac2f9911-3a64-ed11-819c-0022489e262f",
-			"name": "crm_contact_edit",
-			"description": ""
+			"name": "neptune-adaptivecrm-contact-edit",
+			"description": "Connector for editing the contact details."
 		},
 		{
 			"id": "a838e331-3a64-ed11-819c-0022489e262f",
-			"name": "crm_industry_edit",
-			"description": ""
+			"name": "neptune-adaptivecrm-industry-edit",
+			"description": "Connector for listing and editing industries."
 		},
 		{
 			"id": "a638e331-3a64-ed11-819c-0022489e262f",
-			"name": "crm_currency_list",
-			"description": ""
+			"name": "neptune-adaptivecrm-currency-list",
+			"description": "Connector for listing the currencies."
 		},
 		{
 			"id": "a4cd5dfe-3964-ed11-819c-0022489e262f",
-			"name": "crm_account_type_edit",
-			"description": ""
+			"name": "neptune-adaptivecrm-account-type-edit",
+			"description": "Connector for editing the accounts type."
 		},
 		{
 			"id": "9bfad441-3a64-ed11-819c-0022489e262f",
-			"name": "crm_opportunity_edit",
-			"description": ""
+			"name": "neptune-adaptivecrm-opportunity-edit",
+			"description": "Connector for editing the sales opportunities."
 		},
 		{
 			"id": "99fad441-3a64-ed11-819c-0022489e262f",
-			"name": "crm_opportunity_chart",
-			"description": ""
+			"name": "neptune-adaptivecrm-opportunity-chart",
+			"description": "Connector for opportunity chart. "
 		},
 		{
 			"id": "7484c84f-3a64-ed11-819c-0022489e262f",
-			"name": "crm_opportunity_status_list",
-			"description": ""
+			"name": "neptune-adaptivecrm-opportunity-status-list",
+			"description": "Connector for listing the sales opportunities status."
 		},
 		{
 			"id": "74666523-3a64-ed11-819c-0022489e262f",
-			"name": "crm_country_edit",
-			"description": ""
+			"name": "neptune-adaptivecrm-country-edit",
+			"description": "Connector for editing the countries details."
 		},
 		{
 			"id": "7284c84f-3a64-ed11-819c-0022489e262f",
-			"name": "crm_opportunity_status_edit",
-			"description": ""
+			"name": "neptune-adaptivecrm-opportunity-status-edit",
+			"description": "Connector for editing the sales opportunities status."
 		},
 		{
 			"id": "72666523-3a64-ed11-819c-0022489e262f",
-			"name": "crm_contact_tile_table",
-			"description": ""
+			"name": "neptune-adaptivecrm-contact-tile-table",
+			"description": "Connector for displaying the contacts in the tile."
 		},
 		{
 			"id": "7084c84f-3a64-ed11-819c-0022489e262f",
-			"name": "crm_opportunity_list_child",
-			"description": ""
+			"name": "neptune-adaptivecrm-opportunity-list-child",
+			"description": "Connector for opportunity_list_child."
 		},
 		{
 			"id": "4b7bd155-3a64-ed11-819c-0022489e262f",
-			"name": "crm_opportunity_tile_chart",
-			"description": ""
+			"name": "neptune-adaptivecrm-opportunity-tile-chart",
+			"description": "Connector for opportunity tile chart."
 		},
 		{
 			"id": "46baaabd-3964-ed11-819c-0022489e262f",
-			"name": "crm_account_details",
-			"description": ""
+			"name": "neptune-adaptivecrm-account-details",
+			"description": "Connector for accounts details."
 		},
 		{
 			"id": "37c260f8-3964-ed11-819c-0022489e262f",
-			"name": "crm_account_tile_chart",
-			"description": ""
+			"name": "neptune-adaptivecrm-account-tile-chart",
+			"description": "Connector for accounts tile chart."
 		},
 		{
 			"id": "372b0e3a-3a64-ed11-819c-0022489e262f",
-			"name": "crm_opportunity_analytic_chart",
-			"description": ""
+			"name": "neptune-adaptivecrm-opportunity-analytic-chart",
+			"description": "Connector for sales opportunities."
 		},
 		{
 			"id": "352b0e3a-3a64-ed11-819c-0022489e262f",
-			"name": "crm_opportunity_analytic",
-			"description": ""
+			"name": "neptune-adaptivecrm-opportunity-analytic",
+			"description": "Connector for powerBI analytics."
 		},
 		{
 			"id": "34c260f8-3964-ed11-819c-0022489e262f",
-			"name": "crm_account_list",
-			"description": ""
+			"name": "neptune-adaptivecrm-account-list",
+			"description": "Connector for accounts list."
 		}
 	],
 	"events": [],
 	"code_snippets": [],
 	"wf_determination": [],
 	"wf_taskaction": [],
-	"theme_ui5": []
+	"theme_ui5": [],
+	"webapp": []
 }

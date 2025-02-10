@@ -1,0 +1,173 @@
+{
+	"id": "1ccc5e00-e33e-4da7-8a0c-9c0ea65dedd3",
+	"createdAt": "2021-01-27T10:00:24.013Z",
+	"createdBy": "oah",
+	"settings": {
+		"properties": {
+			"report": {
+				"paginationRows": "1000",
+				"updateTime": 0
+			},
+			"form": {
+				"enableCompact": false,
+				"showFilter": false
+			},
+			"table": {
+				"chartHeight": "100%",
+				"chartType": "bar",
+				"legendEnable": true,
+				"legendAlign": "center",
+				"legendVerticalAlign": "bottom",
+				"legendLayout": "horizontal",
+				"xAxisTitleEnable": true,
+				"yAxisTitleEnable": true,
+				"titleAlign": "center",
+				"enableSorting": false,
+				"enableMonochrome": false,
+				"pieInnerSize": 0,
+				"enable3D": false,
+				"alpha3D": 0,
+				"beta3D": 0,
+				"depth3D": 100,
+				"xAxisReversed": false,
+				"xAxisStartOnTick": true,
+				"xAxisGridLineWidth": 0,
+				"yAxisReversed": false,
+				"yAxisStartOnTick": true,
+				"yAxisGridLineWidth": 1
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "accountid",
+				"label": "Account",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "name",
+				"label": "Name",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "description",
+				"label": "Description",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "value",
+				"label": "Value",
+				"type": "decimal",
+				"usage": "BOTH"
+			},
+			{
+				"name": "currency",
+				"label": "Currency",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "status",
+				"label": "Status",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [
+			{
+				"text": "Account",
+				"required": false,
+				"visible": true,
+				"name": "accountid",
+				"fieldPos": 1
+			}
+		],
+		"fieldsRun": [
+			{
+				"text": "Value",
+				"type": "value",
+				"visible": true,
+				"name": "value",
+				"enableFilter": false,
+				"fieldPos": 2
+			},
+			{
+				"text": "Currency",
+				"visible": true,
+				"name": "currency",
+				"fieldPos": 3,
+				"type": "data"
+			},
+			{
+				"text": "Status",
+				"type": "category",
+				"visible": true,
+				"name": "status",
+				"enableFilter": false,
+				"fieldPos": 4
+			}
+		],
+		"defaultVariant": {
+			"id": "c7018a5d-f459-4611-ceed-920f63cc9ec3",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		},
+		"translation": {
+			"EN": {
+				"report": {},
+				"form": {},
+				"table": {},
+				"fieldCatalog": {}
+			}
+		},
+		"table": "crmopportunity"
+	},
+	"name": "neptune_adaptivecrm_opportunity_chart",
+	"description": "Adaptive application for displaying the sales opportunities value and currency in a Bar chart.",
+	"group": "",
+	"type": "C",
+	"connectorid": "99fad441-3a64-ed11-819c-0022489e262f",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "25.02.07.1242",
+	"disabled": false,
+	"appType": "A",
+	"application": "neptunedxp_adaptive_tile_chart",
+	"package": "07d276d9-3599-4fb0-8b3b-65a908201234",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

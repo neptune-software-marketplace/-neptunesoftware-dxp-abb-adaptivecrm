@@ -1,0 +1,239 @@
+{
+	"id": "b546505a-1bba-4721-9a18-e9eebbf6e185",
+	"createdAt": "2021-01-27T10:00:24.150Z",
+	"createdBy": "oah",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"iconButtonCreate": "",
+				"textButtonCreate": "Create",
+				"typeButtonCreate": "Emphasized",
+				"iconButtonExport": "sap-icon://excel-attachment",
+				"textButtonExport": "",
+				"typeButtonExport": "Transparent",
+				"iconButtonMultiSelect": "",
+				"textButtonMultiSelect": "MultiSelect",
+				"typeButtonMultiSelect": "Emphasized",
+				"iconButtonRun": "",
+				"textButtonRun": "Update",
+				"typeButtonRun": "Emphasized",
+				"enableCreate": true,
+				"enableDelete": true,
+				"enableExport": false,
+				"enableMultiSelect": false,
+				"autoRun": true,
+				"autoRunFocus": true,
+				"title": "Currency",
+				"subTitle": "List",
+				"avatarIcon": "sap-icon://fa-solid/money-bill-wave",
+				"_navigationCreate": {
+					"destinationType": "F",
+					"openAs": "D",
+					"butType": "Accept",
+					"destinationTargetF": "43c13fb2-b5e9-4e1e-92c9-ba8580c15f61",
+					"keyField": []
+				},
+				"_navigationItemPress": {
+					"destinationType": "F",
+					"openAs": "D",
+					"butType": "Accept",
+					"destinationTargetF": "43c13fb2-b5e9-4e1e-92c9-ba8580c15f61",
+					"keyField": []
+				},
+				"enableRun": true,
+				"hideHeader": false,
+				"iconButtonImport": "sap-icon://fa-solid/file-import",
+				"textButtonImport": "",
+				"typeButtonImport": "Transparent",
+				"enableClose": false,
+				"enableImport": false,
+				"enableVariant": false,
+				"searchLabel": "Search",
+				"searchPlaceholder": "",
+				"actionButtonLeft": false,
+				"requiredFieldsToast": "Please fill in all required fields",
+				"textConfirmDelete": "Do you want to delete this entry? ",
+				"titleConfirmDelete": "Delete",
+				"odataValueList": "Field does not have any OData ValueListReference"
+			},
+			"form": {
+				"enableCompact": false,
+				"headerExpanded": true,
+				"headerPreserveState": false,
+				"enableSearchWildcard": false
+			},
+			"table": {
+				"enablePagination": false,
+				"paginationRows": 25,
+				"alternateRowColors": false,
+				"enableCompact": false,
+				"fixedLayout": true,
+				"inset": false,
+				"paginationShowSelection": false,
+				"action1Text": "",
+				"action1Type": "Transparent",
+				"action2Text": "",
+				"action2Type": "Transparent",
+				"action3Text": "",
+				"action3Type": "Transparent",
+				"enableAction1": false,
+				"enableAction2": false,
+				"enableAction3": false,
+				"showSeparators": "All",
+				"enableAutoPopin": false,
+				"enableAction4": false,
+				"enableAction5": false,
+				"action4Text": "",
+				"action4Type": "Transparent",
+				"action5Text": "",
+				"action5Type": "Transparent"
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "currency",
+				"label": "Currency",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "text",
+				"label": "Text",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [],
+		"fieldsRun": [
+			{
+				"text": "Currency",
+				"wrapping": false,
+				"enableGroup": false,
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "currency",
+				"fieldPos": 1
+			},
+			{
+				"text": "Text",
+				"wrapping": false,
+				"enableGroup": false,
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "text",
+				"fieldPos": 2
+			},
+			{
+				"text": "Updated At",
+				"formatter": "date01",
+				"wrapping": false,
+				"enableGroup": false,
+				"enableFilter": false,
+				"enableSort": true,
+				"visible": true,
+				"name": "updatedAt",
+				"fieldPos": 3
+			},
+			{
+				"text": "Updated By",
+				"wrapping": false,
+				"enableGroup": false,
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "updatedBy",
+				"fieldPos": 4
+			}
+		],
+		"defaultVariant": {
+			"id": "607d4ca9-aa7b-4098-9549-da198ed1424f",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		},
+		"translation": {
+			"EN": {
+				"report": {
+					"title": "",
+					"subTitle": "",
+					"textButtonClose": "",
+					"textButtonCreate": "",
+					"textButtonExport": "",
+					"textButtonImport": "",
+					"textButtonMultiSelect": "",
+					"textButtonRun": "",
+					"searchLabel": "",
+					"searchPlaceholder": "",
+					"requiredFieldsToast": "",
+					"textConfirmDelete": "",
+					"titleConfirmDelete": "",
+					"odataValueList": ""
+				},
+				"form": {},
+				"table": {
+					"headerText": "",
+					"footerText": "",
+					"noDataText": "",
+					"action1Tooltip": "",
+					"action2Tooltip": "",
+					"action3Tooltip": "",
+					"action4Tooltip": "",
+					"action5Tooltip": ""
+				},
+				"fieldCatalog": {}
+			}
+		},
+		"table": "crmcurrency"
+	},
+	"name": "neptune_adaptivecrm_currency_list",
+	"description": "Adaptive application for listing the currencies.",
+	"group": "",
+	"type": "C",
+	"connectorid": "a638e331-3a64-ed11-819c-0022489e262f",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "25.02.07.1226",
+	"disabled": false,
+	"appType": "A",
+	"application": "neptunedxp_adaptive_list",
+	"package": "07d276d9-3599-4fb0-8b3b-65a908201234",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

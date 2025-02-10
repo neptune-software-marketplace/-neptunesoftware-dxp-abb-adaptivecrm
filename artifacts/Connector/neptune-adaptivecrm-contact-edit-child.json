@@ -1,0 +1,17 @@
+{
+	"id": "ae2f9911-3a64-ed11-819c-0022489e262f",
+	"createdAt": "2022-11-14T16:33:34.223Z",
+	"createdBy": "lloyd",
+	"settings": {
+		"tableid": "817f15a0-c646-4154-926e-f3b611716890",
+		"hasDocumentation": false
+	},
+	"documentation": [],
+	"name": "neptune-adaptivecrm-contact-edit-child",
+	"description": "Connector for maintaining contact details.",
+	"group": null,
+	"type": "T",
+	"ver": "25.02.07.1201",
+	"disabled": false,
+	"package": "07d276d9-3599-4fb0-8b3b-65a908201234"
+}

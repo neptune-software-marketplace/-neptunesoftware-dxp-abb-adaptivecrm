@@ -1,0 +1,17 @@
+{
+	"id": "72666523-3a64-ed11-819c-0022489e262f",
+	"createdAt": "2022-11-14T16:34:01.343Z",
+	"createdBy": "lloyd",
+	"settings": {
+		"tableid": "817f15a0-c646-4154-926e-f3b611716890",
+		"hasDocumentation": false
+	},
+	"documentation": [],
+	"name": "neptune-adaptivecrm-contact-tile-table",
+	"description": "Connector for displaying the contacts in the tile.",
+	"group": null,
+	"type": "T",
+	"ver": "25.02.07.1219",
+	"disabled": false,
+	"package": "07d276d9-3599-4fb0-8b3b-65a908201234"
+}

@@ -1,0 +1,229 @@
+{
+	"id": "d5d0192c-02e9-4edc-97b6-3231bafaca3a",
+	"createdAt": "2021-01-27T10:00:24.693Z",
+	"createdBy": "oah",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"iconButtonCreate": "",
+				"textButtonCreate": "Create",
+				"typeButtonCreate": "Emphasized",
+				"iconButtonExport": "sap-icon://excel-attachment",
+				"textButtonExport": "",
+				"typeButtonExport": "Transparent",
+				"iconButtonMultiSelect": "",
+				"textButtonMultiSelect": "MultiSelect",
+				"typeButtonMultiSelect": "Emphasized",
+				"iconButtonRun": "",
+				"textButtonRun": "Update",
+				"typeButtonRun": "Emphasized",
+				"enableCreate": false,
+				"enableDelete": false,
+				"enableExport": false,
+				"enableMultiSelect": false,
+				"autoRun": true,
+				"autoRunFocus": true,
+				"title": "Opportunity Status",
+				"subTitle": "List",
+				"avatarIcon": "sap-icon://order-status",
+				"_navigationItemPress": {
+					"destinationType": "F",
+					"openAs": "D",
+					"butType": "Accept",
+					"destinationTargetF": "997ee454-0d68-4dff-9dc5-bec94f9ecd6f",
+					"keyField": []
+				},
+				"_navigationCreate": {
+					"destinationType": "F",
+					"openAs": "D",
+					"butType": "Accept",
+					"destinationTargetF": "997ee454-0d68-4dff-9dc5-bec94f9ecd6f",
+					"keyField": []
+				},
+				"enableRun": true,
+				"hideHeader": false,
+				"iconButtonImport": "sap-icon://fa-solid/file-import",
+				"textButtonImport": "",
+				"typeButtonImport": "Transparent",
+				"enableClose": false,
+				"enableImport": false,
+				"enableVariant": false,
+				"searchLabel": "Search",
+				"searchPlaceholder": "",
+				"actionButtonLeft": false,
+				"requiredFieldsToast": "Please fill in all required fields",
+				"textConfirmDelete": "Do you want to delete this entry? ",
+				"titleConfirmDelete": "Delete",
+				"odataValueList": "Field does not have any OData ValueListReference"
+			},
+			"form": {
+				"enableCompact": false,
+				"headerExpanded": true,
+				"headerPreserveState": false,
+				"enableSearchWildcard": false
+			},
+			"table": {
+				"enablePagination": false,
+				"paginationRows": 25,
+				"alternateRowColors": false,
+				"enableCompact": false,
+				"fixedLayout": true,
+				"inset": false,
+				"paginationShowSelection": false,
+				"action1Text": "",
+				"action1Type": "Transparent",
+				"action2Text": "",
+				"action2Type": "Transparent",
+				"action3Text": "",
+				"action3Type": "Transparent",
+				"enableAction1": false,
+				"enableAction2": false,
+				"enableAction3": false,
+				"showSeparators": "All",
+				"enableAutoPopin": false,
+				"enableAction4": false,
+				"enableAction5": false,
+				"action4Text": "",
+				"action4Type": "Transparent",
+				"action5Text": "",
+				"action5Type": "Transparent"
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "status",
+				"label": "Status",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "text",
+				"label": "Text",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [],
+		"fieldsRun": [
+			{
+				"text": "Status",
+				"wrapping": false,
+				"enableGroup": false,
+				"enableFilter": false,
+				"enableSort": true,
+				"visible": true,
+				"name": "status",
+				"fieldPos": 1
+			},
+			{
+				"text": "Text",
+				"wrapping": false,
+				"enableGroup": false,
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "text",
+				"fieldPos": 2
+			},
+			{
+				"text": "Updated At",
+				"formatter": "date01",
+				"wrapping": false,
+				"enableGroup": false,
+				"enableFilter": false,
+				"enableSort": true,
+				"visible": true,
+				"name": "updatedAt",
+				"fieldPos": 3
+			}
+		],
+		"defaultVariant": {
+			"id": "7a1a5ffb-fd67-4406-e45c-48ffc5be4d64",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		},
+		"translation": {
+			"EN": {
+				"report": {
+					"title": "",
+					"subTitle": "",
+					"textButtonClose": "",
+					"textButtonCreate": "",
+					"textButtonExport": "",
+					"textButtonImport": "",
+					"textButtonMultiSelect": "",
+					"textButtonRun": "",
+					"searchLabel": "",
+					"searchPlaceholder": "",
+					"requiredFieldsToast": "",
+					"textConfirmDelete": "",
+					"titleConfirmDelete": "",
+					"odataValueList": ""
+				},
+				"form": {},
+				"table": {
+					"headerText": "",
+					"footerText": "",
+					"noDataText": "",
+					"action1Tooltip": "",
+					"action2Tooltip": "",
+					"action3Tooltip": "",
+					"action4Tooltip": "",
+					"action5Tooltip": ""
+				},
+				"fieldCatalog": {}
+			}
+		},
+		"table": "crmopportunitystatus"
+	},
+	"name": "neptune_adaptivecrm_opportunity_status_list",
+	"description": "Adaptive application for listing the sales opportunities status.",
+	"group": "",
+	"type": "C",
+	"connectorid": "7484c84f-3a64-ed11-819c-0022489e262f",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "25.02.07.1246",
+	"disabled": false,
+	"appType": "A",
+	"application": "neptunedxp_adaptive_list",
+	"package": "07d276d9-3599-4fb0-8b3b-65a908201234",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

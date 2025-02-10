@@ -1,0 +1,301 @@
+{
+	"id": "5e44e440-0919-ef11-96f5-000d3add6b9f",
+	"createdAt": "2024-05-23T13:35:01.636Z",
+	"createdBy": "emmanuella.ndukwe@neptune-software.com",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"actionButtonLeft": false,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"iconButtonCreate": "",
+				"textButtonCreate": "Create",
+				"typeButtonCreate": "Emphasized",
+				"iconButtonExport": "sap-icon://excel-attachment",
+				"textButtonExport": "",
+				"typeButtonExport": "Transparent",
+				"iconButtonImport": "sap-icon://fa-solid/file-import",
+				"textButtonImport": "",
+				"typeButtonImport": "Transparent",
+				"iconButtonMultiSelect": "",
+				"textButtonMultiSelect": "MultiSelect",
+				"typeButtonMultiSelect": "Emphasized",
+				"iconButtonRun": "",
+				"textButtonRun": "Update",
+				"typeButtonRun": "Emphasized",
+				"enableRun": true,
+				"enableCreate": false,
+				"enableClose": false,
+				"enableDelete": false,
+				"enableExport": false,
+				"enableImport": false,
+				"enableMultiSelect": false,
+				"enableVariant": false,
+				"hideHeader": false,
+				"autoRun": true,
+				"autoRunFocus": false,
+				"searchLabel": "Search",
+				"searchPlaceholder": "",
+				"title": "Sales Order Details",
+				"subTitle": "List of all sales in 2023",
+				"avatarIcon": "sap-icon://sales-order",
+				"requiredFieldsToast": "Please fill in all required fields",
+				"textConfirmDelete": "Do you want to delete this entry? ",
+				"titleConfirmDelete": "Delete",
+				"odataValueList": "Field does not have any OData ValueListReference"
+			},
+			"form": {
+				"enableCompact": false,
+				"headerExpanded": true,
+				"headerPreserveState": false,
+				"enableSearchWildcard": false
+			},
+			"table": {
+				"enablePagination": false,
+				"paginationShowSelection": false,
+				"paginationRows": 25,
+				"action1Text": "",
+				"action1Type": "Transparent",
+				"action2Text": "",
+				"action2Type": "Transparent",
+				"action3Text": "",
+				"action3Type": "Transparent",
+				"showSeparators": "All",
+				"alternateRowColors": false,
+				"enableCompact": false,
+				"enableAction1": false,
+				"enableAction2": false,
+				"enableAction3": false,
+				"fixedLayout": false,
+				"inset": false,
+				"headerText": "",
+				"enableAutoPopin": false,
+				"enableAction4": false,
+				"enableAction5": false,
+				"action4Text": "",
+				"action4Type": "Transparent",
+				"action5Text": "",
+				"action5Type": "Transparent"
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "salesOrderNumber",
+				"label": "salesOrderNumber",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "customerID",
+				"label": "customerID",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "name",
+				"label": "name",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "country",
+				"label": "country",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "salesOrganization",
+				"label": "salesOrganization",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "distributionChannel",
+				"label": "distributionChannel",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "orderDate",
+				"label": "orderDate",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "deliveryDate",
+				"label": "deliveryDate",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "invoicingPlan",
+				"label": "invoicingPlan",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "currency",
+				"label": "currency",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "amount",
+				"label": "amount",
+				"type": "decimal",
+				"usage": "BOTH"
+			},
+			{
+				"name": "orderMonth",
+				"label": "orderMonth",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [],
+		"fieldsRun": [
+			{
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "salesOrderNumber",
+				"text": "Order Number",
+				"fieldPos": 1
+			},
+			{
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "name",
+				"text": "Cuatomer Name",
+				"fieldPos": 2
+			},
+			{
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "distributionChannel",
+				"text": "Distribution Channel",
+				"fieldPos": 3
+			},
+			{
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "currency",
+				"text": "Currency",
+				"fieldPos": 4
+			},
+			{
+				"enableFilter": false,
+				"enableSort": true,
+				"visible": true,
+				"name": "amount",
+				"text": "Amount",
+				"fieldPos": 5
+			},
+			{
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "invoicingPlan",
+				"text": "Invoicing Plan",
+				"fieldPos": 6
+			},
+			{
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "orderDate",
+				"text": "Order Date",
+				"fieldPos": 7
+			}
+		],
+		"defaultVariant": {
+			"id": "a291ef9a-92e3-44a4-d3b4-71cacc29e87c",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		},
+		"translation": {
+			"EN": {
+				"report": {
+					"title": "",
+					"subTitle": "",
+					"textButtonClose": "",
+					"textButtonCreate": "",
+					"textButtonExport": "",
+					"textButtonImport": "",
+					"textButtonMultiSelect": "",
+					"textButtonRun": "",
+					"searchLabel": "",
+					"searchPlaceholder": "",
+					"requiredFieldsToast": "",
+					"textConfirmDelete": "",
+					"titleConfirmDelete": "",
+					"odataValueList": ""
+				},
+				"form": {},
+				"table": {
+					"headerText": "",
+					"footerText": "",
+					"noDataText": "",
+					"action1Tooltip": "",
+					"action2Tooltip": "",
+					"action3Tooltip": "",
+					"action4Tooltip": "",
+					"action5Tooltip": ""
+				},
+				"fieldCatalog": {}
+			}
+		},
+		"table": "crm_salesorder"
+	},
+	"name": "neptune_adaptivecrm_sales_orders_list",
+	"description": "Adaptive application for listing the sales orders.",
+	"group": "",
+	"type": "C",
+	"connectorid": "d2c13c10-0219-ef11-96f5-000d3add6b9f",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "25.02.07.1249",
+	"disabled": false,
+	"appType": "A",
+	"application": "neptunedxp_adaptive_list",
+	"package": "07d276d9-3599-4fb0-8b3b-65a908201234",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

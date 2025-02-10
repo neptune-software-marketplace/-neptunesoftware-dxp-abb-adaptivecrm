@@ -1,0 +1,69 @@
+{
+	"id": "52c88289-7ddc-4a42-b719-76f0c0be6231",
+	"createdAt": "2024-06-18T13:27:31.000Z",
+	"createdBy": "admin",
+	"interface": [
+		{
+			"id": "0965fa53-2795-4f91-80a6-92ed7f8e8925",
+			"parent": "",
+			"name": "status",
+			"objectType": "string",
+			"description": ""
+		}
+	],
+	"rules": [
+		{
+			"id": "ee66babd-836b-46ea-c946-698b2eba5b88",
+			"result": "Success",
+			"items": [
+				{
+					"id": "11410bb9-6775-4b56-91cd-58a6bfb64fbc",
+					"field": "0965fa53-2795-4f91-80a6-92ed7f8e8925",
+					"operator": "equal",
+					"value": "1"
+				}
+			]
+		},
+		{
+			"id": "b2e7384a-141e-40e4-ae24-f7ee14c2f0ba",
+			"result": "Warning",
+			"items": [
+				{
+					"id": "10b03c5e-1c01-444d-edba-6fe1e6d52383",
+					"field": "0965fa53-2795-4f91-80a6-92ed7f8e8925",
+					"operator": "equal",
+					"value": "2"
+				}
+			]
+		},
+		{
+			"id": "5d842e17-4086-4fdc-9a1a-19efbb9bb244",
+			"result": "Error",
+			"items": [
+				{
+					"id": "14d97ae5-ca8e-4b9a-a730-7652296ee5a2",
+					"field": "0965fa53-2795-4f91-80a6-92ed7f8e8925",
+					"operator": "equal",
+					"value": "3"
+				}
+			]
+		},
+		{
+			"id": "4a4de9b5-9dd5-4076-a4c7-d9791fadcebb",
+			"result": "Information",
+			"items": [
+				{
+					"id": "0899b94e-0e77-4a9a-fdda-3485257ee71e",
+					"field": "0965fa53-2795-4f91-80a6-92ed7f8e8925",
+					"operator": "equal",
+					"value": "4"
+				}
+			]
+		}
+	],
+	"name": "neptune-adaptivecrm-opportunity-status-rule",
+	"description": "Rules for opportunity status value state (color based on status).",
+	"ver": "25.02.07.1503",
+	"package": "07d276d9-3599-4fb0-8b3b-65a908201234",
+	"roles": []
+}

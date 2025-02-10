@@ -1,0 +1,17 @@
+{
+	"id": "d2c13c10-0219-ef11-96f5-000d3add6b9f",
+	"createdAt": "2024-05-23T12:43:33.473Z",
+	"createdBy": "emmanuella.ndukwe@neptune-software.com",
+	"settings": {
+		"hasDocumentation": false,
+		"tableid": "b7a1cc2d-fe18-ef11-96f5-000d3add6b9f"
+	},
+	"documentation": {},
+	"name": "neptune-adaptivecrm-sales-order-list",
+	"description": "Connector for listing the sales orders.",
+	"group": null,
+	"type": "T",
+	"ver": "25.02.07.1250",
+	"disabled": false,
+	"package": "07d276d9-3599-4fb0-8b3b-65a908201234"
+}

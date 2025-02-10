@@ -1,0 +1,17 @@
+{
+	"id": "74666523-3a64-ed11-819c-0022489e262f",
+	"createdAt": "2022-11-14T16:34:05.806Z",
+	"createdBy": "lloyd",
+	"settings": {
+		"tableid": "94c614c4-8760-eb11-a607-0003ff1e4706",
+		"hasDocumentation": false
+	},
+	"documentation": [],
+	"name": "neptune-adaptivecrm-country-edit",
+	"description": "Connector for editing the countries details.",
+	"group": null,
+	"type": "T",
+	"ver": "25.02.07.1224",
+	"disabled": false,
+	"package": "07d276d9-3599-4fb0-8b3b-65a908201234"
+}

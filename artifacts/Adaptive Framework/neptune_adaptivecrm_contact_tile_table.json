@@ -1,0 +1,270 @@
+{
+	"id": "2da7cb08-008d-4803-b986-3b3f551e308e",
+	"createdAt": "2021-01-27T10:00:24.150Z",
+	"createdBy": "oah",
+	"settings": {
+		"properties": {
+			"report": {
+				"paginationRows": 10,
+				"updateTime": "0",
+				"iconButtonCreate": "",
+				"textButtonCreate": "Create",
+				"typeButtonCreate": "Transparent",
+				"enableCreate": true,
+				"enableDelete": false,
+				"iconButtonRun": "",
+				"textButtonRun": "Update",
+				"typeButtonRun": "Transparent",
+				"enableRun": false,
+				"_navigationItemPress": {
+					"destinationType": "F",
+					"openAs": "D",
+					"butType": "Accept",
+					"destinationTargetF": "193590cd-fb4c-43d9-a6e1-edec506447ed",
+					"keyField": [],
+					"dialogHeight": "800px"
+				},
+				"_navigationCreate": {
+					"destinationType": "F",
+					"openAs": "D",
+					"butType": "Accept",
+					"destinationTargetF": "04bf6e0b-e600-419a-8f8a-d0755c02cd24",
+					"keyField": [],
+					"dialogHeight": "800px"
+				},
+				"showIcon": true,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"iconButtonExport": "sap-icon://excel-attachment",
+				"textButtonExport": "",
+				"typeButtonExport": "Transparent",
+				"iconButtonMultiSelect": "",
+				"textButtonMultiSelect": "MultiSelect",
+				"typeButtonMultiSelect": "Emphasized",
+				"enableExport": false,
+				"enableMultiSelect": false,
+				"hideHeader": false,
+				"autoRun": false,
+				"autoRunFocus": false,
+				"title": "Contacts",
+				"searchLabel": "Search",
+				"searchPlaceholder": "",
+				"textConfirmDelete": "Do you want to delete this entry? ",
+				"titleConfirmDelete": "Delete "
+			},
+			"form": {
+				"enableCompact": true,
+				"showFilter": true,
+				"headerExpanded": false,
+				"filterExpandable": true,
+				"enableSearchWildcard": false
+			},
+			"table": {
+				"alternateRowColors": true,
+				"enableCompact": true,
+				"fixedLayout": false,
+				"inset": false,
+				"initialSortField": "name",
+				"enablePagination": false,
+				"paginationRows": 25,
+				"showSeparators": "All",
+				"enableAutoPopin": false
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "accountid",
+				"label": "Account",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "name",
+				"label": "Name",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "phone",
+				"label": "Phone",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "email",
+				"label": "eMail",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "text",
+				"label": "Text",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [
+			{
+				"text": "Account",
+				"type": "MultiSelectLookup",
+				"lookupTable": "neptune-adaptivecrm-account",
+				"lookupFieldKey": "accountid",
+				"lookupFieldText": "name",
+				"lookupShowOnlyText": true,
+				"required": false,
+				"visible": true,
+				"name": "accountid",
+				"fieldPos": 1
+			}
+		],
+		"fieldsRun": [
+			{
+				"text": "Account",
+				"wrapping": false,
+				"enableGroup": true,
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "accountid",
+				"fieldPos": 2,
+				"_lookup": {
+					"table": "crmaccount",
+					"textField": "name",
+					"keyField": [
+						{
+							"fieldName": "accountid",
+							"key": "accountid",
+							"value": ""
+						}
+					],
+					"hideKey": true,
+					"butType": "Accept"
+				},
+				"type": "Link",
+				"_navigation": {
+					"destinationType": "F",
+					"openAs": "S",
+					"butType": "Accept",
+					"destinationTargetF": "47FEF3F6-B838-4959-B021-6D1FF1F3264D",
+					"keyField": [
+						{
+							"fieldName": "accountid",
+							"key": "accountid",
+							"value": ""
+						}
+					],
+					"dialogTitleField": "accountid",
+					"dialogSubTitle": "Account",
+					"dialogIcon": "",
+					"dialogHeight": "900px"
+				},
+				"valueType": "Lookup",
+				"valueLookup": {
+					"table": "neptune-adaptivecrm-account",
+					"textField": "name",
+					"keyField": [
+						{
+							"fieldName": "accountid",
+							"key": "accountid",
+							"value": ""
+						}
+					],
+					"hideKey": true,
+					"butType": "Accept"
+				}
+			},
+			{
+				"text": "Name",
+				"wrapping": false,
+				"enableGroup": false,
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "name",
+				"fieldPos": 3
+			},
+			{
+				"text": "eMail",
+				"wrapping": false,
+				"enableGroup": false,
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "email",
+				"fieldPos": 4
+			}
+		],
+		"defaultVariant": {
+			"id": "be014db4-e498-40da-deb1-c6994e9683f2",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		},
+		"translation": {
+			"EN": {
+				"report": {
+					"title": "",
+					"textButtonCreate": "",
+					"textButtonRun": "",
+					"searchLabel": "",
+					"searchPlaceholder": "",
+					"textConfirmDelete": "",
+					"titleConfirmDelete": ""
+				},
+				"form": {},
+				"table": {
+					"headerText": "",
+					"footerText": ""
+				},
+				"fieldCatalog": {}
+			}
+		},
+		"table": "neptune-adaptivecrm-contacts"
+	},
+	"name": "neptune_adaptivecrm_contact_tile_table",
+	"description": "Adaptive application used to display the contacts list as a table within the tile.",
+	"group": "",
+	"type": "C",
+	"connectorid": "72666523-3a64-ed11-819c-0022489e262f",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "25.02.07.1437",
+	"disabled": false,
+	"appType": "A",
+	"application": "neptunedxp_adaptive_tile_table",
+	"package": "07d276d9-3599-4fb0-8b3b-65a908201234",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

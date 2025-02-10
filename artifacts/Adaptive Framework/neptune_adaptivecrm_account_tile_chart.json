@@ -1,0 +1,197 @@
+{
+	"id": "bac2ea85-db5e-4f20-b191-9e06d4f29ee3",
+	"createdAt": "2021-01-27T10:00:24.140Z",
+	"createdBy": "oah",
+	"settings": {
+		"properties": {
+			"report": {
+				"paginationRows": "500",
+				"updateTime": "1",
+				"initialGroupField": "industry"
+			},
+			"form": {
+				"enableCompact": false,
+				"showFilter": false
+			},
+			"table": {
+				"chartHeight": 250,
+				"chartType": "column",
+				"legendEnable": true,
+				"legendAlign": "center",
+				"legendVerticalAlign": "bottom",
+				"legendLayout": "horizontal",
+				"xAxisTitleEnable": true,
+				"yAxisTitleEnable": true,
+				"titleAlign": "center",
+				"enableSorting": false,
+				"enableMonochrome": false,
+				"pieInnerSize": 0,
+				"enable3D": false,
+				"alpha3D": 0,
+				"beta3D": 0,
+				"depth3D": 100,
+				"xAxisReversed": false,
+				"xAxisStartOnTick": true,
+				"xAxisGridLineWidth": 0,
+				"yAxisReversed": false,
+				"yAxisStartOnTick": true,
+				"yAxisGridLineWidth": 1
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "accountid",
+				"label": "Account ID",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "name",
+				"label": "Name",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "street",
+				"label": "Street",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "zip",
+				"label": "ZIP",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "city",
+				"label": "City",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "country",
+				"label": "Country",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "type",
+				"label": "Type",
+				"type": "smallint",
+				"usage": "BOTH"
+			},
+			{
+				"name": "industry",
+				"label": "Industry ",
+				"type": "smallint",
+				"usage": "BOTH"
+			},
+			{
+				"name": "ispartner",
+				"label": "Is Partner",
+				"type": "boolean",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [],
+		"fieldsRun": [
+			{
+				"text": "Industry ",
+				"type": "data",
+				"visible": true,
+				"name": "industry",
+				"enableFilter": false,
+				"fieldPos": 1,
+				"_lookup": {
+					"table": "crmindustry",
+					"textField": "name",
+					"keyField": [
+						{
+							"fieldName": "industry",
+							"key": "industry",
+							"value": ""
+						}
+					],
+					"hideKey": true,
+					"butType": "Accept"
+				},
+				"valueType": "Lookup",
+				"valueFixed": "",
+				"valueLookup": {
+					"table": "neptune-adaptivecrm-industry",
+					"textField": "name",
+					"keyField": [
+						{
+							"fieldName": "industry",
+							"key": "industry",
+							"value": ""
+						}
+					],
+					"hideKey": true,
+					"butType": "Accept"
+				}
+			}
+		],
+		"defaultVariant": {
+			"id": "70a8e17f-e037-49b3-d47f-5c1eb429ac4d",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		},
+		"translation": {
+			"EN": {
+				"report": {},
+				"form": {},
+				"table": {},
+				"fieldCatalog": {}
+			}
+		},
+		"table": "neptune-adaptivecrm-account"
+	},
+	"name": "neptune_adaptivecrm_account_tile_chart",
+	"description": "Adaptive application for displaying the accounts industry in a Column chart.",
+	"group": "",
+	"type": "C",
+	"connectorid": "37c260f8-3964-ed11-819c-0022489e262f",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "25.02.07.1407",
+	"disabled": false,
+	"appType": "A",
+	"application": "neptunedxp_adaptive_tile_chart",
+	"package": "07d276d9-3599-4fb0-8b3b-65a908201234",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

@@ -1,0 +1,231 @@
+{
+	"id": "e78776be-f718-ef11-96f5-000d3add6b9f",
+	"createdAt": "2024-05-23T11:29:41.343Z",
+	"createdBy": "emmanuella.ndukwe@neptune-software.com",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"actionButtonLeft": false,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"iconButtonCreate": "",
+				"textButtonCreate": "Create",
+				"typeButtonCreate": "Emphasized",
+				"iconButtonExport": "sap-icon://excel-attachment",
+				"textButtonExport": "",
+				"typeButtonExport": "Transparent",
+				"iconButtonImport": "sap-icon://fa-solid/file-import",
+				"textButtonImport": "",
+				"typeButtonImport": "Transparent",
+				"iconButtonMultiSelect": "",
+				"textButtonMultiSelect": "MultiSelect",
+				"typeButtonMultiSelect": "Emphasized",
+				"iconButtonRun": "",
+				"textButtonRun": "Update",
+				"typeButtonRun": "Emphasized",
+				"enableRun": false,
+				"enableCreate": true,
+				"enableClose": false,
+				"enableDelete": false,
+				"enableExport": false,
+				"enableImport": false,
+				"enableMultiSelect": false,
+				"enableVariant": false,
+				"hideHeader": false,
+				"autoRun": true,
+				"autoRunFocus": false,
+				"searchLabel": "Search",
+				"searchPlaceholder": "",
+				"_navigationCreate": {
+					"destinationType": "F",
+					"openAs": "P",
+					"butType": "Accept",
+					"destinationTargetF": "60253577-178f-4819-bcfb-0f31c13ef28b",
+					"keyField": []
+				},
+				"_navigationItemPress": {
+					"destinationType": "F",
+					"openAs": "P",
+					"butType": "Accept",
+					"destinationTargetF": "60253577-178f-4819-bcfb-0f31c13ef28b",
+					"keyField": []
+				},
+				"avatarIcon": "sap-icon://fa-solid/industry",
+				"requiredFieldsToast": "Please fill in all required fields",
+				"textConfirmDelete": "Do you want to delete this entry? ",
+				"titleConfirmDelete": "Delete",
+				"odataValueList": "Field does not have any OData ValueListReference",
+				"title": "Industry"
+			},
+			"form": {
+				"enableCompact": false,
+				"headerExpanded": false,
+				"headerPreserveState": false,
+				"enableSearchWildcard": false
+			},
+			"table": {
+				"enablePagination": false,
+				"paginationShowSelection": false,
+				"paginationRows": 25,
+				"action1Text": "",
+				"action1Type": "Transparent",
+				"action2Text": "",
+				"action2Type": "Transparent",
+				"action3Text": "",
+				"action3Type": "Transparent",
+				"showSeparators": "All",
+				"alternateRowColors": false,
+				"enableCompact": false,
+				"enableAction1": false,
+				"enableAction2": false,
+				"enableAction3": false,
+				"fixedLayout": false,
+				"inset": false,
+				"enableAutoPopin": false,
+				"enableAction4": false,
+				"enableAction5": false,
+				"action4Text": "",
+				"action4Type": "Transparent",
+				"action5Text": "",
+				"action5Type": "Transparent"
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "industry",
+				"label": "Industry",
+				"type": "smallint",
+				"usage": "BOTH"
+			},
+			{
+				"name": "name",
+				"label": "Name",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [],
+		"fieldsRun": [
+			{
+				"enableFilter": false,
+				"enableSort": true,
+				"visible": true,
+				"name": "industry",
+				"text": "Industry",
+				"fieldPos": 1,
+				"valueType": "",
+				"valueRule": "52c88289-7ddc-4a42-b719-76f0c0be6231",
+				"valueLookup": {
+					"table": "neptune-adaptivecrm-industry",
+					"textField": "industry",
+					"keyField": [],
+					"hideKey": false,
+					"butType": "Accept"
+				}
+			},
+			{
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "name",
+				"text": "Name",
+				"fieldPos": 2
+			},
+			{
+				"enableFilter": false,
+				"enableSort": true,
+				"visible": true,
+				"name": "updatedAt",
+				"text": "Updated At",
+				"fieldPos": 3,
+				"formatter": "date00"
+			}
+		],
+		"defaultVariant": {
+			"id": "340a7fe1-0c46-4328-add7-937da128ea2d",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		},
+		"translation": {
+			"EN": {
+				"report": {
+					"title": "",
+					"subTitle": "",
+					"textButtonClose": "",
+					"textButtonCreate": "",
+					"textButtonExport": "",
+					"textButtonImport": "",
+					"textButtonMultiSelect": "",
+					"textButtonRun": "",
+					"searchLabel": "",
+					"searchPlaceholder": "",
+					"requiredFieldsToast": "",
+					"textConfirmDelete": "",
+					"titleConfirmDelete": "",
+					"odataValueList": ""
+				},
+				"form": {},
+				"table": {
+					"headerText": "",
+					"footerText": "",
+					"noDataText": "",
+					"action1Tooltip": "",
+					"action2Tooltip": "",
+					"action3Tooltip": "",
+					"action4Tooltip": "",
+					"action5Tooltip": ""
+				},
+				"fieldCatalog": {}
+			}
+		},
+		"table": "neptune-adaptivecrm-industry"
+	},
+	"name": "neptune_adaptivecrm_industry_list",
+	"description": "Adaptive application for listing the industries.",
+	"group": "",
+	"type": "C",
+	"connectorid": "a838e331-3a64-ed11-819c-0022489e262f",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "25.02.07.1448",
+	"disabled": false,
+	"appType": "A",
+	"application": "neptunedxp_adaptive_list",
+	"package": "07d276d9-3599-4fb0-8b3b-65a908201234",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}
